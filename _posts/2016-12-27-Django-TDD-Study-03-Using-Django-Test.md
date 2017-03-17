@@ -10,11 +10,6 @@ image: /img/old_post/unit-test-works.jpg
 ---
 
 
-<p align="center">
-<img src="http://emadmokhtar.com/images/unit-test-works.jpg" style="max-height:350px;" />
-</p>
-
-
 # 첫 Django App & 첫 단위테스트
 
 Django에서는 `manage.py`라는 파일이 장고 구동의 가장 핵심적인 요소를 차지하게 된다. 

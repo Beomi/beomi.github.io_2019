@@ -8,10 +8,6 @@ categories:
 image: /img/old_post/big-logo.png
 ---
 
-<p align="center">
-<img src="http://www.seleniumhq.org/images/big-logo.png" style="max-height:180px;" />
-<img src="https://lh4.googleusercontent.com/-gjxoCu8Fu3c/AAAAAAAAAAI/AAAAAAABWTs/rbrvG-G2yDI/s0-c-k-no-ns/photo.jpg" style="max-height:180px;" />
-</p>
 
 # Web을 직접 테스트한다고?
 

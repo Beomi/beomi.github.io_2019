@@ -40,7 +40,7 @@ Python 파일 하나(ex: parser.py)를 만들어 `requests`를 import 해준다.
 import requests
 
 # HTTP GET Request
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 
 # HTML 소스 가져오기
 html = req.text
@@ -78,7 +78,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # HTTP GET Request
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 # HTML 소스 가져오기
 html = req.text
 # BeautifulSoup으로 html소스를 python객체로 변환하기
@@ -122,7 +122,7 @@ h3 > a
 import requests
 from bs4 import BeautifulSoup
 
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 # CSS Selector를 통해 html요소들을 찾아낸다.
@@ -140,7 +140,7 @@ soup객체는 <태그></태그>로 구성된 요소를 Python이 이해하는 �
 import requests
 from bs4 import BeautifulSoup
 
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 my_titles = soup.select(
@@ -172,7 +172,7 @@ import os
 # python파일의 위치
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 my_titles = soup.select(

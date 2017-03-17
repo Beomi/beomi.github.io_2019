@@ -8,9 +8,6 @@ categories:
 image: /img/old_post/unit-test.jpg
 ---
 
-<p align="center">
-<img src="https://3.bp.blogspot.com/-k9Gxf_MV1Gg/Vnfrm5xSgxI/AAAAAAAAMMs/bicR-4BjnmU/s1600/unit-test.jpg" style="max-height:350px;" />
-</p>
 
 # 최소기능 앱
 

@@ -8,10 +8,6 @@ categories:
 image: /img/old_post/new_goat_cover_lrg.jpg
 ---
 
-<p align="center">
-<img src="http://image.kyobobook.co.kr/images/book/xlarge/916/x9788994774916.jpg" style="max-height:350px;" />
-</p>
-
 # 스터디를 시작하며
 
 [파이썬을 이용한 클린 코드를 위한 테스트 주도 개발](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788994774916)이라는 도서를 처음 보았을 때는 Django와 관련이 있는 책이라고는 생각조차 하지 못했다. 단지, 파이썬을 좀 더 잘 하려면 어떤 것을 알아야 할까 하고U 생각하던 중 TEST를 사용하는 때가 생산성이 올라간다는 말을 듣고서 "테스트 주도 개발"을 하려고 시도해 보려던 참, 이 책을 보게 된 것이다.
