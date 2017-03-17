@@ -8,7 +8,7 @@ paginate_path: "/blog/page-:num"
 title: Beomi's Tech Blog
 description: Beomi의 기술 블로그
 url: "https://beomi.github.io/"
-default_img: 
+default_img: /img/jblee-chanrio5-main-1.png
 
 # Profile settings
 name: Junbum Lee
