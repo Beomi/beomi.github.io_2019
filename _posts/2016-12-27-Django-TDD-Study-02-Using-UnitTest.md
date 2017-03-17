@@ -5,7 +5,7 @@ layout: post
 categories:
 - DjangoTDDStudy
 - Python
-image: https://3.bp.blogspot.com/-k9Gxf_MV1Gg/Vnfrm5xSgxI/AAAAAAAAMMs/bicR-4BjnmU/s1600/unit-test.jpg
+image: /img/old_post/unit-test.jpg
 ---
 
 <p align="center">

@@ -4,7 +4,7 @@ date: 2016-12-20 20:00:00+09:00
 layout: post
 categories:
 - Translation
-image: https://www.appcoda.com/wp-content/uploads/2015/04/react-native.png
+image: /img/old_post/react-native.png
 ---
 
 

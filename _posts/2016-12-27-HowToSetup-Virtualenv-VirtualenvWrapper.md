@@ -8,7 +8,7 @@ categories:
 - Ubuntu
 - Windows
 - DevEnv
-image: http://aeguana.com/blog/wp-content/uploads/2015/06/python-virtualenv.jpg
+image: /img/old_post/python-virtualenv.jpg
 ---
 
 # Virtualenv란?

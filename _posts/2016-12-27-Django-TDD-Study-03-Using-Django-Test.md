@@ -6,7 +6,7 @@ categories:
 - DjangoTDDStudy
 - Python
 published: false
-image: http://emadmokhtar.com/images/unit-test-works.jpg
+image: /img/old_post/unit-test-works.jpg
 ---
 
 

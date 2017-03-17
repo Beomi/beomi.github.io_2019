@@ -6,7 +6,7 @@ published: true
 categories:
 - Python
 - Celery
-image: http://docs.celeryproject.org/en/latest/_static/celery_512.png
+image: /img/old_post/celery_512.png
 ---
 
 # Celery는 비동기 큐이지만 주기적 Task도 잘한다

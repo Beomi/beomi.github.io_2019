@@ -10,7 +10,7 @@ wordpress_id: 227
 categories:
 - MacOS
 - Python
-image: http://aeguana.com/blog/wp-content/uploads/2015/06/python-virtualenv.jpg
+image: /img/old_post/python-virtualenv.jpg
 ---
 
 우분투 14.04에는 기본적으로 Python2와 Python3이 설치되어있다.

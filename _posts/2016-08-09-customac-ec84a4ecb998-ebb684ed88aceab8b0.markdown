@@ -10,7 +10,7 @@ wordpress_id: 330
 categories:
 - DevEnv
 - MacOS
-image: https://cdn.macrumors.com/article-new/2015/04/os_x_el_capitan_roundup.jpg
+image: /img/old_post/os_x_el_capitan_roundup.jpg
 ---
 
 기본적으로 커스텀맥(해킨토시) 설치는 큰 어려움이 따른다.

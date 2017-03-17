@@ -5,7 +5,7 @@ layout: post
 categories:
 - DjangoTDDStudy
 - Python
-image: https://www.obeythetestinggoat.com/static/images/new_goat_cover_lrg.jpg
+image: /img/old_post/new_goat_cover_lrg.jpg
 ---
 
 <p align="center">

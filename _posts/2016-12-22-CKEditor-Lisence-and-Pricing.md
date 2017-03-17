@@ -4,7 +4,7 @@ date: 2016-12-22 01:00:00+09:00
 layout: post
 categories:
 - Tech
-image: https://upload.wikimedia.org/wikipedia/en/f/fc/CKEditor_logo.png
+image: /img/old_post/CKEditor_logo.png
 ---
 
 # CKEditor는 더이상 오픈소스만으로 제공되지 않는다

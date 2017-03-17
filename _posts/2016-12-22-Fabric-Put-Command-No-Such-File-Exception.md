@@ -5,7 +5,7 @@ layout: post
 categories:
 - Python
 - Fabric
-image: https://upload.wikimedia.org/wikipedia/en/f/fc/CKEditor_logo.png
+image: /img/old_post/python-fabric-logo.jpg
 ---
 
 # 환경

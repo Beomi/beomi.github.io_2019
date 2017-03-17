@@ -5,7 +5,7 @@ layout: post
 categories:
 - DjangoTDDStudy
 - Python
-image: http://www.seleniumhq.org/images/big-logo.png
+image: /img/old_post/big-logo.png
 ---
 
 <p align="center">
