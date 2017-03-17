@@ -9,6 +9,8 @@ published: true
 image: /img/2017-02-27-HowToMakeWebCrawler-Save-with-Django/python+django.jpg
 ---
 
+> (@2017.03.18) 본 블로그 테마가 업데이트되면서 구 블로그의 URL은 https://beomi.github.io/beomi.github.io_old/로 변경되었습니다. 예제 코드에서는 변경을 완료하였지만 캡쳐 화면은 변경하지 않았으니 유의 바랍니다.
+
 이전게시글: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/python/2017/01/19/HowToMakeWebCrawler-With-Selenium.html)
 
 Python을 이용해 `requests`와 `selenium`을 이용해 웹 사이트에서 데이터를 크롤링해 보았습니다.
@@ -117,7 +119,7 @@ Django에서 모델은 앱 단위로 만들어지고 구성됩니다. 따라서 
 
 이 모델 파일은 크롤링해온 데이터를 필드별로 저장하는 것이 목적입니다. 따라서 크롤링한 데이터를 파이썬이 관리할 수 있는 객체로 만들어두는 것이 중요합니다.
 
-이번 가이드에서는 [나만의 웹 크롤러 만들기 With Requests/BeautifulSoup](https://beomi.github.io/python/2017/01/19/HowToMakeWebCrawler.html)에서 만든 `parser.py`파일을 수정해 게시글의 title와 link를 DB에 저장해보겠습니다.
+이번 가이드에서는 [나만의 웹 크롤러 만들기 With Requests/BeautifulSoup](https://beomi.github.io/beomi.github.io_old/python/2017/01/19/HowToMakeWebCrawler.html)에서 만든 `parser.py`파일을 수정해 게시글의 title와 link를 DB에 저장해보겠습니다.
 
 따라서 이번 앱의 모델에서는 title와 link라는 column을 가진 `BlogData`라는 이름의 Table을 DB에 만들면 됩니다.
 
@@ -153,7 +155,7 @@ python manage.py migrate parsed_data
 # 크롤링 함수 만들기
 ---
 
-[나만의 웹 크롤러 만들기 With Requests/BeautifulSoup](https://beomi.github.io/python/2017/01/19/HowToMakeWebCrawler.html)에서 만든 `parser.py`파일을 수정해보겠습니다.
+[나만의 웹 크롤러 만들기 With Requests/BeautifulSoup](https://beomi.github.io/beomi.github.io_old/python/2017/01/19/HowToMakeWebCrawler.html)에서 만든 `parser.py`파일을 수정해보겠습니다.
 
 이번 파일은 `manage.py`가 있는 위치에 `parser.py`라는 이름으로 저장해보겠습니다.
 
@@ -169,7 +171,7 @@ import os
 # python파일의 위치
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-req = requests.get('https://beomi.github.io/')
+req = requests.get('https://beomi.github.io/beomi.github.io_old/')
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 my_titles = soup.select(
@@ -193,7 +195,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def parse_blog():
-    req = requests.get('https://beomi.github.io/')
+    req = requests.get('https://beomi.github.io/beomi.github.io_old/')
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
     my_titles = soup.select(
@@ -228,7 +230,7 @@ import django
 django.setup()
 
 def parse_blog():
-    req = requests.get('https://beomi.github.io/')
+    req = requests.get('https://beomi.github.io/beomi.github.io_old/')
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
     my_titles = soup.select(
@@ -267,7 +269,7 @@ django.setup()
 from parsed_data.models import BlogData
 
 def parse_blog():
-    req = requests.get('https://beomi.github.io/')
+    req = requests.get('https://beomi.github.io/beomi.github.io_old/')
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
     my_titles = soup.select(
