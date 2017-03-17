@@ -1,0 +1,54 @@
+---
+author: livingmethod
+comments: true
+date: 2016-07-22 08:20:52+00:00
+layout: post
+link: http://blog.jblee.kr/2016/07/22/ubuntu14-04%ec%97%90-ohmyzsh-%ec%84%a4%ec%b9%98/
+slug: ubuntu14-04%ec%97%90-ohmyzsh-%ec%84%a4%ec%b9%98
+title: Ubuntu14.04에 OhMyZsh 설치
+wordpress_id: 303
+categories:
+- DevEnv
+- Ubuntu
+image: https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-18-22.png
+---
+
+# 이 글은 root 계정에서 작업되었습니다.
+
+VPS등으로 SSH접속을 할 때 bash가 아닌 zsh+OhMyZsh조합을 이용하면 좀 더 편한 관리가 가능하다.
+
+VPS에 접속 한 후 가장 먼저 해야 하는 작업, apt 패키지를 최신 상태로 업데이트+업그레이드 하기.
+
+    
+    apt update && upgrade
+
+
+![스크린샷 2016-07-22 17.06.59](https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-06-59.png)
+
+OhMyZsh 설치에는 git이 사용된다. zsh와 git을 설치해 주자.
+
+    
+    apt install zsh git
+
+
+![스크린샷 2016-07-22 17.07.16](https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-07-16.png)
+
+Zsh을 좀 더 예쁘게 사용하기 위한 방법, Oh My Zsh. (http://ohmyz.sh)
+
+![스크린샷 2016-07-22 17.09.53.png](https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-09-53.png)
+
+curl을 이용해서 받기 원한다면
+
+    
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
+wget을 이용해 받기 원한다면
+
+    
+    sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+
+본 포스트에서는 curl을 이용한다.![스크린샷 2016-07-22 17.17.35.png](https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-17-35.png)
+
+설치가 완료되면 아래와 같이 zsh로 연결된다.![스크린샷 2016-07-22 17.18.22.png](https://livingmethod.files.wordpress.com/2016/07/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-07-22-17-18-22.png)

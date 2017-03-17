@@ -1,0 +1,23 @@
+---
+author: livingmethod
+comments: true
+date: 2016-05-27 15:30:40+00:00
+layout: post
+link: http://blog.jblee.kr/2016/05/28/%eb%a7%a5%ec%97%90%ec%84%9c-%ec%9c%88%eb%8f%84rdp%eb%a1%9c-%ec%a0%91%ec%86%8d%ec%8b%9c-%ed%95%9c%ec%98%81%ec%a0%84%ed%99%98%ed%95%98%ea%b8%b0/
+slug: '%eb%a7%a5%ec%97%90%ec%84%9c-%ec%9c%88%eb%8f%84rdp%eb%a1%9c-%ec%a0%91%ec%86%8d%ec%8b%9c-%ed%95%9c%ec%98%81%ec%a0%84%ed%99%98%ed%95%98%ea%b8%b0'
+title: 맥에서 윈도RDP로 접속시 한영전환하기.
+wordpress_id: 115
+categories:
+- MacOS
+image: https://livingmethod.files.wordpress.com/2016/05/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-05-28-e1848be185a9e1848ce185a5e186ab-12-29-21.png
+---
+
+맥에서 앱스토어에서 받은 윈도 RDP를 통해 원격 윈도 서버로 접속시, 본인의 경우 구름입력기의 조합으로 한영 전환을 Shift + Space로 하고 있다.
+
+이때, 원격 접속된 컴퓨터로 연결을 해도 문자 입력시 문자가 들어가는게 아니라 입력값이 들어가는 방식이기에 원격 서버의 OS가 입력을 받아 처리하게 된다. 즉, 맥북에서는 a라고 쳐도 윈도(서버)에서는 한글입력중이어서 ㅁ이라 받아들일 수 있다는 것이다.
+
+이런 경우 해결책은 아주 간단하다.
+
+![스크린샷 2016-05-28 오전 12.29.21](https://livingmethod.files.wordpress.com/2016/05/e18489e185b3e1848fe185b3e18485e185b5e186abe18489e185a3e186ba-2016-05-28-e1848be185a9e1848ce185a5e186ab-12-29-21.png)
+
+위 스크린샷과 같이 한국어 입력기로 전환해 두면, 맥북 키보드의 우측 ALT(option) Key가 윈도의 한/영키로 작용한다!

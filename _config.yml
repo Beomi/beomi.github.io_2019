@@ -1,0 +1,33 @@
+# Site settings
+email: 
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics: 
+
+# SEO settings
+title: Beomi's Tech Blog
+description: Beomi의 기술 블로그
+url: "https://beomi.github.io/"
+default_img: 
+
+# Profile settings
+name: Junbum Lee
+profile_img: "/img/jblee-chanrio5-main-1.png"
+profile: "Python을 사랑하는, Django로 이것저것 만드는걸 좋아하는 초등교육 전공 학부생입니다.</br>
+DjangoGirls Seoul에서 활동하고 있습니다."
+social:
+  github: "https://github.com/beomi"
+  facebook: "https://facebook.com/Junbum.L"
+
+# Build settings
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
