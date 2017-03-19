@@ -7,7 +7,7 @@ categories:
 - Celery
 - CeleryDocs
 - Translation
-published: true
+published: false
 image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 ---
 
@@ -15,7 +15,7 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 
 원문: [http://docs.celeryproject.org/en/latest/getting-started/index.html](http://docs.celeryproject.org/en/latest/getting-started/index.html)
 
-# 셀러리: 시긱하기(Getting Started)
+# 셀러리: 시작하기
 
 출시버전: v4.0.2
 
@@ -23,10 +23,9 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 
 번역일: 2017. 03. 19. ~
 
-## 셀러리 입문하기 (Introduction to Celery)
----
+## [셀러리 입문하기](/2017/03/19/Introduction-to-Celery/)
 
-- Task Queue란 무엇인가? (What’s a Task Queue?)
+- 태스크 큐란 무엇인가? (What’s a Task Queue?)
 
 - 뭐가 필요한가요? (What do I need?)
 
@@ -43,7 +42,6 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 - 셀러리 설치하기 (Installation)
 
 ## 브로커 (Brokers)
----
 
 - 브로커 가이드 (Broker Instructions)
   - RabbitMQ 사용하기 (Using RabbitMQ)
@@ -53,7 +51,7 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 - 브로커간 기능 (Broker Overview)
 
 ## 셀러리 한 발자국 내밀기 (First Steps with Celery)
----
+
 - 브로커 선택하기 (Choosing a Broker)
 
 - 셀러리 설치하기 (Installing Celery)
@@ -73,7 +71,6 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 - 문제 해결하기 (Troubleshooting)
 
 ## 더 알아보기 (Next Steps)
----
 
 - 셀러리를 기존 앱에서 사용하기 (Using Celery in your Application)
 
