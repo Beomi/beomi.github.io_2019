@@ -11,7 +11,7 @@ image: /img/2017-02-27-HowToMakeWebCrawler-Save-with-Django/python+django.jpg
 
 > (@2017.03.18) 본 블로그 테마가 업데이트되면서 구 블로그의 URL은 https://beomi.github.io/beomi.github.io_old/로 변경되었습니다. 예제 코드에서는 변경을 완료하였지만 캡쳐 화면은 변경하지 않았으니 유의 바랍니다.
 
-이전게시글: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/python/2017/01/19/HowToMakeWebCrawler-With-Selenium.html)
+이전게시글: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/2017/02/27/HowToMakeWebCrawler-With-Selenium/)
 
 Python을 이용해 `requests`와 `selenium`을 이용해 웹 사이트에서 데이터를 크롤링해 보았습니다.
 

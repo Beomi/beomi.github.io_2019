@@ -194,4 +194,4 @@ with open(os.path.join(BASE_DIR, 'result.json'), 'w+') as json_file:
 
 다음 가이드에서는 `Session`을 이용해 어떻게 웹 사이트에 로그인을 하고, 로그인 상태를 유지하며 브라우징을 하는지에 대해 알아보겠습니다.
 
-다음 가이드: [나만의 웹 크롤러 만들기(2): Login With Session](/python/2017/01/20/HowToMakeWebCrawler-With-Login.html)
+다음 가이드: [나만의 웹 크롤러 만들기(2): Login With Session](/2017/01/20/HowToMakeWebCrawler-With-Login/)

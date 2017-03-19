@@ -9,7 +9,7 @@ published: true
 image: /img/2017-01-20-HowToMakeWebCrawler-With-Login/httpcookie.jpg
 ---
 
-이전게시글: [나만의 웹 크롤러 만들기 with Requests/BeautifulSoup](/python/2017/01/19/HowToMakeWebCrawler.html)
+이전게시글: [나만의 웹 크롤러 만들기 with Requests/BeautifulSoup](/2017/01/19/HowToMakeWebCrawler/)
 
 웹 사이트를 로그인 하는데 있어 쿠키와 세션을 빼놓고 이야기하는 것은 불가능하다.
 
@@ -223,4 +223,4 @@ Clien 페이지의 일부 문자가 UTF-8로 decode되지 못해 대체 문자�
 
 물론, JS파일을 분석해 수동으로 data에 넣어주는 방법도 있지만, 다음 포스팅에서 좀 더 간편히 실제 브라우저(혹은 Headless브라우저)를 이용해 로그인과 크롤링을 해보자.
 
-다음 가이드: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/python/2017/02/27/HowToMakeWebCrawler-With-Selenium.html)
+다음 가이드: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/2017/02/27/HowToMakeWebCrawler-With-Selenium/)
