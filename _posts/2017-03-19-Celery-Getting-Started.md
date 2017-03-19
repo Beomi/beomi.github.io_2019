@@ -7,7 +7,7 @@ categories:
 - Celery
 - CeleryDocs
 - Translation
-published: false
+published: true
 image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 ---
 

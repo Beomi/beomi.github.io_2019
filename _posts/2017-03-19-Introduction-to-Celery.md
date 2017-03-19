@@ -7,7 +7,7 @@ categories:
 - Celery
 - CeleryDocs
 - Translation
-published: true
+published: false
 image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 ---
 
@@ -35,7 +35,7 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 
 ## 태스크 큐란 무엇인가?
 
-태스크 큐는 스레드간 혹은 기계 간 업무를 분산하는 목적으로 만들어진 메커니즘입니다. 
+태스크 큐는 스레드간 혹은 기계 간 업무를 분산하는 목적으로 만들어진 메커니즘입니다.
 
 태스크 큐에 들어가는 일거리들은 태스크(Task)라고 불리고 각각 독립된 워커(Worker)프로세스들은 새로운 일거리(Task)가 없는지 지속적으로 태스크 큐를 감시합니다.
 
@@ -64,7 +64,7 @@ image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
 ## 셀러리는..
 
   - 단순해요!
-  
+
     셀러리는 사용하기도 쉽고 관리하기도 쉽습니다. 설정 파일도 필요하지 않아요!
 
     가장 단순한 셀러리 앱은 아래와 같이 만들 수 있어요.
@@ -142,5 +142,3 @@ Django의 경우에는 [장고와 함께하는 셀러리 첫걸음](http://docs.
 ```bash
 pip install -U pip
 ```
-
-
