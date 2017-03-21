@@ -1,6 +1,6 @@
 ---
 title: 'ReactNative The Basis 번역을 끝냈습니다.'
-date: 2016-12-20 20:00:00+09:00
+date: 2016-12-20 20:00:00
 layout: post
 categories:
 - Translation

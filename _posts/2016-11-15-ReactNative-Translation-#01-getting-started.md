@@ -1,6 +1,6 @@
 ---
 title: '[React Native 번역]#01: 시작하기'
-date: 2016-11-15 16:00:00+09:00
+date: 2016-11-15 16:00:00
 layout: post
 categories:
 - Translation

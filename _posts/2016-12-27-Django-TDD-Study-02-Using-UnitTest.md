@@ -1,6 +1,6 @@
 ---
 title: "[DjangoTDDStudy] #02: UnitTest 이용해 기능 테스트 하기"
-date: 2016-12-27 02:00:00+09:00
+date: 2016-12-27 02:00:00
 layout: post
 categories:
 - DjangoTDDStudy

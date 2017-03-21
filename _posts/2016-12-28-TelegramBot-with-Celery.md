@@ -1,6 +1,6 @@
 ---
 title: "Celery로 TelegramBot 알림 보내기"
-date: 2016-12-28 02:00:00+09:00
+date: 2016-12-28 02:00:00
 layout: post
 published: true
 categories:

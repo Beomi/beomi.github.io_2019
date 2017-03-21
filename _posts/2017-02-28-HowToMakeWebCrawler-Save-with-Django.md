@@ -1,6 +1,6 @@
 ---
 title: "나만의 웹 크롤러 만들기(4): Django로 크롤링한 데이터 저장하기"
-date: 2017-02-28 16:30:00+09:00
+date: 2017-02-28 16:30:00
 layout: post
 categories:
 - Python

@@ -1,6 +1,6 @@
 ---
 title: "[번역]셀러리: 시작하기"
-date: 2017-03-19 13:00:00+09:00
+date: 2017-03-19 13:00:00
 layout: post
 categories:
 - Python

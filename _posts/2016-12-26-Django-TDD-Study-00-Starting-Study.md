@@ -1,6 +1,6 @@
 ---
 title: '[DjangoTDDStudy] #00: 스터디를 시작하며'
-date: 2016-12-26 23:30:00+09:00
+date: 2016-12-26 23:30:00
 layout: post
 categories:
 - DjangoTDDStudy

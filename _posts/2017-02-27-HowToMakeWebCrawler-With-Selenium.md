@@ -1,6 +1,6 @@
 ---
 title: "나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기"
-date: 2017-02-27 12:30:00+09:00
+date: 2017-02-27 12:30:00
 layout: post
 categories:
 - Python

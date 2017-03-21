@@ -1,6 +1,6 @@
 ---
 title: "나만의 웹 크롤러 만들기(5): Telegram으로 웹페이지 변경 알림 받기"
-date: 2017-03-01 10:00:00+09:00
+date: 2017-03-01 10:00:00
 layout: post
 categories:
 - Python
