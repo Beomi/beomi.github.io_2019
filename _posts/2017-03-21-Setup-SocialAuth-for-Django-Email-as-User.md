@@ -5,7 +5,7 @@ layout: post
 categories:
 - Python
 - Django
-published: true
+published: false
 image: /img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 ---
 
