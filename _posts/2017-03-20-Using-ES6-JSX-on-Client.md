@@ -1,6 +1,6 @@
 ---
 title: "React+JSX(ES6)를 빌드 없이 사용하기: browser.js"
-date: 2017-03-20 13:00:00+9:00
+date: 2017-03-20 13:00:00
 layout: post
 categories:
 - React
