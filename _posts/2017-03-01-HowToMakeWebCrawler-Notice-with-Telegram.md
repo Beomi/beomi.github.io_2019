@@ -45,6 +45,8 @@ pip install python-telegram-bot
 
 텔레그램 봇을 만들고 API키를 받아 이용하는 기본적인 방법은 [python에서 telegram bot 사용하기](https://blog.psangwoo.com/2016/12/08/python%EC%97%90%EC%84%9C-telegram-bot-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)에 차근차근 설명되어있습니다.
 
+위 가이드에서 텔레그램의 API키를 받아오세요.
+
 > 이번 가이드는 텔레그램 봇을 다루는 내용보다는 Cron으로 크롤링을 하고 변화 발견시 텔레그램 메시지를 보내는 것에 초점을 맞췄습니다.
 
 텔레그램 봇 API키를 받아왔다면 아래와 같이 
