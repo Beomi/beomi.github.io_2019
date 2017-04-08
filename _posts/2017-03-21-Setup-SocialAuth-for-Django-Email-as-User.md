@@ -11,6 +11,8 @@ image: /img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 
 > `django-custom-user`와 `social-auth-app-django`(구 `python-social-auth`)를 이용해 이메일 기반 유저와 소셜 로그인으로 로그인 한 유저를 하나처럼 사용하는 방법입니다.
 
+> 장고에 소셜 로그인을 붙이는 가이드는 [Django에 Social Login 붙이기: Django세팅부터 Facebook/Google 개발 설정까지](/2017/02/08/Setup-SocialAuth-for-Django/) 포스팅에서 찾으실 수 있습니다.
+
 # Django + SocialLogin + Email as User
 
 웹 서비스를 제공할 때 여러가지 로그인 방법을 구현할 수 있습니다. 아이디/패스워드 기반의 방식, 페이스북과 구글등의 OAuth를 이용한 소셜 로그인 방식 등이 있습니다.
