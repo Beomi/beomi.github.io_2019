@@ -389,3 +389,5 @@ class BlogData(models.Model):
 ---
 
 다음 가이드는 **주기적**으로 데이터를 크롤링 해, **새로운** 데이터가 생기는 경우 텔레그램 봇으로 메시지 알림을 보내주는 과정을 다룰 예정입니다.
+
+다음 가이드: [나만의 웹 크롤러 만들기(5): 웹페이지 업데이트를 알려주는 Telegram 봇](/2017/04/20/HowToMakeWebCrawler-Notice-with-Telegram/)
