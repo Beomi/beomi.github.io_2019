@@ -24,10 +24,8 @@ image: /img/telegram.png
 다루는 내용:
 
   - Telegram Bot API
-  - Selenium + BeautifulSoup
+  - requests / BeautifulSoup
   - Crontab
-  - 깃헙 이용한 배포(서버에 올리기)
-  - Django이용한 DB
 
 ## 시작하며
 ---
