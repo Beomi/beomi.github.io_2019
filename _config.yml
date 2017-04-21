@@ -21,7 +21,7 @@ social:
   facebook: "https://facebook.com/Junbum.L"
 
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 

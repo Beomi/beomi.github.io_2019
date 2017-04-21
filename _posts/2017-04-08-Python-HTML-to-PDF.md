@@ -5,7 +5,7 @@ layout: post
 categories:
 - Python
 - Django
-published: true
+published: false
 image: /img/Python/PDF-icon.png
 ---
 
