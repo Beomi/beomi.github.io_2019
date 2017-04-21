@@ -1,11 +1,11 @@
 ---
 title: "파이썬으로 HTML을 PDF로 만들기"
-date: 2017-04-08 18:30:00 +0900
+date: 2017-04-08
 layout: post
 categories:
 - Python
 - Django
-published: false
+published: true
 image: /img/Python/PDF-icon.png
 ---
 
@@ -35,7 +35,7 @@ Reportlab은 [Django의 공식 문서: Outputting PDF](https://docs.djangoproje
 
 아래와 같이 `pdfmetrics`와 `TTFont`를 통해 reportlab에 폰트를 강제 지정하면 한글이 잘 나타납니다.
 
-```py
+```python
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.conf import settings # BASE_DIR

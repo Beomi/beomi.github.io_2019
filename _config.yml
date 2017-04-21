@@ -1,6 +1,6 @@
 # Site settings
 email: jun@beomi.net
-#baseurl: "https://beomi.github.io"
+baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 timezone: Asia/Seoul
@@ -14,7 +14,7 @@ default_img: /img/jblee-chanrio5-main-1.png
 # Profile settings
 name: Junbum Lee
 profile_img: "/img/jblee-chanrio5-main-1.png"
-profile: "Python을 사랑하는, Django로 이것저것 만드는걸 좋아하는 초등교육 전공 학부생입니다.</br>
+profile: "Python을 사랑하는, Django로 이것저것 만드는걸 좋아하는 초등교육 전공 대학생입니다.</br>
 DjangoGirls Seoul에서 활동하고 있습니다."
 social:
   github: "https://github.com/beomi"
