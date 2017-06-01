@@ -5,7 +5,7 @@ layout: post
 categories:
 - Django
 published: true
-image: /img/Django/sentry.png
+image: /img/Django/sentry.jpeg
 ---
 
 > 이번 포스팅은 `wsgi`기반으로 동작하는 `django`서비스를 대상으로 합니다.
