@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-07-22 08:20:52+00:00
+date: 2016-07-22
 layout: post
 link: http://blog.jblee.kr/2016/07/22/ubuntu14-04%ec%97%90-ohmyzsh-%ec%84%a4%ec%b9%98/
 slug: ubuntu14-04%ec%97%90-ohmyzsh-%ec%84%a4%ec%b9%98

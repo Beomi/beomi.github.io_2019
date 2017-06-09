@@ -1,6 +1,6 @@
 ---
 title: 'Fabric Put 커맨드가 No Such File Exception을 반환할 때 해결법'
-date: 2016-12-22 01:00:00
+date: 2016-12-22
 layout: post
 categories:
 - Python

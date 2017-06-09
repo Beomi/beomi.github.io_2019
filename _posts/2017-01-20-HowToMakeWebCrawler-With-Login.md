@@ -1,6 +1,6 @@
 ---
 title: "나만의 웹 크롤러 만들기(2): Login with Session"
-date: 2017-01-20 13:30:00
+date: 2017-01-20
 layout: post
 categories:
 - Python

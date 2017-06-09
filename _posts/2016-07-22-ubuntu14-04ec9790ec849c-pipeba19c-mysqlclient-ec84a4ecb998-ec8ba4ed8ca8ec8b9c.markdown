@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-07-22 07:45:54+00:00
+date: 2016-07-22
 layout: post
 link: http://blog.jblee.kr/2016/07/22/ubuntu14-04%ec%97%90%ec%84%9c-pip%eb%a1%9c-mysqlclient-%ec%84%a4%ec%b9%98-%ec%8b%a4%ed%8c%a8%ec%8b%9c/
 slug: ubuntu14-04%ec%97%90%ec%84%9c-pip%eb%a1%9c-mysqlclient-%ec%84%a4%ec%b9%98-%ec%8b%a4%ed%8c%a8%ec%8b%9c

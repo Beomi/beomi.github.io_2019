@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-05-27 09:22:04+00:00
+date: 2016-05-27
 layout: post
 link: http://blog.jblee.kr/2016/05/27/pip%eb%a1%9c-mysqlclient%ec%84%a4%ec%b9%98-%ec%a4%91-mac-os-x%ec%97%90%ec%84%9c-egg_info-oserror-%eb%b0%9c%ec%83%9d%ec%8b%9c-%eb%8c%80%ec%b2%98%eb%b0%a9%eb%b2%95/
 slug: pip%eb%a1%9c-mysqlclient%ec%84%a4%ec%b9%98-%ec%a4%91-mac-os-x%ec%97%90%ec%84%9c-egg_info-oserror-%eb%b0%9c%ec%83%9d%ec%8b%9c-%eb%8c%80%ec%b2%98%eb%b0%a9%eb%b2%95

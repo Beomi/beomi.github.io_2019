@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-08-09 15:11:27+00:00
+date: 2016-08-09
 layout: post
 link: http://blog.jblee.kr/2016/08/10/customac-%ec%84%a4%ec%b9%98-%eb%b6%84%ed%88%ac%ea%b8%b0/
 slug: customac-%ec%84%a4%ec%b9%98-%eb%b6%84%ed%88%ac%ea%b8%b0

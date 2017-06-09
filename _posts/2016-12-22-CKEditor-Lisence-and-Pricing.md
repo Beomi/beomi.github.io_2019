@@ -1,6 +1,6 @@
 ---
 title: 'CKEditor의 라이센스와 오픈소스 라이센스'
-date: 2016-12-22 01:00:00
+date: 2016-12-22
 layout: post
 categories:
 - Tech

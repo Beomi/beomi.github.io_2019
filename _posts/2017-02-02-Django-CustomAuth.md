@@ -1,6 +1,6 @@
 ---
 title: "Django에 Custom인증 붙이기"
-date: 2017-02-02 01:30:00
+date: 2017-02-02
 layout: post
 categories:
 - Python

@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-09-14 08:37:24+00:00
+date: 2016-09-14
 layout: post
 link: http://blog.jblee.kr/2016/09/14/chrome-native-adblockr-%eb%8c%80%ec%b2%b4%ed%95%98%ea%b8%b0/
 slug: chrome-native-adblockr-%eb%8c%80%ec%b2%b4%ed%95%98%ea%b8%b0

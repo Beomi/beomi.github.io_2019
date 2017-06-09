@@ -1,6 +1,6 @@
 ---
 title: "Django에 Social Login 붙이기: Django세팅부터 Facebook/Google 개발 설정까지"
-date: 2017-02-08 12:00:00
+date: 2017-02-08
 layout: post
 categories:
 - Python

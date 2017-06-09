@@ -1,6 +1,6 @@
 ---
 title: "Fabric으로 Django 배포하기"
-date: 2017-03-19 17:30:00
+date: 2017-03-19
 layout: post
 categories:
 - Python

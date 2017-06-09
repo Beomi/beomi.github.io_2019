@@ -1,6 +1,6 @@
 ---
 title: "편리한 깃헙페이지 블로깅을 위한 이미지서버, 구글드라이브: 업로드 ShellScript편"
-date: 2017-03-27 15:45:00
+date: 2017-03-27
 layout: post
 categories:
 - Tips

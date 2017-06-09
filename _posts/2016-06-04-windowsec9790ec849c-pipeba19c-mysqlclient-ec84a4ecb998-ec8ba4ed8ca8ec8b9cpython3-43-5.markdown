@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-06-04 01:30:24+00:00
+date: 2016-06-04
 layout: post
 link: http://blog.jblee.kr/2016/06/04/windows%ec%97%90%ec%84%9c-pip%eb%a1%9c-mysqlclient-%ec%84%a4%ec%b9%98-%ec%8b%a4%ed%8c%a8%ec%8b%9cpython3-43-5/
 slug: windows%ec%97%90%ec%84%9c-pip%eb%a1%9c-mysqlclient-%ec%84%a4%ec%b9%98-%ec%8b%a4%ed%8c%a8%ec%8b%9cpython3-43-5

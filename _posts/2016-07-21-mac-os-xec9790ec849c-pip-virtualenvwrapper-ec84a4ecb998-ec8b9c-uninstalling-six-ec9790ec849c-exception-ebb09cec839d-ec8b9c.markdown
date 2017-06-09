@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-07-21 15:22:55+00:00
+date: 2016-07-21
 layout: post
 link: http://blog.jblee.kr/2016/07/22/mac-os-x%ec%97%90%ec%84%9c-pip-virtualenvwrapper-%ec%84%a4%ec%b9%98-%ec%8b%9c-uninstalling-six-%ec%97%90%ec%84%9c-exception-%eb%b0%9c%ec%83%9d-%ec%8b%9c/
 slug: mac-os-x%ec%97%90%ec%84%9c-pip-virtualenvwrapper-%ec%84%a4%ec%b9%98-%ec%8b%9c-uninstalling-six-%ec%97%90%ec%84%9c-exception-%eb%b0%9c%ec%83%9d-%ec%8b%9c

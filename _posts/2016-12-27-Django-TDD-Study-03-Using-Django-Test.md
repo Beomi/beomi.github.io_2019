@@ -1,6 +1,6 @@
 ---
 title: "[DjangoTDDStudy] #03: Django의 단위테스트와 최소기능 앱"
-date: 2016-12-27 11:40:00
+date: 2016-12-27
 layout: post
 categories:
 - DjangoTDDStudy

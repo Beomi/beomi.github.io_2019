@@ -1,6 +1,6 @@
 ---
 title: "AWS에 Django Project 배포하기(1): EC2편"
-date: 2017-04-15 10:00:00
+date: 2017-04-15
 layout: post
 categories:
 - Python

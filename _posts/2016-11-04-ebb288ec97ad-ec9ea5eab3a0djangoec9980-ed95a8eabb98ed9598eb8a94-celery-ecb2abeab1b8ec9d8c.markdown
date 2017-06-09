@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-11-04 13:46:54+00:00
+date: 2016-11-04
 layout: post
 link: http://blog.jblee.kr/2016/11/04/%eb%b2%88%ec%97%ad-%ec%9e%a5%ea%b3%a0django%ec%99%80-%ed%95%a8%ea%bb%98%ed%95%98%eb%8a%94-celery-%ec%b2%ab%ea%b1%b8%ec%9d%8c/
 slug: '%eb%b2%88%ec%97%ad-%ec%9e%a5%ea%b3%a0django%ec%99%80-%ed%95%a8%ea%bb%98%ed%95%98%eb%8a%94-celery-%ec%b2%ab%ea%b1%b8%ec%9d%8c'

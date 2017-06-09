@@ -1,6 +1,6 @@
 ---
 title: "Virtualenv/VirtualenvWrapper OS별 설치&이용법"
-date: 2016-12-27 17:00:00
+date: 2016-12-27
 layout: post
 categories:
 - Python

@@ -1,6 +1,6 @@
 ---
 title: "Django에 Social Login와 Email유저 함께 이용하기"
-date: 2017-03-21 15:45:00
+date: 2017-03-21
 layout: post
 categories:
 - Python

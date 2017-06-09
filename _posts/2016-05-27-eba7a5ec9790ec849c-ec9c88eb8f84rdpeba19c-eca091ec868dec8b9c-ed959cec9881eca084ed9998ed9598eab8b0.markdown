@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-05-27 15:30:40+00:00
+date: 2016-05-27
 layout: post
 link: http://blog.jblee.kr/2016/05/28/%eb%a7%a5%ec%97%90%ec%84%9c-%ec%9c%88%eb%8f%84rdp%eb%a1%9c-%ec%a0%91%ec%86%8d%ec%8b%9c-%ed%95%9c%ec%98%81%ec%a0%84%ed%99%98%ed%95%98%ea%b8%b0/
 slug: '%eb%a7%a5%ec%97%90%ec%84%9c-%ec%9c%88%eb%8f%84rdp%eb%a1%9c-%ec%a0%91%ec%86%8d%ec%8b%9c-%ed%95%9c%ec%98%81%ec%a0%84%ed%99%98%ed%95%98%ea%b8%b0'

@@ -1,6 +1,6 @@
 ---
 title: '[DjangoTDDStudy] #01: 개발환경 세팅하기(Selenium / ChromeDriver)'
-date: 2016-12-27 01:00:00
+date: 2016-12-27
 layout: post
 categories:
 - DjangoTDDStudy

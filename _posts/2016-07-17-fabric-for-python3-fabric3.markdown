@@ -1,7 +1,7 @@
 ---
 author: livingmethod
 comments: true
-date: 2016-07-17 03:24:30+00:00
+date: 2016-07-17
 layout: post
 link: http://blog.jblee.kr/2016/07/17/fabric-for-python3-fabric3/
 slug: fabric-for-python3-fabric3
