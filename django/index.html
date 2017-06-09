@@ -50,6 +50,8 @@
       <span>Back to Posts</span>
     </a>
     
+      <figure class="absolute-bg preview__img" style="background-image: url('/img/Django/sentry.jpg');"></figure>
+    
       <figure class="absolute-bg preview__img" style="background-image: url('/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png');"></figure>
     
       <figure class="absolute-bg preview__img" style="background-image: url('/img/old_post/python-fabric-logo.jpg');"></figure>
@@ -78,8 +80,17 @@
       <ul itemscope itemtype="http://schema.org/Blog">
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="/2017/03/22/Setup-SocialAuth-for-Django-Email-as-User/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-03-22T00:45:00+09:00">Mar 22, 2017</span>
+            <a class="preview__link" href="/2017/06/01/Add-Sentry-to-Django/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2017-06-01T00:00:00+09:00">Jun 1, 2017</span>
+              <h2 class="preview__header" itemprop="name">배포한 Django 서비스 Exception Sentry로 받아보기</h2>
+              <p class="preview__excerpt" itemprop="description">이번 포스팅은 wsgi기반으로 동작하는 django서비스를 대상으로 합니다. Django 서비스를 실제 서버에 배포하면 보안을 위해 프로젝트 폴더의 settings.py파일 안의 DEBUG항목을 False로 두고 배포합니다. 이렇게 디버그모드를 끌 경우 장고에서 기본적인 보안을 제공해...</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="/2017/03/21/Setup-SocialAuth-for-Django-Email-as-User/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2017-03-21T00:00:00+09:00">Mar 21, 2017</span>
               <h2 class="preview__header" itemprop="name">Django에 Social Login와 Email유저 함께 이용하기</h2>
               <p class="preview__excerpt" itemprop="description">django-custom-user와 social-auth-app-django(구 python-social-auth)를 이용해 이메일 기반 유저와 소셜 로그인으로 로그인 한 유저를 하나처럼 사용하는 방법입니다. 장고에 소셜 로그인을 붙이는 가이드는 Django에 Social Login 붙이기: Django세팅부터 Facebook/Google 개발 설정까지 포스팅에서 찾으실...</p>
               <span class="preview__more">Read More</span>
@@ -87,8 +98,8 @@
           </li>
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="/2017/03/20/Deploy-Django-with-Fabric/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-03-20T02:30:00+09:00">Mar 20, 2017</span>
+            <a class="preview__link" href="/2017/03/19/Deploy-Django-with-Fabric/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2017-03-19T00:00:00+09:00">Mar 19, 2017</span>
               <h2 class="preview__header" itemprop="name">Fabric으로 Django 배포하기</h2>
               <p class="preview__excerpt" itemprop="description">이번 가이드는 완성된 상태의 Django 프로젝트가 있다고 가정합니다. 예제로 https://github.com/Beomi/irkshop 을 배포해 봅니다. https://gist.github.com/Beomi/945cd905175c3b21370f8f04abd57404의 예제를 설명합니다. Fabric으로 Django 배포하기 Django는 내장된 runserver라는 개발용 웹 서버가 있습니다. 하지만 개발용 웹 서버를...</p>
               <span class="preview__more">Read More</span>
@@ -97,7 +108,7 @@
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="preview__link" href="/2017/02/08/Setup-SocialAuth-for-Django/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-02-08T21:00:00+09:00">Feb 8, 2017</span>
+              <span class="preview__date" itemprop="datePublished" datetime="2017-02-08T00:00:00+09:00">Feb 8, 2017</span>
               <h2 class="preview__header" itemprop="name">Django에 Social Login 붙이기: Django세팅부터 Facebook/Google 개발 설정까지</h2>
               <p class="preview__excerpt" itemprop="description">Django등 웹 서비스를 제공하며 항상 다루게 되는 주제가 있습니다. 유저를 우리 서비스의 유저 모델을 통해 직접 가입시키느냐, 혹은 타사의 oAuth를 이용한 Social Login을 붙여 가입없이(혹은 최소화) 서비스를 이용할 수 있도록...</p>
               <span class="preview__more">Read More</span>
@@ -106,7 +117,7 @@
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="preview__link" href="/2017/02/02/Django-CustomAuth/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-02-02T10:30:00+09:00">Feb 2, 2017</span>
+              <span class="preview__date" itemprop="datePublished" datetime="2017-02-02T00:00:00+09:00">Feb 2, 2017</span>
               <h2 class="preview__header" itemprop="name">Django에 Custom인증 붙이기</h2>
               <p class="preview__excerpt" itemprop="description">들어가기 전 Django는 기본적으로 authentication을 내장하고 있고, User Model을 장고 자체가 가지고 있다. UserModel의 경우 settings.py에서 AUTH_USER_MODEL을 커스텀 유저 모델로 지정해주면 프로젝트 전역에서 사용 가능하지만, 이번 글에서는 이 부분이 아니라...</p>
               <span class="preview__more">Read More</span>
@@ -115,7 +126,7 @@
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="preview__link" href="/2016/11/04/eb-b2-88-ec-97-ad-ec-9e-a5-ea-b3-a0django-ec-99-80-ed-95-a8-ea-bb-98-ed-95-98-eb-8a-94-celery-ec-b2-ab-ea-b1-b8-ec-9d-8c/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2016-11-04T22:46:54+09:00">Nov 4, 2016</span>
+              <span class="preview__date" itemprop="datePublished" datetime="2016-11-04T00:00:00+09:00">Nov 4, 2016</span>
               <h2 class="preview__header" itemprop="name">[번역] 장고(Django)와 함께하는 Celery 첫걸음</h2>
               <p class="preview__excerpt" itemprop="description">원문: http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html 유의사항: 현재(11.14) celery가 4.0버전으로 stable 릴리즈가 되었습니다. 아래 문서는 3.1의 마지막 버전의 문서를 번역한 것입니다. 최신 문서는 곧 업데이트 될 예정입니다. Celery는 공식적인 패키지로 django-celery를 제공합니다. 이 문서는 celery의...</p>
               <span class="preview__more">Read More</span>
@@ -204,13 +215,13 @@
           
             <div class="card__img">
               
-                <figure class="absolute-bg" style="background-image: url('/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png');"></figure>
+                <figure class="absolute-bg" style="background-image: url('/img/Django/sentry.jpg');"></figure>
               
             </div>
           
           <div class="card__container">
             <h2 class="card__header">Django</h2>
-            <p class="card__count">5 Posts</p>
+            <p class="card__count">6 Posts</p>
             <span class="card__more">View All</span>
           </div>
         </a>
