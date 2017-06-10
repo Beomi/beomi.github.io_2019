@@ -5,7 +5,7 @@ layout: post
 categories:
 - Django
 - Fabric
-published: false
+published: true
 image: /img/azure.jpg
 ---
 
@@ -18,7 +18,7 @@ image: /img/azure.jpg
 만약 여러분이 `AzurePass`를 아직 계정에 등록하지 않았다면, [Azure 가입하고 AzurePass 등록하기](#)를 먼저 진행해 주세요.
 
 ## Azure 가상컴퓨터 만들기
----
+
 
 [Azure Portal](https://portal.azure.com/)에 들어가 로그인 하시면 아래와 같은 화면을 볼 수 있습니다.
 
@@ -91,7 +91,7 @@ image: /img/azure.jpg
 
 
 ## Azure 설정 확인하기
----
+
 
 Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어올 수 있어요.
 
@@ -108,7 +108,7 @@ Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어�
 
 
 ## 무료 도메인 얻어 가상컴퓨터에 연결하기
----
+
 
 `.com`, `.net`와 같이 유명한 도메인은 돈을 주고 사야한답니다.(1년에 만원정도 나가요) 하지만 우리는 오늘 무료 도메인을 연결해 볼 거에요.
 
@@ -144,7 +144,7 @@ Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어�
 
 
 ## Fabric3 설치하기
----
+
 
 이제 여러분의 서버는 `여러분이입력한이름.tk`라는 인터넷 주소로 연결되었어요.
 
@@ -160,10 +160,45 @@ Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어�
 pip install fabric3
 ```
 
-이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/dc3500f661abe2b9889af2ef7a665669600c6df1.zip)를 클릭해 압축파일을 받아 풀어주세요.
+## `deploy.json` 수정하기
+
+
+이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/b4e0225c8dad398b2c500eb69a1fbe50cf5eb462.zip)를 클릭해 압축파일을 받아 풀어주세요.
 
 안에 `deploy.json`와 `fabfile.py`가 보일거에요. 이 두 파일을 여러분의 장고 폴더(`manage.py`파일이 있는 곳)안에 넣어주세요.
 
+`deploy.json`파일 안에는 우리 서버의 정보를 적어넣을 수 있어요. 
 
+```json
+{
+  "REPO_URL":"깃헙Repo주소",
+  "PROJECT_NAME":"프로젝트폴더(settings.py가있는 폴더)의 이름",
+  "REMOTE_HOST_SSH":"가상컴퓨터의 ip(ex: 52.231.30.148 )",
+  "REMOTE_HOST":"여러분이 만든 도메인주소(ex: djangogirls-seoul-tutorial.tk )",
+  "REMOTE_USER":"django"
+}
+```
 
+파일에 있는 `REPO_URL`, `PROJECT_NAME`, `REMOTE_HOST_SSH`, `REMOTE_HOST`, `REMOTE_USER`부분을 채워주세요.
 
+> 모든 값은 "큰 따옴표" 안에 들어가야 한다는 것을 주의하세요!
+
+## Fabric으로 서버에 올리기
+
+서버에 처음 올릴 때 
+
+```sh
+fab new_server
+```
+
+소스 수정(커밋&푸시)후 서버에 올린 후
+
+```sh
+fab deploy
+```
+
+슈퍼유저 만들기
+
+```sh
+fab create_superuer
+```
