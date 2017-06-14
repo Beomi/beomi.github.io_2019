@@ -163,7 +163,7 @@ pip install fabric3
 ## `deploy.json` 수정하기
 
 
-이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/8b9c757ca7cf4709a58ac2202de447c48e1c4154.zip)를 클릭해 압축파일을 받아 풀어주세요.
+이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/f5d7fdb04bd317d08d23b1e9cdf6cb81a9235681.zip)를 클릭해 압축파일을 받아 풀어주세요.
 
 안에 `deploy.json`와 `fabfile.py`가 보일거에요. 이 두 파일을 여러분의 장고 폴더(`manage.py`파일이 있는 곳)안에 넣어주세요.
 
@@ -173,9 +173,11 @@ pip install fabric3
 {
   "REPO_URL":"깃헙Repo주소",
   "PROJECT_NAME":"프로젝트폴더(settings.py가있는 폴더)의 이름",
-  "REMOTE_HOST_SSH":"여러분이 만든 도메인주소(ex: djangogirls-seoul-tutorial.tk )",
   "REMOTE_HOST":"여러분이 만든 도메인주소(ex: djangogirls-seoul-tutorial.tk )",
-  "REMOTE_USER":"django"
+  "REMOTE_USER":"django",
+  "STATIC_ROOT":"static",
+  "STATIC_URL":"static",
+  "MEDIA_ROOT":"media"
 }
 ```
 
