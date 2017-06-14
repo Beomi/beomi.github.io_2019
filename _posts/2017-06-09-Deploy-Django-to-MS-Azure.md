@@ -163,7 +163,7 @@ pip install fabric3
 ## `deploy.json` 수정하기
 
 
-이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/f5d7fdb04bd317d08d23b1e9cdf6cb81a9235681.zip)를 클릭해 압축파일을 받아 풀어주세요.
+이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/8650cea4b5fc014bf8ead7450173cf7cdc5cf95a.zip)를 클릭해 압축파일을 받아 풀어주세요.
 
 안에 `deploy.json`와 `fabfile.py`가 보일거에요. 이 두 파일을 여러분의 장고 폴더(`manage.py`파일이 있는 곳)안에 넣어주세요.
 
