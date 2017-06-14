@@ -181,26 +181,32 @@ pip install fabric3
 }
 ```
 
-파일에 있는 `REPO_URL`, `PROJECT_NAME`, `REMOTE_HOST_SSH`, `REMOTE_HOST`, `REMOTE_USER`부분을 채워주세요.
+파일에 있는 `REPO_URL`, `PROJECT_NAME`, `REMOTE_HOST` 부분을 채워주세요. 나머지 값은 우리가 따라한 튜토리얼에서 이미 설정되어있어요.
 
 > 모든 값은 "큰 따옴표" 안에 들어가야 한다는 것을 주의하세요!
 
 ## Fabric으로 서버에 올리기
 
-서버에 처음 올릴 때 
+Fabric을 사용하기 위한 명령어는 `fab`이라는 명령어입니다. 이 `fab`뒤에 `new_server`, `deploy`, `createsuperuser`등을 덧붙여 실제로 원격 서버에 명령을 내리는거에요.
+
+서버에 처음 올릴 때는 `fab new_server` 명령어를 이용하세요. 파이썬3 설치부터 Apache2설치와 `mod_wsgi`설치까지 완료해준답니다. 
 
 ```sh
 fab new_server
 ```
 
-소스 수정(커밋&푸시)후 서버에 올린 후
+만약 여러분이 장고 소스를 수정(커밋&푸시)후 서버에 올리고 싶으시다면 `fab deploy` 명령어를 이용하세요. 장고 앱을 새로 실행해주고 `manage.py migrate`, `manage.py collectstaticfiles`등의 명령을 서버에 실행해 준답니다.
 
 ```sh
 fab deploy
 ```
 
-슈퍼유저 만들기
+우리가 진행하는 튜토리얼에서는 슈퍼유저 만들기 항목이 있어요. 여러분의 컴퓨터에서는 `manage.py createsuperuser`를 통해 만들었지만 서버에 띄운 장고에 슈퍼유저를 만들어 주려면 `fab create_superuser`를 이용해주세요.
 
 ```sh
 fab create_superuer
 ```
+
+## 짜잔!
+
+여러분은 이제 Azure에 올라간 **진짜** 웹 서비스 하나를 만들었어요! 이제 여러분은 장고로 웹 서비스를 만드는 것의 처음부터 끝까지를 모두 알게되었어요! 축하합니다 :D
