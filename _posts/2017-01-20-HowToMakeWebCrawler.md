@@ -1,6 +1,6 @@
 ---
 title: "나만의 웹 크롤러 만들기 with Requests/BeautifulSoup"
-date: 2017-01-19
+date: 2017-01-20
 layout: post
 categories:
 - Python

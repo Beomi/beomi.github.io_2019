@@ -9,7 +9,7 @@ published: true
 image: /img/2017-01-20-HowToMakeWebCrawler-With-Login/httpcookie.jpg
 ---
 
-이전게시글: [나만의 웹 크롤러 만들기 with Requests/BeautifulSoup](/2017/01/19/HowToMakeWebCrawler/)
+이전게시글: [나만의 웹 크롤러 만들기 with Requests/BeautifulSoup](/2017/01/20/HowToMakeWebCrawler/)
 
 웹 사이트를 로그인 하는데 있어 쿠키와 세션을 빼놓고 이야기하는 것은 불가능하다.
 
