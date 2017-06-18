@@ -17,6 +17,40 @@ image: /img/azure.jpg
 
 만약 여러분이 `AzurePass`를 아직 계정에 등록하지 않았다면, [Azure 가입하고 AzurePass 등록하기](#)를 먼저 진행해 주세요.
 
+## (윈도우의 경우) `cmder` 설치하기
+
+윈도우에서는 `git`와 `ssh`등의 명령어를 `cmd`에서 바로 사용할 수 없어요. 그래서 우리는 `cmder`라는 멋진 프로그램을 사용할 거에요.
+
+![](https://www.dropbox.com/s/j52a96l0gwln8xd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-18%2010.30.18.png?dl=1)
+
+우선 [cmder.zip](https://github.com/cmderdev/cmder/releases/download/v1.3.2/cmder.zip)을 클릭해 cmder를 받아주세요. (84MB정도라 시간이 조금 걸릴거에요.)
+
+다운받은 `cmder.zip` 파일의 압축을 풀어주세요.(이것도 시간이 조금 걸릴거에요.) 그러면 다음과 같은 내용이 보일거에요. 
+
+![](/img/azure_fabric/1-folder.PNG)
+
+여기 있는 `cmder.exe` 파일을 실행해주세요. 실행하면 아래와 같은 Security Warning이 뜰 수 있어요. `RUN`을 눌러주세요.
+
+![](/img/azure_fabric/2-securityWarning.PNG)
+
+만약 여러분이 cmder를 처음 실행하신다면 아래와 같은 워닝이 뜰거에요. 제일 첫번째 옵션인 "Unblock and continue"를 눌러주세요.
+
+![](/img/azure_fabric/3-UnblockBinaries.PNG)
+
+첫 실행시 아래 화면에서 약간 시간이 걸릴 수 있어요. 다음번 실행부터는 뜨지 않을테니 잠시만 기다려주세요!
+
+![](/img/azure_fabric/4-firstlook.PNG)
+
+아래 화면이 뜨면 여러분이 멋진 cmder를 쓸 준비를 마친거랍니다!
+
+![](/img/azure_fabric/5-final.PNG)
+
+장고걸즈 튜토리얼을 따라오는 중이시라면 `djangogirls`라는 폴더를 만드셨을거에요.
+
+> 폴더로 이동하는 명령어가 `cd`입니다! `cd djangogirls`라고 입력해주세요.
+
+이제 배포를 진행해볼게요.
+
 ## Azure 가상컴퓨터 만들기
 
 
