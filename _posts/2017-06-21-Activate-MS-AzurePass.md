@@ -1,6 +1,6 @@
 ---
 title: "MS AzurePass 등록하기"
-date: 2017-06-09
+date: 2017-06-21
 layout: post
 categories:
 - Azure

@@ -1,6 +1,6 @@
 ---
 title: "Deploy Django to MS Azure with Fabric3"
-date: 2017-06-09
+date: 2017-06-10
 layout: post
 categories:
 - Django
