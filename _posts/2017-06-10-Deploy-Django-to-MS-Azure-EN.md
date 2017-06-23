@@ -56,57 +56,57 @@ Let's start deploy then.
 
 You'll see this screen if you logged in to [Azure Portal](https://portal.azure.com/).
 
-![Azure Portal Dashboard](https://www.dropbox.com/s/0qvl1n1jf37u4kg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.07.02.png?dl=1)
+![Azure Portal Dashboard](https://www.dropbox.com/s/z2vqjpse2ml3j2s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.39.54.png?dl=1)
 
 Let's make Virtual machine with clicking `VirtualComputer(가상 컴퓨터)` button.
 
-![](https://www.dropbox.com/s/ojzxlu318jvqbz3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.10.34.png?dl=1)
+![](https://www.dropbox.com/s/tuqcaflkm7af9b4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.41.09.png?dl=1)
 
 Now let's add Virtual machine with '+Add' button.
 
-![](https://www.dropbox.com/s/tdhwj54c7eumzbc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.11.19.png?dl=1)
+![](https://www.dropbox.com/s/d7mo7cjjc5iqv9x/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.41.22.png?dl=1)
 
 If you click `+ Add` button, you'll see another options which provides many OS. But  we're going to use `Ubuntu Server` today.
 
-![](https://www.dropbox.com/s/dggbbc2bp96xxpv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.12.02.png?dl=1)
+![](https://www.dropbox.com/s/aerzz0jdaiztl94/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.41.53.png?dl=1)
 
 If you clicked Ubuntu Server there'll be server lists like this: we'll use `Ubuntu Server 16.04 LTS`.
 
-![](https://www.dropbox.com/s/bw34iuto0fr7gbf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.13.01.png?dl=1)
+![](https://www.dropbox.com/s/kqfhdjcoqa17m0v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.42.10.png?dl=1)
 
 Then you'll see `Create` button. Click it!
 
-![](https://www.dropbox.com/s/enyg7lnzq9vu4ah/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.14.29.png?dl=1)
+![](https://www.dropbox.com/s/b16u4i2ga61o1u1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.42.24.png?dl=1)
 
 You'll see configure window when you click `Create` button. Fillout blanks like picture lower.
 
-![](https://www.dropbox.com/s/2qpw0xq9koftras/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.16.28.png?dl=1)
+![](https://www.dropbox.com/s/qju3ivdqaajcqss/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-23%2012.43.45.png?dl=1)
 
 > Username should be `django` (surelly this is not critical but you may encounter issues.
 
 > You may set your password on your own, but it shoud be longer/equal than 12. Please remember not to reset it later.
 
-> Server location should be Korea Centeral(대한민국 중부).
+> Select locaiton on Korea Centeral or SouthEast Asia(which available one).
 
 Now we have to choose server size. We'll setup just one django server so we'll choose `DS1_V2`, the left one.
 
 > Don't worry, you won't be charged :)
 
-![](https://www.dropbox.com/s/9l2m2m2pxcophva/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.19.53.png?dl=1)
+![](https://www.dropbox.com/s/iw3khosvly8tyxb/Screenshot%202017-06-23%2012.46.03.png?dl=1)
 
-Next step you have to setup storage settings. Just select `Manages Storage` to 'Yes'.
+Next step you have to setup storage settings. Just select `Use managed disks` to 'Yes'.
 
-And then click `Firewall` settings. After click on it, you'll see pre-configured setting `SSH (TCP/22)`. We're going to add `HTTP (TCP/80)`
+And then click `Network Security Group(Firewall)` settings. After click on it, you'll see pre-configured setting `SSH (TCP/22)`. We're going to add `HTTP (TCP/80)`
 
-![](https://www.dropbox.com/s/yb6wpuf0or5mswx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.22.01.png?dl=1)
+![](https://www.dropbox.com/s/jq1nsykoumc5jcn/Screenshot%202017-06-23%2012.47.06.png?dl=1)
 
-Click `+ Inbound Rule add` Button, and fillout blanks like this and click confirm button.
+Click `+ Inbound Rule add` Button, and fillout blanks like this and click OK button.
 
-![](https://www.dropbox.com/s/xvnsivtytfn4cav/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.24.23.png?dl=1)
+![](https://www.dropbox.com/s/dkjmbn0wsgtuy4z/Screenshot%202017-06-23%2012.47.31.png?dl=1)
 
-Now default settings are finished! Just click confirm button.
+Now default settings are finished! Just click OK button.
 
-![](https://www.dropbox.com/s/0ovj58iha5ok4pc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.24.54.png?dl=1)
+![](https://www.dropbox.com/s/fv4s0gp3sxm4w0z/Screenshot%202017-06-23%2012.47.57.png?dl=1)
 
 And one more time, click confirm button.
 
@@ -114,100 +114,94 @@ And one more time, click confirm button.
 
 And lastly, click confirm button more! I know you're tired with confirm button, but this is process of Azure :)
 
-![](https://www.dropbox.com/s/ez199b1djsguakz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.25.53.png?dl=1)
+![](https://www.dropbox.com/s/ockdz1t85fha55h/Screenshot%202017-06-23%2012.48.21.png?dl=1)
 
-Please wait until your server is successfully installed!
+If you see your azure dashboard again like this, your server deployment is finished :)
 
-![](https://www.dropbox.com/s/hufdkgxu3jps8d4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.28.15.png?dl=1)
+![](https://www.dropbox.com/s/oljlmfj3843i5rq/Screenshot%202017-06-23%2012.48.36.png?dl=1)
 
-> Server setup is finished when server's icon changes from  `Creating` to  `Running`.
+Please wait until your server is successfully installed! (This will take upto 5mins.)
 
+> Your browser will redirected to your server info page when your server is successfully installed.
 
 ## Get Azure Server Configurations
 
 You can access to your server info with clicking server icon-which tells `Running`.
 
-![](https://www.dropbox.com/s/78t18t15ow7ae2c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.30.25.png?dl=1)
+![](https://www.dropbox.com/s/danh3dgncd39bju/Screenshot%202017-06-23%2012.52.43.png?dl=1)
 
-You'll see 
+On this page you can see your server's 'Public IP Address'. `ip` is set of numbers which provides your computer access to internet. We can upload and deploy our django project through this ip.
 
-애저에서 가상컴퓨터가 생기면 `공용 IP 주소`라는걸 하나 갖게 된답니다. `ip`라는 것은 서버나 컴퓨터가 인터넷에 접속할 수 있게 해주는 일련의 번호인데요, 우리는 이 `ip`를 통해 우리 장고 프로젝트를 서버에 올리는 작업을 진행할 수 있어요.
+You can see this example server's ip, `13.67.60.234`. Surelly we can access to our server with this numbers but we can't remember easily with it.
 
-지금 화면에 보이는 가상컴퓨터의 ip는 `52.231.30.148`인데요, 이렇게 숫자로만 되어있으면 우리는 기억하기가 어려워요.
+So we're going to use `domain` like `djangogirls.com` to that `ip`.
 
-그래서 `djangogirls.com`와 같이 사람이 이해하고 외우기도 쉬운 `도메인`을 저 `ip`주소에 붙여줄거에요.
+First of all, copy(CTRL+C) your virtual machine's ip!
 
-자, 우선 여러분의 가상 컴퓨터의 ip를 복사(Ctrl+C / CMD+C)해두세요!
+## Get free domain and connect to Virtual Machine
 
+You may know about popular domains like `.com` or `.net`. But they are paid one(10 dollars per year) so we're going to use free domain.
 
+Let's go to [Dot.tk](http://dot.tk).
 
-## 무료 도메인 얻어 가상컴퓨터에 연결하기
+This [Dot.tk](http://dot.tk) provides `.tk` domains as free! I'll check `djangogirls-seoul-tutorial-en.tk` as example. You should think of your own domain name and click `Check Availability`!
 
+![](https://www.dropbox.com/s/8pvu8sp4ukvhms6/Screenshot%202017-06-23%2013.05.00.png?dl=1)
 
-`.com`, `.net`와 같이 유명한 도메인은 돈을 주고 사야한답니다.(1년에 만원정도 나가요) 하지만 우리는 오늘 무료 도메인을 연결해 볼 거에요.
-
-우선 [Dot.tk](http://dot.tk/)로 들어오세요.
-
-이 Dot.tk에서는 `.tk` 도메인을 무료로 제공하고 있어요. 우선 `djangogirls-seoul-tutorial`이라는 이름으로 찾아볼게요. 값을 입력하고 `Check Availability`를 눌러주세요!
-
-> 여러분은 여러분이 원하는 주소를 검색해보세요! (ex: myfirstdjango 등등)
-
-![](https://www.dropbox.com/s/4t4j65csac9jrgp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.36.35.png?dl=1)
-
-오, 다행히 주소가 남아있어요. 이제 `Get it now!`버튼을 눌러 장바구니에 담아볼게요.
+Oh, it's available! Just click 'get it now' button and add to cart.
 
 ![](https://www.dropbox.com/s/fs7by196twoebu3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.38.28.png?dl=1)
 
-장바구니에 담은 도메인을 `Checkout`버튼을 눌러주면 아래 화면으로 넘어올거에요. `Use DNS`버튼을 눌러주신 후에 IP address 칸에 아까 애저 가상컴퓨터의 ip를 입력해주신 후 `Continue`를 눌러주세요.
+You'll see this page when you clicked 'checkout' button. Just click 'Use DNS' button and input ip address of your virtual machine(azure) and click 'Continue'.
 
-![](https://www.dropbox.com/s/sn09uyhvpdeapi6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.39.27.png?dl=1)
+![](https://www.dropbox.com/s/9225uvw0rkcp4xz/Screenshot%202017-06-23%2013.06.02.png?dl=1)
 
-`Continue`를 누르면 로그인 화면이 나와요. 구글이나 페이스북의 소셜 로그인을 이용할 수 있어요!
+> If you forgot ip address of your virtual machine, go to [Azure portal](https://portal.azure.com) and check your machine's ip again!
 
-> 페이스북은 가끔 오류가 나기도 해요. 그럴때는 구글이나 MS Live계정으로 다시한번 시도해주세요.
+You'll see checkout page and you have to login. You can login with your social media account like Google or Facebook!
+
+> Sometimes there are some errors(404 or others..) then you can restart from "Get free domain and connect to Virtual Machine" on this guide.
 
 ![](https://www.dropbox.com/s/p8k5u8qcovi9d2y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.40.52.png?dl=1)
 
-로그인이 완료되면 아래와 같이 자신의 정보를 입력하는 부분이 나와요. 꼭 다 채울필요는 없어요!
+If you successfully logined, you'll see form to input your info, but you don't have to fill it all. Just click Agress Terms and conditions and Conitnue button, your order will be finished!
 
 ![](https://www.dropbox.com/s/35pg5ktos06hgjq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.42.39.png?dl=1)
 
-주문 거래 동의 체크상자를 클릭한 후 계속 버튼을 누르면 주문이 완료된답니다! 좋아요!
 
 ![](https://www.dropbox.com/s/whnk0lonj0qj0e4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-06-10%2000.45.21.png?dl=1)
 
+Great! You've just connect your own domain to your server!
 
-## Fabric3 설치하기
+## Install Fabric3
 
+Now your server is connected with `yourdomainname.tk` domain. But if you try to access to that address, you can see nothing at all. 
 
-이제 여러분의 서버는 `여러분이입력한이름.tk`라는 인터넷 주소로 연결되었어요.
+Because your server doesn't have any django code and ofcourse, even django!
 
-하지만 아직 여러분의 서버에는 아무것도 설치되어있지 않아요. 물론 장고도 설치되어있지 않아요.
+We'll upload and deploy our django project with just one command line through `Fabric3`.
 
-이제 `Fabric3`이라는 멋진 자동화 도구를 통해 명령어 한 줄로(마치 startapp처럼) 진짜 서버에 배포하는 멋진 작업을 해볼거에요!
-
-우선 여러분의 가상환경에 `fabric3`을 설치해줘야 해요. `fabric3`은 아래 명령어를 통해 설치할 수 있어요.
-
-> `fabric`이 아니라 `fabric3`입니다! 3을 빼먹지 마세요. 그냥 `fabric`은 파이썬2용이랍니다.
+Let's install `fabric3` on our computer. You can install `fabric3` with this command:
 
 ```sh
 pip install fabric3
 ```
 
-## `deploy.json` 수정하기
+> Remember: NOT `fabric` BUT `fabric3`! Don't forget 3. `fabric` is python2 project.
 
+## Downlaod `fabfile.py` and edit `deploy.json`
 
-이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/57f68d2cb2c466ab7bcf757a22cc47c6004aa98b.zip)를 클릭해 압축파일을 받아 풀어주세요.
+Download [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/57f68d2cb2c466ab7bcf757a22cc47c6004aa98b.zip) and unzip it.
 
-안에 `deploy.json`와 `fabfile.py`가 보일거에요. 이 두 파일을 여러분의 장고 폴더(`manage.py`파일이 있는 곳)안에 넣어주세요.
+You can see `deploy.json` and `fabfile.py` inside of it. Move 2 files into your django folder(where `manage.py` exists)
 
-`deploy.json`파일 안에는 우리 서버의 정보를 적어넣을 수 있어요. 
+Inside `deploy.json`, we can edit our server(virtual machine) info.
 
 ```json
 {
-  "REPO_URL":"깃헙Repo주소",
-  "PROJECT_NAME":"프로젝트폴더(settings.py가있는 폴더)의 이름",
-  "REMOTE_HOST":"여러분이 만든 도메인주소(ex: djangogirls-seoul-tutorial.tk )",
+  "REPO_URL":"Your Github Repository URL",
+  "PROJECT_NAME":"DjangoProject folder's name(where settings.py exists)",
+  "REMOTE_HOST":"Your domain(ex: djangogirls-seoul-tutorial-en.tk )",
   "REMOTE_USER":"django",
   "STATIC_ROOT":"static",
   "STATIC_URL":"static",
@@ -215,32 +209,32 @@ pip install fabric3
 }
 ```
 
-파일에 있는 `REPO_URL`, `PROJECT_NAME`, `REMOTE_HOST` 부분을 채워주세요. 나머지 값은 우리가 따라한 튜토리얼에서 이미 설정되어있어요.
+Change `REPO_URL`, `PROJECT_NAME`, `REMOTE_HOST`. Other values are already setup for djangogirls tutorial we followed.
 
-> 모든 값은 "큰 따옴표" 안에 들어가야 한다는 것을 주의하세요!
+> Every values must be in ""!
 
-## Fabric으로 서버에 올리기
+## Upload and deploy code thorugh Fabric3
 
-Fabric을 사용하기 위한 명령어는 `fab`이라는 명령어입니다. 이 `fab`뒤에 `new_server`, `deploy`, `createsuperuser`등을 덧붙여 실제로 원격 서버에 명령을 내리는거에요.
+We can use fabric through `fab` command. Like this: `fab new_server`, `fab deploy`, `fab create_superuser`. This commands will execute commands on remote server(azure virtual machine which we made)
 
-서버에 처음 올릴 때는 `fab new_server` 명령어를 이용하세요. 파이썬3 설치부터 Apache2설치와 `mod_wsgi`설치까지 완료해준답니다. 
+When you use fabric for new server, just type this command and execute: `fab new_server`. this will install python3, apache2, and mod_wsgi to run django.
 
 ```sh
 fab new_server
 ```
 
-만약 여러분이 장고 소스를 수정(커밋&푸시)후 서버에 올리고 싶으시다면 `fab deploy` 명령어를 이용하세요. 장고 앱을 새로 실행해주고 `manage.py migrate`, `manage.py collectstaticfiles`등의 명령을 서버에 실행해 준답니다.
+When you edit django code and committed & pushed to github, then use `fab deploy` command. This will fetch latest code on github and migrate db.
 
 ```sh
 fab deploy
 ```
 
-우리가 진행하는 튜토리얼에서는 슈퍼유저 만들기 항목이 있어요. 여러분의 컴퓨터에서는 `manage.py createsuperuser`를 통해 만들었지만 서버에 띄운 장고에 슈퍼유저를 만들어 주려면 `fab create_superuser`를 이용해주세요.
+When you want to create superuser, just execute `fab create_superuser` and there'll be creating superuser prompt.
 
 ```sh
 fab create_superuer
 ```
 
-## 짜잔!
+## Whoa!
 
-여러분은 이제 Azure에 올라간 **진짜** 웹 서비스 하나를 만들었어요! 이제 여러분은 장고로 웹 서비스를 만드는 것의 처음부터 끝까지를 모두 알게되었어요! 축하합니다 :D
+You've just upload and deploy **REAL** working web service on Azure! Congratulation!
