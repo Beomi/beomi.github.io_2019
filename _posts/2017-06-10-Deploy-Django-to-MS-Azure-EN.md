@@ -9,6 +9,8 @@ published: true
 image: /img/azure.jpg
 ---
 
+> 한국어 버전은 [Django MS Azure에 Fabric으로 배포하기](/2017/06/09/Deploy-Django-to-MS-Azure/)에서 보실 수 있습니다.
+
 > This guide covers about deploying [DjangoGirls Tutorial](https://tutorial.djangogirls.org/en/) to MS Azure Virtual machine(Ubuntu 16.04 LTS) with Fabric3.
 
 You're probably participant in [DjangoGirls Tutorial Workshop](https://tutorial.djangogirls.org/ko/) and you'll be now on 'deploy' step on it. 
