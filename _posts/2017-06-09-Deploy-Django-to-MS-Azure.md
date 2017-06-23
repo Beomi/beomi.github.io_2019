@@ -15,7 +15,7 @@ image: /img/azure.jpg
 
 오늘 우리가 만들어본(만들고 있는) Django 프로젝트를 MS가 서비스하는 [Azure(애저)](http://azure.com)에 배포해보는 시간을 가져볼거에요.
 
-만약 여러분이 `AzurePass`를 아직 계정에 등록하지 않았다면, [Azure 가입하고 AzurePass 등록하기](/2017/06/09/Activate-MS-AzurePass/)를 먼저 진행해 주세요.
+만약 여러분이 `AzurePass`를 아직 계정에 등록하지 않았다면, [Azure 가입하고 AzurePass 등록하기](/2017/06/21/Activate-MS-AzurePass/)를 먼저 진행해 주세요.
 
 ## (윈도우의 경우) `cmder` 설치하기
 

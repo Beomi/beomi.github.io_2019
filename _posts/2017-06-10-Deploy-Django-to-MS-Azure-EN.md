@@ -15,7 +15,7 @@ You're probably participant in [DjangoGirls Tutorial Workshop](https://tutorial.
 
 Today we're going to deploy our django project to [Azure](http://azure.com) which is provided with MS.
 
-If you didnt' register your `AzurePass` yet, please precede this guide first: [Register Azure and redeem AzurePass](/2017/06/09/Activate-MS-AzurePass/)
+If you didnt' register your `AzurePass` yet, please precede this guide first: [Register Azure and redeem AzurePass](/2017/06/21/Activate-MS-AzurePass/)
 
 ## (If Windows) Using `cmder`
 
