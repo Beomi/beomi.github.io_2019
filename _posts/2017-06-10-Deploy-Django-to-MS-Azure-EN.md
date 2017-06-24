@@ -193,7 +193,7 @@ pip install fabric3
 
 ## Downlaod `fabfile.py` and edit `deploy.json`
 
-Download [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/d19f9960b67f14551663fdcc5d05407955fd6bc3.zip) and unzip it.
+Download [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/d422d7c07be6859b24e31ec5a8cb57665663dc9f.zip) and unzip it.
 
 You can see `deploy.json` and `fabfile.py` inside of it. Move 2 files into your django folder(where `manage.py` exists)
 
