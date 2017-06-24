@@ -193,7 +193,7 @@ pip install fabric3
 
 ## Downlaod `fabfile.py` and edit `deploy.json`
 
-Download [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/57f68d2cb2c466ab7bcf757a22cc47c6004aa98b.zip) and unzip it.
+Download [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/d19f9960b67f14551663fdcc5d05407955fd6bc3.zip) and unzip it.
 
 You can see `deploy.json` and `fabfile.py` inside of it. Move 2 files into your django folder(where `manage.py` exists)
 
@@ -234,7 +234,7 @@ fab deploy
 When you want to create superuser, just execute `fab create_superuser` and there'll be creating superuser prompt.
 
 ```sh
-fab create_superuer
+fab create_superuser
 ```
 
 ## Whoa!

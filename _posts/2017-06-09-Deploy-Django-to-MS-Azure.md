@@ -88,7 +88,7 @@ image: /img/azure.jpg
 
 > 암호는 각자 사용하는 암호를 입력하시면 되는데요, 12자리 이상을 요구하기 때문에 약간 어려우실 수 있어요!
 
-> 위치는 대한민국 중부/남부로 해주세요.
+> 위치는 대한민국 중부/남부로 해주세요. (안되는 경우 아시아 남동부로 해주세요!)
 
 이제 서버의 크기를 골라야 하는데요, 오늘 우리는 장고 서버만을 띄울 것이기 때문에 가장 왼쪽에 있는 `DS1_V2`를 이용할거에요.
 
@@ -199,7 +199,7 @@ pip install fabric3
 ## `deploy.json` 수정하기
 
 
-이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/57f68d2cb2c466ab7bcf757a22cc47c6004aa98b.zip)를 클릭해 압축파일을 받아 풀어주세요.
+이제 [Fabfile for Django](https://gist.github.com/Beomi/0cc830bd5cda029c277cba648386b28c/archive/d19f9960b67f14551663fdcc5d05407955fd6bc3.zip)를 클릭해 압축파일을 받아 풀어주세요.
 
 안에 `deploy.json`와 `fabfile.py`가 보일거에요. 이 두 파일을 여러분의 장고 폴더(`manage.py`파일이 있는 곳)안에 넣어주세요.
 
@@ -208,7 +208,7 @@ pip install fabric3
 ```json
 {
   "REPO_URL":"깃헙Repo주소",
-  "PROJECT_NAME":"프로젝트폴더(settings.py가있는 폴더)의 이름",
+  "PROJECT_NAME":"프로젝트폴더(settings.py가있는 폴더)의 이름(ex: mysite)",
   "REMOTE_HOST":"여러분이 만든 도메인주소(ex: djangogirls-seoul-tutorial.tk )",
   "REMOTE_USER":"django",
   "STATIC_ROOT":"static",
@@ -240,7 +240,7 @@ fab deploy
 우리가 진행하는 튜토리얼에서는 슈퍼유저 만들기 항목이 있어요. 여러분의 컴퓨터에서는 `manage.py createsuperuser`를 통해 만들었지만 서버에 띄운 장고에 슈퍼유저를 만들어 주려면 `fab create_superuser`를 이용해주세요.
 
 ```sh
-fab create_superuer
+fab create_superuser
 ```
 
 ## 짜잔!
