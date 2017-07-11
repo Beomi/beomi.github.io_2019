@@ -34,15 +34,25 @@ Locale은 단순히 언어 번역뿐만 아니라 시간과 날짜등을 표시�
 locale
 ```
 
-그리고 한글 패키지를 설치해 줍시다.(이미 깔려있을수도 있습니다.)
+우분투에서 Locale을 변경하는 방법은 아래와 같습니다. 먼저 한글 패키지를 설치해 주세요.(이미 깔려있을수도 있습니다.)
 
 ```bash
 sudo apt-get install language-pack-ko
 ```
 
-우분투에서 Locale을 변경하는 방법에는 여러가지가 있습니다. 
+그 다음으로는 `locale-gen`을 통해 Locale을 설치해 줍시다.
 
-그 중 첫 번째 방법은 `update-locale`을 사용하는 방법입니다.
+```bash
+sudo locale-gen ko_KR.UTF-8
+```
+
+다음으로 `dpkg-reconfigure`을 이용하는 방법입니다. 아래와 같이 명령어를 쳐 주시고 나오는 화면에서 `ko_KR.UTF-8`을 스페이스로 선택(*모양이 뜨면 선택된 것입니다)후 엔터를 눌러 설정을 마무리 해 주세요.
+
+```bash
+sudo dpkg-reconfigure locales
+```
+
+마지막으로 `update-locale`으로 시스템 LANG설정을 업데이트 해 줍시다.
 
 ```bash
 sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
@@ -50,7 +60,7 @@ sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 
 이 방법을 사용하면 시스템에서 자동으로 LANG에 지정된 한국어 UTF-8로 Locale세팅을 마무리해 줍니다.
 
-두번째 방법으로는 직접 시스템 파일을 수정해주는 방법이 있습니다.
+다른 방법으로는 직접 시스템 파일을 수정해주는 방법이 있습니다.
 
 `/etc/default/locale` 파일을 수정하는 것인데요, `nano`나 `vim`등으로 아래와 같이 내용을 수정해주시면 됩니다.
 
@@ -59,11 +69,6 @@ LANG=ko_KR.UTF-8
 LC_MESSAGES=POSIX
 ```
 
-세번째 방법으로는 `dpkg-reconfigure`을 이용하는 방법입니다. 아래와 같이 명령어를 쳐 주시고 나오는 화면에서 `ko_KR.UTF-8`을 스페이스로 선택(*모양이 뜨면 선택된 것입니다)후 엔터를 눌러 설정을 마무리 해 주세요.
-
-```bash
-dpkg-reconfigure locales
-```
 
 ## 끝났어요!
 
