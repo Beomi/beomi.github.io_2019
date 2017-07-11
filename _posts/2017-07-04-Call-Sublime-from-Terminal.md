@@ -85,6 +85,6 @@ subl .
 > 만약 위 방식으로 되지 않으신다면 `.zshrc`이나 `.bashrc`등의 파일에 아래와 같이 입력해 주세요.
 
 ```bash
-open -a /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+alias subl="open -a /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
 
