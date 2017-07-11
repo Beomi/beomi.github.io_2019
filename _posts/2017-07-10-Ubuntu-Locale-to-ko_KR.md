@@ -34,6 +34,12 @@ Locale은 단순히 언어 번역뿐만 아니라 시간과 날짜등을 표시�
 locale
 ```
 
+그리고 한글 패키지를 설치해 줍시다.(이미 깔려있을수도 있습니다.)
+
+```bash
+sudo apt-get install language-pack-ko
+```
+
 우분투에서 Locale을 변경하는 방법에는 여러가지가 있습니다. 
 
 그 중 첫 번째 방법은 `update-locale`을 사용하는 방법입니다.
