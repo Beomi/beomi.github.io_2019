@@ -270,4 +270,4 @@ Selenium으로 많은 사이트에서 여러 정보를 가져와 볼 수 있게 
 
 다음 시간에는 Django의 ORM을 이용해 sqlite3 DB에 데이터를 저장해보는 방법에 대해 알아보겠습니다.
 
-다음 가이드: [나만의 웹 크롤러 만들기(4): Django로 크롤링한 데이터 저장하기](/2017/02/28/HowToMakeWebCrawler-Save-with-Django/)
+다음 가이드: [나만의 웹 크롤러 만들기(4): Django로 크롤링한 데이터 저장하기](/2017/03/01/HowToMakeWebCrawler-Save-with-Django/)
