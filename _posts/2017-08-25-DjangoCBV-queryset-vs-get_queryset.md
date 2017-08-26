@@ -68,10 +68,10 @@ class OrderMatchingList(ListView):
 
 하지만 일단 template을 재 렌더링 하지 않는게 아닐까... 하는 생각에 아래와 같은 부분을 추가해 보았다.
 
-```
-{% for object in object_list %}
+```text
+{% raw %}{% for object in object_list %}
 {{ object }} 이건 object다 
-{% endfor %}
+{% endfor %}{% endraw %}
 ```
 
 > 역시 .. "응 아니야~ 장고 일 잘하고 있음"
