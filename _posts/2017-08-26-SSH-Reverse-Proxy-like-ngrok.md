@@ -4,7 +4,7 @@ date: 2017-08-26
 layout: post
 categories:
 - tips
-published: false
+published: true
 image: /img/2017-08-26-SSH-Reverse-Proxy-like-ngrok.jpg
 ---
 
@@ -101,4 +101,77 @@ ssh beomi@47.156.24.36 -N -R 80:localhost:8000
 
 만약 서버주소를 외우는게 불편하지 않으시고 & HTTPS가 필요하지 않으시다면, 아래부분은 진행하지 않아도 괜찮습니다.
 
-이 챕터에서는 [CloudFlare](https://www.cloudflare.com/)
+이 챕터에서는 [CloudFlare](https://www.cloudflare.com/)에 도메인을 연결할 때 제공받을 수 있는 SSL서비스를 통해 HTTP로 서빙되는 우리 서비스를 '안전한' HTTPS로 서빙하도록 도와줍니다.
+
+![](/img/2017-08-26-SSH-Reverse-Proxy-like-ngrok-cloudflare-flexssl.png)
+
+CloudFlare의 Flex SSL을 사용하면 우리 서버가 HTTPS가 아닌 HTTP로 서빙되더라도 클라우드 플레어에서 HTTPS로 만들어줍니다.
+
+> 사실 이 기능은 보안을 위해서 있는 서비스라고 보기는 어렵습니다. 물론 브라우저/클라이언트와 CloudFlare 간 통신에서는 좀 더 안전한 통신이 가능하지만, 도메인별로 다른 SSL 인증서를 사용하지 않고 여러 도메인을 그룹핑한 인증서를 사용하고 있는 문제가 있고, 결국 CloudFlare와 우리 서버간에는 HTTP로 통신이 이루어지기 때문에 CloudFlare와 우리 서버 사이 Node에서 이루어지는 공격은 막기 어렵습니다. 따라서 이런 경우는 Geolocation와 같은 HTTPS 위에서만 사용할 수 있는 기능등을 테스트 서버를 통해 구동할 경우 유용합니다.
+
+우선 CloudFlare에 가입하고 도메인을 CloudFlare에 등록해주세요.
+
+도메인을 등록하고 `DNS` 탭에 들어가서 다음과 같이 서브 도메인(혹은 루트 도메인)을 서버 ip에 연결한 후 우측 하단의 구름모양을 켜 주세요. 이 구름모양을 켜 주면 이 도메인으로 온 요청은 CloudFlare의 CDN망을 통해 전달됩니다. (CSS/JS캐싱도 해줍니다!)
+
+![](/img/dropbox/Screenshot%202017-08-27%2014.08.01.png?dl=1)
+
+도메인을 등록했으면 아래와 같이 `Crypto`탭에서 SSL을 `Flexible`로 바꿔주세요.
+
+- off: 말 그대로 HTTPS를 끕니다.
+- **flexible**: 우리 서버가 HTTP라도 클라우드플레어로 온 HTTPS요청을 우리서버에 HTTP로 바꿔서 보내줍니다.
+- full: 우리 서버도 HTTPS가 지원되어야 하지만, 꼭 CA에게 인증된 '안전한' 인증서일 필요는 없습니다. 자체서명 인증서라도 괜찮아요.
+- full (strict): 우리 서버가 CA에게 인증된 '안전한' 인증서를 통해 HTTPS로 서빙을 해야만 합니다. 자체서명 인증서는 쓸 수 없어요.
+
+이 설정은 off에서 다른 옵션으로 바꿔주면 약간의 시간이 걸리지만 안전한 SSL 인증서를 CloudFlare에서 만들어줍니다.
+
+![](/img/dropbox/Screenshot%202017-08-27%2013.58.36.png?dl=1)
+
+## `proxy` 명령어에 연결하기
+
+보통 `runserver`와 같은 개발 서버를 띄우는 명령은 자주 사용하지만 우리가 사용하는 긴 명령어는 한번에 치기도 어렵고 옵션 기억하기도 귀찮은 경우가 많습니다. 쉘에서 지원하는 `alias`를 통해 아래와 같이 만들어줍시다.
+
+```bash
+# .zshrc / .bashrc / .bash_profile 와 같이 쉘이 켜질때 실행되는 부분에 넣어주세요
+
+alias proxy="ssh beomi@47.156.24.36 -N -R 80:localhost:8000"
+# alias proxy="ssh 원격서버유저이름@서버ip -N -R 서버포트:localhost:로컬포트"
+``` 
+
+이와 같이 입력하고 저장한 후 터미널을 다시 켜주면 이제 `proxy`라는 명령어를 치면 로컬 개발 서버가 HTTPS로 세상에 오픈되는 것을 볼 수 있습니다 :)
+
+## 마치며
+
+ngrok는 아주 간편하고 좋은 서비스입니다. 하지만 모바일과 PC 웹을 동시에 테스트 하는 경우 connection개수를 금방 넘어버리고 ngrok를 새로 실행할 때마다 도메인 이름이 바뀌는점이 불편해 위와 같이 Proxy서버를 만들어 개발하는데 사용합니다.
+
+다만 CloudFlare의 CSS/JS캐싱 전략에 의해 변경된 파일이 가져와지지 않는 점은 있는데, 이때는 Apache등의 웹서버에서 제공하는 virtualhost기능과 let's encrypt의 무료 SSL 서비스를 조합해 사용하면 CloudFlare없이도 동일하게 환경을 만들어 줄 수 있습니다. 하지만 웹서버 자체에 대한 이해가 필요하며 SSL을 붙이는 일도 상당히 귀찮기때문에 단순하게 CloudFlare에서 도에인 모드를 아래와 같이 'Development Mode'로 설정해 주면 캐싱 하는 것을 방지할 수 있습니다.
+
+![](/img/dropbox/Screenshot%202017-08-27%2014.42.36.png?dl=1)
+
+### 여담
+
+django의 경우에는 `settings.py`파일의 `ALLOWED_HOSTS`에 우리가 지정한 도메인 (ex: shop.testi.kr)을 추가해줘야 합니다.
+
+```python
+# settings.py
+
+ALLOWED_HOSTS = ['*'] # 모든 Host에서의 접근을 허용
+# ALLOWED_HOSTS = ['shop.testi.kr'] # shop.testi.kr 도메인 host를 통한 접근을 허용
+```
+
+webpack의 webpack-dev-server에서 위와같이 사용하려면 `webpack.config.js`파일을 아래와 같이 만들어주면 됩니다.
+
+```javascript
+// webpack.config.js
+const path = require('path');
+
+module.exports = {
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js'
+    },
+    devServer: {
+        host: "0.0.0.0", // 모든 host에서의 접근을 허용
+        disableHostCheck: true // Host Check를 끕니다
+    }
+```
