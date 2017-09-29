@@ -410,10 +410,10 @@ driver.quit()
 
 사실 서버 입장에서 위와 같은 요청을 보내는 경우 처리를 할 수 있는 방법은 JS로 헤드리스 유무를 확인하는 방법이 전부입니다. 즉, 서버 입장에서도 '식별'은 가능하지만 이로 인해 유의미한 차단은 하기 어렵습니다. 현재로서는 UserAgent 값만 변경해주어도 대부분의 사이트에서는 자연스럽게 크롤링을 진행할 수 있으리라 생각합니다.
 
+## Reference
 
-
-
-
+- [Detecting Chrome Headless](http://antoinevastel.github.io/bot%20detection/2017/08/05/detect-chrome-headless.html)
+- [MAKING CHROME HEADLESS UNDETECTABLE](https://intoli.com/blog/making-chrome-headless-undetectable/)
 
 
 
