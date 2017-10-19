@@ -45,14 +45,14 @@ printHelloWorld(hello)
 ```javascript
 // Profile.js
 export class Profile {
-	constructor(name, email) {
-		this.name = name
-		this.email = email
+    constructor(name, email) {
+        this.name = name
+        this.email = email
 	}
 
-	hello() {
-		return `Hello, ${this.name}(${this.email})`
-	}
+    hello() {
+        return `Hello, ${this.name}(${this.email})`
+    }
 }
 ```
 
@@ -222,11 +222,11 @@ module.exports = {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NPM Webpack</title>
+    <title>NPM Webpack</title>
 </head>
 <body>
-Webpack용 HTML
-<script type="text/javascript" src="/dist/bundle.js"></script>
+    Webpack용 HTML
+    <script type="text/javascript" src="/dist/bundle.js"></script>
 </body>
 </html>
 ```
