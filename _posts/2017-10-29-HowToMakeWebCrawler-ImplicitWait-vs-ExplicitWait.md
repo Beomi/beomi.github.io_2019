@@ -1,16 +1,14 @@
 ---
 title: "Selenium Implicitly wait vs Explicitly wait"
-date: 2017-10-22
+date: 2017-10-29
 layout: post
 categories:
 - HowToMakeWebCrawler
-published: false
+published: true
 image: /img/Selenium_Implicitly_wait_vs_Explicitly_wait.png
 ---
 
 ## 들어가며
-
-> 결론만 보고싶으신 분은 [TL;DR](#tldr)을 참고하세요.
 
 Selenium WebDriver를 이용해 실제 브라우저를 동작시켜 크롤링을 진행할 때 가끔가다보면 `NoSuchElementException`라는 에러가 나는 경우를 볼 수 있습니다.
 
@@ -63,9 +61,40 @@ driver.quit()
 
 자, 여러분이 인터넷 웹 사이트를 크롤링하는데 ajax를 통해 HTML 구조가 변하는 상황이고, 각 요소가 들어오는 시간은 몇 초가 될지는 예상할 수 없다고 가정해 봅시다.
 
+위에서 설정해 준 대로 implicitly_wait을 이용했다면 어떤 특정한 상황(인터넷이 유독 느렸음)으로 인해 느려진 경우 우리가 평소에 기대했던 3초(n초)를 넘어간 경우 Exception이 발생할 것이고 이로 인해 반복적인 크롤링 작업을 진행할 때 문제가 생길 수 있습니다.
 
+따라서 우리는 명확하게 특정 Element가 나타날 때 까지 기다려주는 방식인 Explicitly Wait을 사용할 수 있습니다.
 
-## <a name='tldr'></a>TL;DR
+아래 코드는 위에서 Implicitly wait을 통해 사용했던 암묵적 대기(`get_element_by_id` 등)을 사용한 대신 명시적으로 `div.intro_main > h3`라는 CSS Selector로 가져오는 부분입니다.
 
-Implicitly wait은 되도록 쓰지 마시고 Explicitly wait을 아래와 같은 코드를 통해 사용하세요.
+```python
+from selenium import webdriver
+# 아래 코드들을 import 해 줍시다.
+from selenium.webdriver.common.by import By
+# WebDriverWait는 Selenium 2.4.0 이후 부터 사용 가능합니다.
+from selenium.webdriver.support.ui import WebDriverWait
+# expected_conditions는 Selenium 2.26.0 이후 부터 사용 가능합니다.
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Chrome('chromedriver')
+
+driver.get('https://www.kakaobank.com/')
+
+try:
+    # WebDriverWait와 .until 옵션을 통해 우리가 찾고자 하는 HTML 요소를
+    # 기다려 줄 수 있습니다.
+    title = WebDriverWait(driver, 10) \
+        .until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.intro_main > h3")))
+    print(title.text)
+finally:
+    driver.quit()
+```
+
+위 코드를 사용하면 우리가 찾으려는 대상을 driver가 명시적으로 '10초'를 기다리도록 만들어 줄 수 있습니다.
+
+## 마치며
+
+만약 여러분이 ajax를 사용하지 않는 웹 사이트에서 단순하게 DOM구조만 변경되는 상황이라면 사실 Explicitly wait을 사용하지 않아도 괜찮을 가능성이 높습니다. (DOM API처리속도는 굉장히 빠릅니다.)
+
+하지만 최신 웹 사이트들은 대부분 ajax요청을 통해 웹 구조를 바꾸는 SPA(Single Page App)이 많기 때문에 크롤링을 진행할 때 Explicitly wait을 이용하는 것이 좋습니다.
 
