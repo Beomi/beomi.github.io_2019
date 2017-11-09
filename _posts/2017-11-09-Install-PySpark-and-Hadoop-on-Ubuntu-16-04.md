@@ -1,12 +1,12 @@
 ---
-title: "Ubuntu 16.04에 PySpark와 Hadoop 설치하기"
+title: "PySpark & Hadoop: 1) Ubuntu 16.04에 설치하기"
 date: 2017-11-09
 layout: post
 categories:
 - Python
 - Ubuntu
-published: false
-image: /img/
+published: true
+image: /img/PySpark_n_Hadoop_on_Ubuntu_16.jpg
 ---
 
 ## 들어가며
@@ -58,11 +58,11 @@ sudo apt-get install openjdk-8-jre -y
 
 Hadoop은 Apache의 홈페이지에서 [최신 릴리즈 링크](http://hadoop.apache.org/releases.html)에서 바이너리 파일의 링크를 가져옵시다.
 
-![](https://www.dropbox.com/s/nxeh0g5k07vswp6/Screenshot%202017-11-09%2015.23.26.png?dl=1)
+![](/img/dropbox/Screenshot%202017-11-09%2015.23.26.png)
 
 원하는 Hadoop 버전의 `Binary` 링크를 클릭해 바이너리를 받을 수 있는 페이지로 들어갑시다. 글쓰는 시점에는 2.8.2가 최신 버전입니다. 링크를 타고 들어가면 아래와 같이 HTTP로 파일을 받을 수 있는 링크가 나옵니다.
 
-![](https://www.dropbox.com/s/y7oxjk4gw5sbnnc/Screenshot%202017-11-09%2015.25.04.png?dl=1)
+![](/img/dropbox/Screenshot%202017-11-09%2015.25.04.png)
 
 글을 보는 시점에는 링크 주소는 다를 수 있지만, HTTP 링크 중 하나를 복사하고 진행하면 됩니다. 이 글에서는 네이버 서버의 미러를 이용합니다.
 
@@ -107,4 +107,8 @@ export YARN_CONF_DIR=\$HADOOP_HOME/etc/hadoop
 /usr/local/hadoop/bin/hadoop
 ```
 
-![](https://www.dropbox.com/s/mhnp0otl72jp86z/Screenshot%202017-11-09%2015.49.19.png?dl=1)
+![](/img/dropbox/Screenshot%202017-11-09%2015.49.19.png)
+
+## 끝이지만 끝이 아닌..
+
+사실 PySpark와 Hadoop만을 사용하는 것은 큰 의미가 있는 상황은 아닙니다. AWS EMR와 같은 클러스터를 연결해 막대한 컴퓨팅 파워가 있는 서버에서 돌리는 목적이 Spark를 쓰는 이유입니다. 다음 글에서는 AWS EMR을 구동하고 우리가 방금 설정한 Ubuntu 서버에서 작업을 EMR로 보내는 내용을 다뤄볼 예정입니다.
