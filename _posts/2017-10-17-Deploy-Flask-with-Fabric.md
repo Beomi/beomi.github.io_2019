@@ -217,8 +217,10 @@ def _make_virtualhost():
     WSGIDaemonProcess {project_name} python-home=/home/{username}/.virtualenvs/{project_name} python-path=/home/{username}/{project_name}
     WSGIProcessGroup {project_name}
     WSGIScriptAlias / /home/{username}/{project_name}/wsgi.py
+    {% raw %}
     ErrorLog ${{APACHE_LOG_DIR}}/error.log
     CustomLog ${{APACHE_LOG_DIR}}/access.log combined
+    {% endraw %}
     </VirtualHost>'""".format(
         username=REMOTE_USER,
         project_name=PROJECT_NAME,
