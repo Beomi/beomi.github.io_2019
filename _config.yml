@@ -13,8 +13,7 @@ default_img: /img/profile_beomi.jpg
 # Profile settings
 name: Junbum Lee
 profile_img: "/img/profile_beomi.jpg"
-profile: "Python을 사랑하는, Django로 이것저것 만드는걸 좋아하는 초등교육 전공 대학생입니다.</br>
-DjangoGirls Seoul에서 활동하고 있습니다."
+profile: "Python으로 백엔드를, JS로 프론트엔드를 다루고 있습니다.<br>패스트캠퍼스에서 실전 웹 크롤링 CAMP를 진행하고 있습니다.<br>공적인 연락은 아래 이메일 주소를 통해주세요!"
 social:
   github: "https://github.com/beomi"
   facebook: "https://facebook.com/Junbum.L"
