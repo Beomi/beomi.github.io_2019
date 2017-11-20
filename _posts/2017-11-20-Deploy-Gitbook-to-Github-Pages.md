@@ -44,13 +44,13 @@ gitbook init my_gitbook
 
 위 명령어를 입력하면 현재 위치 아래 `my_gitbook`이라는 폴더가 생기고, 그 안에 `README.md`와 `SUMMARY.md`가 생긴다.
 
-![](https://www.dropbox.com/s/r6vvr0uovrshf7m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-11-20%2021.05.27.png?dl=1)
+![](/img/dropbox/ss2017-11-20%2021.05.27.png)
 
 ## Git Init
 
 깃북을 배포하려면 깃헙에 레포지토리를 만들고 파일을 올려야 하기 때문에 우선 `git init`으로 현재 폴더를 `git`이 관리하도록 만들어준다.
 
-![](https://www.dropbox.com/s/uslcq36yn5vk0io/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-11-20%2021.06.31.png?dl=1)
+![](/img/dropbox/ss2017-11-20%2021.06.31.png)
 
 ## `gh-pages` 브랜치 만들기
 
