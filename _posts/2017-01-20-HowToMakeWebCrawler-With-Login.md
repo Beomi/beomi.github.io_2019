@@ -9,6 +9,8 @@ published: true
 image: /img/2017-01-20-HowToMakeWebCrawler-With-Login/httpcookie.jpg
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 > 이전게시글: [나만의 웹 크롤러 만들기 with Requests/BeautifulSoup](/2017/01/20/HowToMakeWebCrawler/)
 
 > @2017.07.12 Update: 뉴클리앙으로 업데이트 됨에 따라 코드와 스크린샷이 업데이트 되었습니다.

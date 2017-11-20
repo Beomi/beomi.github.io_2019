@@ -9,6 +9,8 @@ published: true
 image: /img/2017-02-27-HowToMakeWebCrawler-Save-with-Django/python+django.jpg
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 > (@2017.03.18) 본 블로그 테마가 업데이트되면서 구 블로그의 URL은 https://beomi.github.io/beomi.github.io_old/로 변경되었습니다. 예제 코드에서는 변경을 완료하였지만 캡쳐 화면은 변경하지 않았으니 유의 바랍니다.
 
 이전게시글: [나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 만들기](/2017/02/27/HowToMakeWebCrawler-With-Selenium/)

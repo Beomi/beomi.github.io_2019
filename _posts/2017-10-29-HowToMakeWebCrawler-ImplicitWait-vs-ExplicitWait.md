@@ -8,6 +8,8 @@ published: true
 image: /img/Selenium_Implicitly_wait_vs_Explicitly_wait.png
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 ## 들어가며
 
 Selenium WebDriver를 이용해 실제 브라우저를 동작시켜 크롤링을 진행할 때 가끔가다보면 `NoSuchElementException`라는 에러가 나는 경우를 볼 수 있습니다.

@@ -9,6 +9,8 @@ published: true
 image: /img/crawling_with_multiprocessing.png
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 > 이전 가이드: [나만의 웹 크롤러 만들기(5): 웹페이지 업데이트를 알려주는 Telegram 봇](/2017/04/20/HowToMakeWebCrawler-Notice-with-Telegram/)
 
 ## 들어가기전..

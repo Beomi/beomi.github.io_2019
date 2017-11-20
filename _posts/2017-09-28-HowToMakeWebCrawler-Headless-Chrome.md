@@ -9,6 +9,8 @@ published: true
 image: /img/Crawling-with-HeadlessChrome.png
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 > 이번 가이드는 가이드 3편([Selenium으로 무적 크롤러 만들기](/2017/02/27/HowToMakeWebCrawler-With-Selenium/))의 확장편입니다. 아직 `selenium`을 이용해보지 않은 분이라면 먼저 저 가이드를 보고 오시는걸 추천합니다.
 
 ## HeadLess Chrome? 머리없는 크롬?

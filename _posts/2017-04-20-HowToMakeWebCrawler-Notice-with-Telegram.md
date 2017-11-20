@@ -9,6 +9,8 @@ published: true
 image: /img/telegram.png
 ---
 
+> 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!
+
 > 이전게시글: [나만의 웹 크롤러 만들기(4): Django로 크롤링한 데이터 저장하기](/2017/03/01/HowToMakeWebCrawler-Save-with-Django/)
 
 > 이번 가이드에서는 작업하는 컴퓨터가 아닌 원격 우분투16.04 서버(vps)에 올리는 부분까지 다룹니다. 테스트는 `crontab -e` 명령어를 사용할 수 있는 환경에서 가능하며, VISA/Master카드등 해외결제가 가능한 카드가 있다면 서비스 가입 후 실제로 배포도 가능합니다. 이 가이드에서는 Vultr VPS를 이용합니다.
