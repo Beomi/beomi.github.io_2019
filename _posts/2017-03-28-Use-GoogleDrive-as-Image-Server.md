@@ -45,19 +45,19 @@ gdrive list
 
 > 보안을 위해 키 일부를 지웠습니다. 원래는 회색 빈칸이 없습니다 :)
 
-![Console: GoogleDrive auth link](https://www.dropbox.com/s/60qcsi8agd3zqjl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-03-27%2016.02.26.png?dl=1)
+![Console: GoogleDrive auth link](/img/dropbox/2017-03-27%2016.02.26.png
 
 링크를 따라가시면 구글 로그인을 요구합니다. 로그인을 하시면 아래와 같은 권한 요구 창이 뜨는데요, '허용'을 눌러주시면 됩니다.
 
-![](https://www.dropbox.com/s/miin81iiovnj4cs/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-03-27%2016.03.21.png?dl=1)
+![](/img/dropbox/2017-03-27%2016.03.21.png
 
 허용을 누르면 아래와 같은 코드가 나옵니다. 이 코드를 아까 터미널 창에 복사-붙여넣기를 해주세요.
 
-![](https://www.dropbox.com/s/5n8nmdgvgoj7gim/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-03-27%2016.04.52.png?dl=1)
+![](/img/dropbox/2017-03-27%2016.04.52.png
 
 만약 코드가 정상적이었다면 아래와 같이 최상위 디렉토리의 폴더/파일 리스트가 나타납니다.
 
-![](https://www.dropbox.com/s/jbjehz3cc23ns5c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-03-27%2016.08.40.png?dl=1)
+![](/img/dropbox/2017-03-27%2016.08.40.png
 
 ## capture.sh파일 만들기
 

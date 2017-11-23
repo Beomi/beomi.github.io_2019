@@ -18,7 +18,7 @@ image: /img/React/react_icon.png
 
 React에서 공식적인 이용 방법 중 하나인 CDN을 이용할 경우 (아래 사진처럼) 실제 첫 튜토리얼을 할 경우 JavaScript에서 JSX를 공식적으로 지원하지 않기 때문에 JS문법 에러가 난다.
 
-![](https://www.dropbox.com/s/kmvjdsu8lsbprgq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-03-21%2000.17.14.png?dl=1)
+![](/img/dropbox/2017-03-21%2000.17.14.png
 
 > 아래 코드는 작동하지 않는다.
 

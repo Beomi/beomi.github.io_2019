@@ -49,7 +49,7 @@ $ pip -V
 #Python3 pip의 경우에는 pip3 -V
 ```
 
-![](https://www.dropbox.com/s/ouazxdbx2ql7cxa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-27%2017.56.54.png?dl=1)
+![](/img/dropbox/2016-12-27%2017.56.54.png
 
 만약 pip나 pip3이라는 명령어가 먹히지 않는다면 아래의 명령어로 Python의 모듈로서 pip를 호출할 수 있습니다.
 
@@ -61,7 +61,7 @@ $ python -m pip -V
 $ python3 -m pip -V
 ```
 
-![](https://www.dropbox.com/s/1iq7nss1tgenriu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-27%2017.57.57.png?dl=1)
+![](/img/dropbox/2016-12-27%2017.57.57.png
 
 Virtualenv와 VirtualenvWrapper는 pip를 통해 설치가 가능합니다.
 
@@ -97,17 +97,17 @@ $ virtualenv --python=파이썬버전 가상환경이름
 # $ virtualenv --python=python2.7 test_env2
 ```
 
-![](https://www.dropbox.com/s/hehcdglqiu14mik/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-27%2018.13.11.png?dl=1)
+![](/img/dropbox/2016-12-27%2018.13.11.png
 
 이와 같이 Python버전을 명시해주고 가상환경을 만들 수 있습니다. (단, 선택할 Python은 시스템에 깔려있는 버전이어야 합니다.)
 
 > 만약
 
-> ![](https://www.dropbox.com/s/l0wwqtuoch9tw8r/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.18.33.png?dl=1)
+> ![](/img/dropbox/2016-12-30%2019.18.33.png
 
 > 와 같이 The path x.x does not exist라는 에러가 난다면 PYTHON의 PATH을 절대경로로 맞춰줘야 합니다. `which python3`을 했을 때 `/usr/bin/python3`이 나왔다면, `virtualenv --python=/usr/bin/python3`와 같이 절대경로로 입력해주시면 됩니다.
 
-> ![](https://www.dropbox.com/s/bnb3r5fephimoig/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.23.40.png?dl=1)
+> ![](/img/dropbox/2016-12-30%2019.23.40.png
 
 만든 가상환경에 진입(가상환경을 활성화)하려면 아래 명령어를 이용하면 됩니다.
 
@@ -117,11 +117,11 @@ $ source 가상환경이름/bin/activate
 
 Python3이 설치된 test_env로 진입한 경우
 
-![](https://www.dropbox.com/s/xiymbhfyezjj6wa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-27%2018.14.28.png?dl=1)
+![](/img/dropbox/2016-12-27%2018.14.28.png
 
 Python2가 설치된 test_env2로 진입한 경우
 
-![](https://www.dropbox.com/s/ovxyqj9ig38433h/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-27%2018.15.53.png?dl=1)
+![](/img/dropbox/2016-12-27%2018.15.53.png
 
 각각 다른 python버전이 실행되고 있다는 것을 알 수 있습니다.
 
@@ -245,7 +245,7 @@ $ sudo apt-get install python-pip python-dev
 $ sudo apt-get install python3-pip python3-dev
 ```
 
-![](https://www.dropbox.com/s/62h1l9cfjvy3kxx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2018.56.35.png?dl=1)
+![](/img/dropbox/2016-12-30%2018.56.35.png
 
 > 꼭 `python-dev`와 `python3-dev`를 설치하지 않아도 됩니다. 하지만 이후 정상적 동작을 보장할 수 없습니다.
 
@@ -259,7 +259,7 @@ $ pip -V
 $ pip3 -V
 ```
 
-![](https://www.dropbox.com/s/gce8siz6uo6nres/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2018.57.52.png?dl=1)
+![](/img/dropbox/2016-12-30%2018.57.52.png
 
 이제 pip설치가 완료되었으므로 Virtualenv와 VirtualenvWrapper를 설치해보겠습니다.
 
@@ -288,7 +288,7 @@ $ python3 -m pip install virtualenv virtualenvwrapper
 
 Virtualenv는 기본적으로 아래의 명령어로 동작합니다.
 
-![](https://www.dropbox.com/s/9oewqawn9mrvek8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.29.18.png?dl=1)
+![](/img/dropbox/2016-12-30%2019.29.18.png
 
 ```sh
 $ virtualenv --python=파이썬버전 가상환경이름
@@ -301,11 +301,11 @@ $ virtualenv --python=파이썬버전 가상환경이름
 
 > 만약
 
-> ![](https://www.dropbox.com/s/l0wwqtuoch9tw8r/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.18.33.png?dl=1)
+> ![](/img/dropbox/2016-12-30%2019.18.33.png
 
 > 와 같이 The path x.x does not exist라는 에러가 난다면 PYTHON의 PATH을 절대경로로 맞춰줘야 합니다. `which python3`을 했을 때 `/usr/bin/python3`이 나왔다면, `virtualenv --python=/usr/bin/python3`와 같이 절대경로로 입력해주시면 됩니다.
 
-> ![](https://www.dropbox.com/s/bnb3r5fephimoig/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.23.40.png?dl=1)
+> ![](/img/dropbox/2016-12-30%2019.23.40.png
 
 이와 같이 Python버전을 명시해주고 가상환경을 만들 수 있습니다. (단, 선택할 Python은 시스템에 깔려있는 버전이어야 합니다. Ubuntu16의 경우 python2이 깔려있지 않을 수 있습니다.)
 
@@ -317,7 +317,7 @@ $ source 가상환경이름/bin/activate
 
 Python3이 설치된 py3_env로 진입한 경우
 
-![](https://www.dropbox.com/s/tlrjm1ikl4kkj0q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-30%2019.32.26.png?dl=1)
+![](/img/dropbox/2016-12-30%2019.32.26.png
 
 이후 pip를 통해 외부 모듈과 라이브러리들을 설치하는 경우, source 명령어로 가상환경에 진입하지 않으면 라이브러리들을 불러쓸 수 없게됩니다. 즉, 프로젝트 별로 다른 라이브러리만이 설치된 환경을 구성한 것이죠.
 
