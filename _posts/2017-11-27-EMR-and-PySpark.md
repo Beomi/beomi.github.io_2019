@@ -6,7 +6,7 @@ categories:
 - Python
 - PySpark
 published: true
-image: /img/PySpak_n_Hadoop_EMR_and_PySpark.png)
+image: /img/PySpak_n_Hadoop_EMR_and_PySpark.png
 ---
 
 > 이번 글은 [PySpark & Hadoop: 1) Ubuntu 16.04에 설치하기](/2017/11/09/Install-PySpark-and-Hadoop-on-Ubuntu-16-04)와 이어지는 글입니다.
