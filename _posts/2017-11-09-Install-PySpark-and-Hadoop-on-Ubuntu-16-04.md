@@ -17,6 +17,8 @@ Spark의 Python버전인 PySpark를 사용할 때 서버가 AWS EMR등으로 만
 
 > Note: 이번 글은 Ubuntu 16.04 LTS, Python3.5(Ubuntu내장)를 기준으로 진행합니다.
 
+AWS에서 EC2를 생성해 주세요. VPC는 기본으로 잡아주시면 됩니다. 성능은 `t2-micro`의 프리티어정도도 괜찮습니다. 무거운 연산은 나중에 다룰 AWS EMR 클러스터에 올려줄 것이기 때문에, 클라이언트 역할을 할 EC2 인스턴스는 저성능이어도 괜찮습니다.
+
 들어가기 전에 우선 apt 업데이트부터 진행해 줍시다.
 
 ```bash
@@ -41,7 +43,7 @@ pip3 install pyspark -U --no-cache
 
 위 명령어에서 `-U`는 `--upgrade`의 약자로, 현재 설치가 되어있어도 최신버전으로 업그레이드 하는 것이고, `--no-cache`는 로컬에 pip 패키지의 캐싱 파일이 있더라도 pypi서버에서 다시 받아오겠다는 의미입니다.
 
-> 현재 PySpark 2.2.0은 버전과 다르게 2.2.0.post0라는 버전으로 pypi에 올라가 있습니다. 이로인해 pip install pyspark 로 진행할 경우 `Memeory Error`가 발생하고 설치가 실패하므로, 2.2.0버전을 설치한다면 위 명령어로 설치를 진행해주세요.
+> 현재 PySpark 2.2.0은 버전과 다르게 2.2.0.post0라는 버전으로 pypi에 올라가 있습니다. 이로인해 `pip install pyspark` 로 진행할 경우 `Memeory Error`가 발생하고 설치가 실패하므로, 2.2.0버전을 설치한다면 위 명령어로 설치를 진행해주세요.
 
 ## Hadoop 설치하기
 
@@ -111,4 +113,4 @@ export YARN_CONF_DIR=\$HADOOP_HOME/etc/hadoop
 
 ## 끝이지만 끝이 아닌..
 
-사실 PySpark와 Hadoop만을 사용하는 것은 큰 의미가 있는 상황은 아닙니다. AWS EMR와 같은 클러스터를 연결해 막대한 컴퓨팅 파워가 있는 서버에서 돌리는 목적이 Spark를 쓰는 이유입니다. 다음 글에서는 AWS EMR을 구동하고 우리가 방금 설정한 Ubuntu 서버에서 작업을 EMR로 보내는 내용을 다뤄볼 예정입니다.
+사실 PySpark와 Hadoop만을 사용하는 것은 큰 의미가 있는 상황은 아닙니다. AWS EMR와 같은 클러스터를 연결해 막대한 컴퓨팅 파워가 있는 서버에서 돌리는 목적이 Spark를 쓰는 이유입니다. 다음 글에서는 AWS EMR을 구동하고 우리가 방금 설정한 Ubuntu 서버에서 작업을 EMR로 보내는 내용을 다뤄봅니다.
