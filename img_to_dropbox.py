@@ -22,8 +22,8 @@ def get_github_url(re_match_obj):
     origin_url = re_match_obj.group()
     ourstr = dropbox_img_pattern.findall(origin_url)[0]
     github_url = ourstr.replace('%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%20','')
-    print('/img/dropbox/{}'.format(github_url))
-    return '/img/dropbox/{}'.format(github_url)
+    print('/img/dropbox/{})'.format(github_url))
+    return '/img/dropbox/{})'.format(github_url)
 
 for md in md_files:
     f = open(md, 'r')

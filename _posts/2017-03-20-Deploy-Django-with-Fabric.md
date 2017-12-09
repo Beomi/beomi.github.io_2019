@@ -32,7 +32,7 @@ Vultr는 일본 Region에 서버가 있어 한국에서 사용하기에도 핑�
 
 VPS하나를 만든 후 root로 접속해 장고를 구동할 사용자를 만들어 봅시다.
 
-![예제VPS](/img/dropbox/2017-03-19%2023.20.21.png
+![예제VPS](/img/dropbox/2017-03-19%2023.20.21.png)
 
 ## `django` 유저 만들기(sudo권한 가진 유저 만들기)
 
@@ -470,5 +470,5 @@ fab deploy
 
 프로젝트 하나가 배포가 완료되었습니다! 아무것도 없어보이지만, DB에 자료를 추가하면 [IRKSHOP 예제](http://irkshop.testi.kr)처럼 예쁘게 생성됩니다.
 
-![Simple IRKSHOP](/img/dropbox/2017-03-20%2000.28.56.png
+![Simple IRKSHOP](/img/dropbox/2017-03-20%2000.28.56.png)
 

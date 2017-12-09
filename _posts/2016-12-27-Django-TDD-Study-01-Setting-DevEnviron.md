@@ -19,7 +19,7 @@ image: /img/old_post/big-logo.png
 
 Selenium은 위의 질문에 대한 답변을 준다. 사람이 하기 귀찮은 부분을 자동화!
 
-![](/img/dropbox/2016-12-27%2001.19.12.png
+![](/img/dropbox/2016-12-27%2001.19.12.png)
 
 우선 Selenium을 설치해주자.
 (단, Python3가 설치되어있다는 상황을 가정하며, Virtualenv / Pyvenv등의 가상환경 사용을 권장한다. 이 게시글에서는 tdd_study라는 이름의 가상환경을 이용한다.)
@@ -59,7 +59,7 @@ export PATH=${PATH}:~/bin
 
 ## Django 설치하기
 
-![](/img/dropbox/2016-12-27%2001.20.45.png
+![](/img/dropbox/2016-12-27%2001.20.45.png)
 
 Django는 앞으로 우리가 스터디에 사용할 WebFramework다.
 
@@ -84,7 +84,7 @@ $ pip list --format=columns
 
 라는 명령어를 쳤을 때 아래 스샷과 같이 Django와 selenium이 보인다면 정상적으로 설치가 진행 된 것이다.
 
-![](/img/dropbox/2016-12-27%2001.22.02.png
+![](/img/dropbox/2016-12-27%2001.22.02.png)
 
 설치가 잘 되었다면 다음으로 진행해 보자.
 
@@ -117,7 +117,7 @@ $ django-admin startproject tdd_study_proj
 
 위 명령어를 치면 다음과 같은 폴더 구조를 가진 프로젝트 폴더가 생긴다.
 
-![](/img/dropbox/2016-12-27%2001.25.13.png
+![](/img/dropbox/2016-12-27%2001.25.13.png)
 
 ```sh
 (tdd_study) ➜  tdd_study_proj tree
@@ -146,11 +146,11 @@ $ python manage.py runserver
 위 명령어를 치면 아래와 같이 테스트 서버가 http://127.0.0.1:8000 에서 실행되고 있다.
 (참고: 127.0.0.1 주소는 localhost와 동일합니다. 즉, 127.0.0.1:8000은 localhost:8000입니다.)
 
-![](/img/dropbox/2016-12-27%2001.34.26.png
+![](/img/dropbox/2016-12-27%2001.34.26.png)
 
 위 URL로 들어갔을 때 아래와 같은 화면이 나온다면 Django가 정상적으로 설치되었고, 테스트 웹서버도 정상적으로 구동중인 것이다.
 
-![](/img/dropbox/2016-12-27%2001.36.09.png
+![](/img/dropbox/2016-12-27%2001.36.09.png)
 
 ### 3. 다시한번 테스트!
 
@@ -167,6 +167,6 @@ browser.get('http://localhost:8000')
 assert 'Django' in browser.title
 ``` 
 
-![](/img/dropbox/2016-12-27%2001.45.10.png
+![](/img/dropbox/2016-12-27%2001.45.10.png)
 
 이제는 에러가 나지 않고 테스트가 아무말(아무 에러)없이 끝나는걸 볼 수 있다 :)
