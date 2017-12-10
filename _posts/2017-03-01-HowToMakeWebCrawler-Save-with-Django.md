@@ -40,7 +40,7 @@ Django는 pip로 간편하게 설치할 수 있습니다.
 pip install django
 ```
 
-![django install success](/img/dropbox/2017-02-28%2017.14.57.png
+![django install success](/img/dropbox/2017-02-28%2017.14.57.png)
 
 > 글 작성 시점인 2017.02.28 기준 1.10.5 버전이 최신버전입니다.
 
@@ -54,7 +54,7 @@ django가 성공적으로 설치되면 `django-admin`이라는 명령어로 장�
 django-admin startproject websaver
 ```
 
-![startproject websaver](/img/dropbox/2017-02-28%2017.15.47.png
+![startproject websaver](/img/dropbox/2017-02-28%2017.15.47.png)
 
 > 성공적으로 생길 경우 어떠한 반응도 나타나지 않습니다.
 
@@ -62,7 +62,7 @@ django-admin startproject websaver
 
 > `cd websaver`로 `websaver`폴더 안으로 진입한 상태입니다.
 
-![tree websaver](/img/dropbox/2017-02-28%2017.18.06.png
+![tree websaver](/img/dropbox/2017-02-28%2017.18.06.png)
 
 > tree 명령어는 mac에서 `brew install tree`로 설치한 명령어입니다. 기본적으로는 깔려있지 않습니다.
 
@@ -82,7 +82,7 @@ python manage.py startapp parsed_data
 
 이제 아래와 같은 구조로 앱이 생겼을 것인데, 이 앱을 Django가 관리하도록 `websaver`폴더 안의 `settings.py`파일의 `INSTALLED_APPS`에 추가해줘야 합니다.
 
-![startapp parsed_data](/img/dropbox/2017-02-28%2017.32.06.png
+![startapp parsed_data](/img/dropbox/2017-02-28%2017.32.06.png)
 
 > 유의: .pyc파일은 python실행시 생기는 캐싱 파일입니다. 없으셔도 전혀 문제는 발생하지 않습니다.
 
@@ -111,7 +111,7 @@ python manage.py migrate
 
 위 명령어를 입력하면 아래와 같이 Django에서 사용하는 기본적인 DB가 생성됩니다.
 
-![First migrate](/img/dropbox/2017-02-28%2017.37.23.png
+![First migrate](/img/dropbox/2017-02-28%2017.37.23.png)
 
 ## parsed_data App Model | parsed_data 앱 모델 만들기
 
@@ -152,7 +152,7 @@ python manage.py migrate parsed_data
 
 각 명령어 입력시 아래와 같이 결과가 나타난다면 성공적으로 DB에 반영된 것입니다.
 
-![parsed_data app migration](/img/dropbox/2017-02-28%2017.58.01.png
+![parsed_data app migration](/img/dropbox/2017-02-28%2017.58.01.png)
 
 # 크롤링 함수 만들기
 ---
@@ -213,7 +213,7 @@ def parse_blog():
 
 또한, 현재 프로젝트 폴더의 구조는 아래와 같습니다.
 
-![project folder tree](/img/dropbox/2017-02-28%2018.05.30.png
+![project folder tree](/img/dropbox/2017-02-28%2018.05.30.png)
 
 하지만 현재 `parse_blog`함수는 Django에 저장하는 기능을 갖고 있지 않습니다. 따라서 약간 더 추가를 해줘야 합니다.
 
@@ -305,7 +305,7 @@ Django는 Django Admin이라는 강력한 기능을 제공합니다.
 
 우선 Admin 계정을 만들어야 합니다. `createsuperuser` 명령어로 만들 수 있습니다.
 
-![createsuperuser](/img/dropbox/2017-02-28%2018.18.49.png
+![createsuperuser](/img/dropbox/2017-02-28%2018.18.49.png)
 
 기본적으로 유저이름, 이메일, 비밀번호를 받습니다.
 
@@ -335,23 +335,23 @@ python manage.py runserver
 
 아래와 같이 나타난다면 성공적으로 서버가 실행된 것입니다.
 
-![django runserver](/img/dropbox/2017-02-28%2018.26.07.png
+![django runserver](/img/dropbox/2017-02-28%2018.26.07.png)
 
 이제 [http://localhost:8000/admin/](http://localhost:8000/admin/)로 들어가 봅시다.
 
-![Django admin login page](/img/dropbox/2017-02-28%2018.27.23.png
+![Django admin login page](/img/dropbox/2017-02-28%2018.27.23.png)
 
 아까 `createsuperuser`로 만든 계정으로 로그인 해 봅시다.
 
-![django admin page](/img/dropbox/2017-02-28%2018.28.09.png
+![django admin page](/img/dropbox/2017-02-28%2018.28.09.png)
 
 우리가 만든 `parsed_data`앱 안에 `BlogData`라는 항목이 나와있는 것을 볼 수 있습니다.
 
-![blogdata admin list](/img/dropbox/2017-02-28%2018.28.54.png
+![blogdata admin list](/img/dropbox/2017-02-28%2018.28.54.png)
 
 `BlogData object`라는 이름으로 데이터들이 들어와 있는 것을 확인할 수 있습니다. 하나를 클릭해 들어가 보면 아래와 같이 title와 link가 성공적으로 들어와 있는 것을 볼 수 있습니다.
 
-![blogdata specific data](/img/dropbox/2017-02-28%2018.29.43.png
+![blogdata specific data](/img/dropbox/2017-02-28%2018.29.43.png)
 
 # 약간 더 나아가기
 ---
@@ -383,7 +383,7 @@ class BlogData(models.Model):
 
 이제 장고 서버를 다시 켜주고 [BlogData admin page](http://localhost:8000/admin/parsed_data/blogdata/)로 들어가면 타이틀 이름으로 된 데이터들을 볼 수 있습니다.
 
-![title list admin page](/img/dropbox/2017-02-28%2018.38.11.png
+![title list admin page](/img/dropbox/2017-02-28%2018.38.11.png)
 
 > 현재 `models.py`파일을 수정했지만 DB에 반영되는 사항이 아니기 때문에 `makemigrations`나 `migrate`를 해줄 필요가 없습니다.
 
