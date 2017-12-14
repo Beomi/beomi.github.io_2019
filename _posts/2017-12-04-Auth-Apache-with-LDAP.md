@@ -78,11 +78,11 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
 
 이제 Apache2에서 AD 서버에 인증 요청만 붙이면 될 것이라 생각했지만 500 Internal Server Error만 난다.
 
-![](https://www.dropbox.com/s/2icmxd1j4lo8b2p/Screenshot%202017-12-05%2015.46.17.png?dl=1)
+![](/img/dropbox/Screenshot%202017-12-05%2015.46.17.png)
 
 `tail -f /var/log/apache2/error.log`을 통해 Apache의 로그를 찍어보려고 해도 에러가 전혀 찍히지 않는 상황.
 
-![](https://www.dropbox.com/s/vv4pgnw53dl96yq/Screenshot%202017-12-05%2015.48.36.png?dl=1)
+![](/img/dropbox/Screenshot%202017-12-05%2015.48.36.png)
 
 무엇이 문제인가... 조금 더 까보기로 했다.
 
@@ -124,7 +124,7 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
 telnet ladp-server-url.com 636
 ```
 
-![](https://www.dropbox.com/s/gelxupp2qbvlqb3/Screenshot%202017-12-05%2016.33.26.png?dl=1)
+![](/img/dropbox/Screenshot%202017-12-05%2016.33.26.png)
 
 하지만 접속이 잘 된다. 그렇다면 방화벽이나 SG문제는 아닌것인데..
 
@@ -136,7 +136,7 @@ telnet ladp-server-url.com 636
 ldapsearch -d 1 -xLL -H ldaps://ladp-server-url.com:636 -D "DN_VALUE" -w "DN_PASSWORD"
 ```
 
-![](https://www.dropbox.com/s/isxwqsz05fn1fll/Screenshot%202017-12-05%2017.20.54.png?dl=1)
+![](/img/dropbox/Screenshot%202017-12-05%2017.20.54.png)
 
 에러 없이 잘 가져오는 듯 하다. (No such object는 유저 필터가 없어서 생김)
 
