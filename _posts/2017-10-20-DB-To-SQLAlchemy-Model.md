@@ -72,10 +72,10 @@ MySQL의 경우 mysql에 접속하는 방식 그대로 사용자 이름, 비밀�
 
 > NOTE: mysql에 연결하려면 pip패키지 중 `mysqlclient`가 설치되어있어야 합니다.
 설치가 되어있지 않으면 아래와 같이 `ModuleNotFoundError`가 발생합니다.
-![](/img/dropbox/Screenshot%202017-10-20%2012.21.08.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-20%2012.21.08.png?dl=1)
 
 > MAC에서 진행 중 혹시 `mysqlclient`설치 중 아래와 같은 에러가 발생한다면
-![](/img/dropbox/Screenshot%202017-10-20%2012.23.07.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-20%2012.23.07.png?dl=1)
 
 > 아래 명령어를 실행해 `xcode cli developer tool`와 `openssl`을 설치해주신 후 `mysqlclient`를 설치해 주세요.
 ```bash
@@ -84,7 +84,7 @@ brew install openssl
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 pip install mysqlclient
 ```
-![](/img/dropbox/Screenshot%202017-10-20%2012.25.22.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-20%2012.25.22.png?dl=1)
 
 ## 실행결과
 

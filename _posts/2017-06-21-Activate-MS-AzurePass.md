@@ -28,27 +28,27 @@ AzurePass에서는 월 100달러(한국 12만원)의 크레딧을 3개월간 제
 
 공식 사이트에 들어가시면 아래와 같은 화면이 나옵니다. Start버튼을 눌러주세요.
 
-![](/img/azurepass/azurepass01-start.png)
+![]({{site.static_url}}/img/azurepass/azurepass01-start.png)
 
 - 2. 스타트 버튼을 누르면 아래와 같은 화면이 나옵니다. 받으신 애저패스의 번호를 입력해 주신 후, 아래의 Claim Promo Code를 눌러주세요. 
 
-![](/img/azurepass/azurepass02-input-promo.png)
+![]({{site.static_url}}/img/azurepass/azurepass02-input-promo.png)
 
 - 3. Claim PromoCode버튼을 누르면 아래와 같은 화면이 나옵니다. 잠시 기다려 주세요.
 
-![](/img/azurepass/azurepass03-processing.png)
+![]({{site.static_url}}/img/azurepass/azurepass03-processing.png)
 
 - 4. PromoCode의 등록이 완료되면 애저패스 활성화 버튼이 나옵니다. `Activate`버튼을 눌러주세요.
 
-![](/img/azurepass/azurepass04-redeemed-activate.png)
+![]({{site.static_url}}/img/azurepass/azurepass04-redeemed-activate.png)
 
 - 5. `Activate` 버튼을 누르면 나오는 등록 화면입니다. 사용자 정보, 전화번호를 입력 후 구독계약에 동의후 '등록'버튼을 눌러주세요.
 
-![](/img/azurepass/azurepass05-register.png)
+![]({{site.static_url}}/img/azurepass/azurepass05-register.png)
 
 - 6. 잠시 기다려주신 후 아래 화면을 보시면 성공적으로 등록이 완료된 것이랍니다.
 
-![](/img/azurepass/azurepass06-finished.png)
+![]({{site.static_url}}/img/azurepass/azurepass06-finished.png)
 
 - 7. 이제 [Azure Portal](https://portal.azure.com)으로 이동해 작업을 계속하세요!
 

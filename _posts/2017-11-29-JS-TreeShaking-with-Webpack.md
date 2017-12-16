@@ -18,7 +18,7 @@ image: /img/treeshaking.png
 
 하지만 이 마법같은 번들링에도 심각한 문제점이 있습니다. 바로 용량이 어마어마해진다는 것이죠.
 
-![](/img/tree-shaking-before.png)
+![]({{site.static_url}}/img/tree-shaking-before.png)
 
 아무런 처리를 하지 않고 webpack으로 빌드를 할 때의 용량은 스크린샷에 나온 것처럼 무려 1.61MB됩니다.
 
@@ -119,7 +119,7 @@ module.exports = {
 
 이제 빌드를 실행해보면 아래 스크린샷과 같이 `bundle.js`파일의 용량이 획기적으로 줄어든 것을 볼 수 있습니다. 용량이 1.6MB에서 667KB로 1/3정도로 줄어든 것을 볼 수 있습니다. 간단하죠?
 
-![](/img/tree-shaking-after.png)
+![]({{site.static_url}}/img/tree-shaking-after.png)
 
 하지만 여기에는 작은 함정이 있습니다. 바로 `time`, 즉 빌드시마다 걸리는 시간도 그에따라 늘어난 것인데요, 만약 여러분이 `webpack-dev-server`와 같이 실시간으로 파일을 감시하며 변화 발생시마다 빌드하는 방식을 사용하고 있다면 코드 한줄, 띄어쓰기 하나 수정한 정도로 무려 12초에 달하는 빌드 시간을 기다려야 합니다. (treeshaking 하기 전에는 3초정도밖에 걸리지 않았습니다.)
 

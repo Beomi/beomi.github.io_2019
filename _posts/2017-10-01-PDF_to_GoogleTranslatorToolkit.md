@@ -16,15 +16,15 @@ image: /img/pdf_to_google_translator_toolkit.jpeg
 
 그래서 여러분이 번역을 하기 위해 crowdin이나 transifex를 사용하려 사이트에 들어가보면,
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.47.57.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.47.57.png?dl=1)
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.48.33.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.48.33.png?dl=1)
 
 월 단위 pricing인 것을 넘어 가격대가 상당히 높게 형성되어있는 것을 볼 수 있습니다. (ㅠㅠ) 저 두 서비스는 분명히 멋지고 좋은 서비스이지만 매달 가격을 지불하기에는 애매한 측면이 있어 다른 방법을 찾아보았습니다.
 
 그러다 찾게 된 것이 바로 [구글 번역가 도구]()였습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.50.24.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2016.50.24.png?dl=1)
 
 이 구글 번역가 도구를 사용하면 상당히 다양한 형식의 문서를 번역할 수 있습니다.
 
@@ -60,11 +60,11 @@ image: /img/pdf_to_google_translator_toolkit.jpeg
 
 만약 여러분이 1MB가 넘는 파일을 올리려 하시면.....
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.01.31.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.01.31.png?dl=1)
 
 아래와 같이 에러가 납니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.03.42.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.03.42.png?dl=1)
 
 하지만 우리가 만약 PDF를 워드로 바꿔주고 나서 쪼개주려고 하면 상당히 귀찮습니다. 그래서 PDF를 먼저 목차대로 쪼개주는 것이 좋습니다.
 
@@ -72,7 +72,7 @@ image: /img/pdf_to_google_translator_toolkit.jpeg
 
 사이트를 들어가주시면 아래와 같이 PDF를 올리라고 하는 부분이 나옵니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.04.27.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.04.27.png?dl=1)
 
 약간 아쉬운점은 무료는 200페이지 이내의 pdf로 제한이 걸린다는 점입니다. 그래서 저는 5달러를 지불하고 5일치 정액권을 구매해 이용했습니다.
 
@@ -82,15 +82,15 @@ image: /img/pdf_to_google_translator_toolkit.jpeg
 
 PDF를 올려주면 얼만큼 자세하게 쪼갤지 물어봅니다. Bookmark level이 바로 그 옵션인데요, 저는 대제목(챕터)로 자를 예정이라 1을 선택했습니다. 만약 좀 더 자세하게 소제목으로 잘라주고 싶다면 2정도를 선택해주시면 됩니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.08.26.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.08.26.png?dl=1)
 
 이제 Split by bookmarks를 클릭해주면 아래와 같이 다운로드 버튼이 나옵니다!
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.09.45.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.09.45.png?dl=1)
 
 다운로드 받은 zip파일을 풀어주면 다음과 같이 챕터별로 잘 쪼개졌다는 것을 확인할 수 있습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.10.30.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.10.30.png?dl=1)
 
 하지만 이 상태는 책 각 페이지에 머리말과 꼬리말이 들어가 있어 이 파일을 바로 워드파일로 변환해주면 머리말과 꼬리말이 같이 들어가 번역하기 귀찮은 상태가 됩니다. 그래서 이 부분을 제거해주어야 합니다.
 
@@ -98,7 +98,7 @@ PDF를 올려주면 얼만큼 자세하게 쪼갤지 물어봅니다. Bookmark l
 
 이번에는 [https://www.sejda.com/crop-pdf](https://www.sejda.com/crop-pdf)에서 진행합니다. 위에서 정액권을 구매했다면 여러개 파일을 동시에 넣어 crop을 돌릴 수 있습니다. (무료는 하나하나 넣어야 합니다)
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.12.59.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.12.59.png?dl=1)
 
 위 사진의 Upload PDF Files를 눌러 파일 여러개를 동시에 crop할 수 있습니다. 우리가 위에서 목차대로 잘라준 경우처럼 책 사이즈가 같은 경우 굉장히 유용합니다.
 
@@ -106,17 +106,17 @@ PDF를 올려주면 얼만큼 자세하게 쪼갤지 물어봅니다. Bookmark l
 
 업로드가 완료되면 다음과 같이 Crop할 부분을 선택하라고 나옵니다. 문서 일부분이 화면에 겹쳐 나오기때문에 예상치 못하게 버려지는 부분이 생기는 것을 방지할 수 있습니다 :)
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.15.01.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.15.01.png?dl=1)
 
 위 사진처럼 텍스트 부분만 선택하고 화면 아래의 CropPDF를 눌러주면 위에서와 같이 처리가 끝난 파일의 모음 zip을 받을 수 있습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.15.37.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.15.37.png?dl=1)
 
 다운을 받아주고 확인해 봅시다. 글자 부분만 깔끔하게 잘 잘라준 것을 확인해 볼 수 있습니다!
 
 > 글 일부분이 안보이는 것은 책이라 일부러 잘라 보이지 않는 부분입니다. 파일은 잘 처리되었다는걸 썸네일에서 확인할 수 있죠!
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.16.36.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.16.36.png?dl=1)
 
 ## PDF를 워드파일(.docx)로 바꿔주기
 
@@ -124,15 +124,15 @@ PDF를 올려주면 얼만큼 자세하게 쪼갤지 물어봅니다. Bookmark l
 
 우리가 방금 만들어준 'cropped_어쩌구.pdf'파일들을 업로드 해 주면 됩니다. 여러개 파일을 한번에 올릴 수 있어 편리합니다 ;)
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.18.42.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.18.42.png?dl=1)
 
 업로드가 끝나고 변환작업이 완료되면 아래와 같이 Download All버튼이 활성화됩니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.19.41.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.19.41.png?dl=1)
 
 버튼을 누르면 `pdf2docx.zip`파일이 받아지고, 이 압축 파일을 풀어주면 다음과 같이 .docx파일로 변환된 파일들이 잘 들어오는 것을 확인할 수 있습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.20.28.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.20.28.png?dl=1)
 
 하지만 잘 보시면 크기가 1MB를 넘는 파일이 보입니다. 저 파일들은 구글 번역가 도구에 올릴수 없습니다. 보통 문서가 1MB를 넘는 경우는 이미지의 크기가 큰 것이기 때문에, 이미지의 ppi를 조절해 파일 크기를 줄일 수 있습니다.
 
@@ -140,41 +140,41 @@ PDF를 올려주면 얼만큼 자세하게 쪼갤지 물어봅니다. Bookmark l
 
 1MB가 넘는 한 문서를 열어보니 이미지가 많아 보입니다. 하지만 이미지를 지우면 번역할때 어떤 내용을 다루는지 알아보기 어렵기 때문에 이미지의 해상도(ppi)만 낮춰주도록 하겠습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.21.59.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.21.59.png?dl=1)
 
 우선 아래 스샷처럼 아무 이미지나 클릭해주고 나서 화면 위에 뜨는 '그림 서식'을 눌러주신 뒤, 핑크색으로 네모 표시 된 버튼을 눌러주세요.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.23.30.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.23.30.png?dl=1)
 
 그러면 '그림압축' 메뉴가 뜨고 아래와 같이 그림 품질을 고를 수 있습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.23.59.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.23.59.png?dl=1)
 
 최저 ppi인 96ppi로 맞춰주고 '잘려진 그림 영역 삭제'에 체크를 눌러주고 '이 파일의 모든 그림'으로 맞춰준 후 확인을 눌러주세요. 그리고 저장을 해주시면, 아래와 같이 파일 사이즈가 줄어든 것을 볼 수 있습니다. (기존 1.5MB -> 현재 1MB 조금 덜 됨)
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.25.33.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.25.33.png?dl=1)
 
 ## 구글 번역가 도구에 업로드하기
 
 [구글 번역가 도구 업로드](https://translate.google.com/toolkit/docupload?hl=ko)에 다시 들어가 작아진 .docx파일을 올려줍시다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.27.15.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.27.15.png?dl=1)
 
 언어 선택에 한국어는 기본적으로 없기 때문에 'ko'를 검색해 한국어를 추가하고 선택해줍시다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.27.47.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.27.47.png?dl=1)
 
 이제 업로드가 끝나면 번역 업체를 누르라고 하는데, '아니오'를 눌러주면 됩니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.28.30.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.28.30.png?dl=1)
 
 업로드가 완료되면 아래와 같이 번역 목록에 뜹니다!
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.29.09.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.29.09.png?dl=1)
 
 링크를 클릭해 들어가면 이제 아래처럼 번역 작업을 시작할 수 있습니다.
 
-![](/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.29.46.png?dl=1)
+![]({{site.static_url}}/img/2017-10-01-pdf-google/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202017-10-01%2017.29.46.png?dl=1)
 
 ## 끝!
 

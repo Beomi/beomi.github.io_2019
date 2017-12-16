@@ -31,7 +31,7 @@ cur.execute("select * from post where id < 10;")
 
 위와 같은 형식으로 코드를 사용할 경우 웹이 이루어지는 과정 중 2~3번째 과정인 "SQL쿼리 요청하기"와 "데이터 받기"라는 부분을 수동으로 처리해 줘야 하는 부분이 있습니다.
 
-![](/img/noun/how_web_works_DB_SQL.jpeg)
+![]({{site.static_url}}/img/noun/how_web_works_DB_SQL.jpeg)
 
 이런 경우 파이썬 파일이더라도 한 파일 안에 두개의 언어를 사용하게 되는 셈입니다. (python와 SQL)
 

@@ -83,11 +83,11 @@ application = Sentry(get_wsgi_application())
 
 이제 여러분이 잡아주지 않은 Exception이 발생할 경우 아래와 같이 이메일이 옵니다.
 
-![sentry django integrity error log mail](/img/Django/sentry_mail.jpeg)
+![sentry django integrity error log mail]({{site.static_url}}/img/Django/sentry_mail.jpeg)
 
 이메일의 Issue 링크를 클릭하면 아래와 같이 에러로그 페이지가 나옵니다.
 
-![Sentry django integrity error log web page](/img/Django/sentry_web.png)
+![Sentry django integrity error log web page]({{site.static_url}}/img/Django/sentry_web.png)
 
 ## 조금 더 알아보기
 

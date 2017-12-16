@@ -23,29 +23,29 @@ image: /img/azure.jpg
 
 윈도우에서는 `git`와 `ssh`등의 명령어를 `cmd`에서 바로 사용할 수 없어요. 그래서 우리는 `cmder`라는 멋진 프로그램을 사용할 거에요.
 
-![](/img/dropbox/2017-06-18%2010.30.18.png)
+![]({{site.static_url}}/img/dropbox/2017-06-18%2010.30.18.png)
 
 우선 [cmder.zip](https://github.com/cmderdev/cmder/releases/download/v1.3.2/cmder.zip)을 클릭해 cmder를 받아주세요. (84MB정도라 시간이 조금 걸릴거에요.)
 
 다운받은 `cmder.zip` 파일의 압축을 풀어주세요.(이것도 시간이 조금 걸릴거에요.) 그러면 다음과 같은 내용이 보일거에요. 
 
-![](/img/azure_fabric/1-folder.PNG)
+![]({{site.static_url}}/img/azure_fabric/1-folder.PNG)
 
 여기 있는 `cmder.exe` 파일을 실행해주세요. 실행하면 아래와 같은 Security Warning이 뜰 수 있어요. `RUN`을 눌러주세요.
 
-![](/img/azure_fabric/2-securityWarning.PNG)
+![]({{site.static_url}}/img/azure_fabric/2-securityWarning.PNG)
 
 만약 여러분이 cmder를 처음 실행하신다면 아래와 같은 워닝이 뜰거에요. 제일 첫번째 옵션인 "Unblock and continue"를 눌러주세요.
 
-![](/img/azure_fabric/3-UnblockBinaries.PNG)
+![]({{site.static_url}}/img/azure_fabric/3-UnblockBinaries.PNG)
 
 첫 실행시 아래 화면에서 약간 시간이 걸릴 수 있어요. 다음번 실행부터는 뜨지 않을테니 잠시만 기다려주세요!
 
-![](/img/azure_fabric/4-firstlook.PNG)
+![]({{site.static_url}}/img/azure_fabric/4-firstlook.PNG)
 
 아래 화면이 뜨면 여러분이 멋진 cmder를 쓸 준비를 마친거랍니다!
 
-![](/img/azure_fabric/5-final.PNG)
+![]({{site.static_url}}/img/azure_fabric/5-final.PNG)
 
 장고걸즈 튜토리얼을 따라오는 중이시라면 `djangogirls`라는 폴더를 만드셨을거에요.
 
@@ -58,31 +58,31 @@ image: /img/azure.jpg
 
 [Azure Portal](https://portal.azure.com/)에 들어가 로그인 하시면 아래와 같은 화면을 볼 수 있습니다.
 
-![Azure Portal 초기 대시보드](/img/dropbox/2017-06-10%2000.07.02.png)
+![Azure Portal 초기 대시보드]({{site.static_url}}/img/dropbox/2017-06-10%2000.07.02.png)
 
 이제 대시보드 왼쪽의 메뉴에서 `가상 컴퓨터`를 눌러보시면 아래와 같은 화면이 나옵니다.
 
-![](/img/dropbox/2017-06-10%2000.10.34.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.10.34.png)
 
 이제 가상 컴퓨터를 추가해봅시다.
 
-![](/img/dropbox/2017-06-10%2000.11.19.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.11.19.png)
 
 `+ 추가` 버튼을 눌러주시면 아래와 같은 수많은 선택지가 나오는데요, 우리는 그 중에서 `Ubuntu Server`(우분투 서버)를 사용할거랍니다. `Ubuntu Server`를 클릭해주세요.
 
-![](/img/dropbox/2017-06-10%2000.12.02.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.12.02.png)
 
 우분투 서버를 클릭하면 아래와 같이 서버 버전들이 나옵니다. 우리는 오늘 `Ubuntu Server 16.04 LTS`를 사용할거에요.
 
-![](/img/dropbox/2017-06-10%2000.13.01.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.13.01.png)
 
 우분투 서버 16.04를 선택하고 나면 아래와 같이 `만들기` 버튼이 나올거에요. 버튼을 눌러주세요.
 
-![](/img/dropbox/2017-06-10%2000.14.29.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.14.29.png)
 
 만들기 버튼을 누르면 아래 사진처럼 기본 사항을 설정하는 창이 나올거에요. 내용을 화면 사진 그대로 채워주세요.
 
-![](/img/dropbox/2017-06-10%2000.16.28.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.16.28.png)
 
 > 사용자 이름은 가이드 다음부분에서 이용할 `django`로 하셔야 합니다.
 
@@ -94,33 +94,33 @@ image: /img/azure.jpg
 
 > AzurePass를 등록하면 돈을 지불하지 않아도 되니 걱정하지 마세요!
 
-![](/img/dropbox/2017-06-10%2000.19.53.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.19.53.png)
 
 이제 다음으로 넘어가면 저장소 설정을 해야 해요. 이부분에서는 '관리 디스크 사용'을 '예'로 클릭해주세요.
 
 그 다음으로는 아래쪽의 `네트워크 보안 그룹(방화벽)`을 클릭해 주세요. 클릭하시면 아래와 같이 `SSH (TCP/22)`만 인바운드 규칙에 들어가 있는 것을 확인할 수 있어요. 우리는 여기서 `HTTP (TCP/80)`을 추가해 줄 거에요.
 
-![](/img/dropbox/2017-06-10%2000.22.01.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.22.01.png)
 
 `+ 인바운드 규칙 추가` 버튼을 눌러주시고 사진과 같이 칸을 채워주시고 확인 버튼을 눌러주세요.
 
-![](/img/dropbox/2017-06-10%2000.24.23.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.24.23.png)
 
 이제 설정이 모두 끝났어요! 아래쪽의 `확인`버튼을 눌러주세요.
 
-![](/img/dropbox/2017-06-10%2000.24.54.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.24.54.png)
 
 다시 한번 확인 버튼을 눌러주세요.
 
-![](/img/dropbox/2017-06-10%2000.25.18.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.25.18.png)
 
 이제 정말로 다음 `확인`버튼만 누르면 서버 설치가 끝나요!
 
-![](/img/dropbox/2017-06-10%2000.25.53.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.25.53.png)
 
 이제 조금만 기다려주시면 서버 설치가 끝난답니다!
 
-![](/img/dropbox/2017-06-10%2000.28.15.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.28.15.png)
 
 > 아이콘의 설명이 `Creating`에서 `Running`으로 바뀌면 설치가 끝난거에요.
 
@@ -131,7 +131,7 @@ image: /img/azure.jpg
 
 Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어올 수 있어요.
 
-![](/img/dropbox/2017-06-10%2000.30.25.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.30.25.png)
 
 애저에서 가상컴퓨터가 생기면 `공용 IP 주소`라는걸 하나 갖게 된답니다. `ip`라는 것은 서버나 컴퓨터가 인터넷에 접속할 수 있게 해주는 일련의 번호인데요, 우리는 이 `ip`를 통해 우리 장고 프로젝트를 서버에 올리는 작업을 진행할 수 있어요.
 
@@ -154,29 +154,29 @@ Running으로 바뀐 아이콘을 클릭해주시면 아래 화면으로 들어�
 
 > 여러분은 여러분이 원하는 주소를 검색해보세요! (ex: myfirstdjango 등등)
 
-![](/img/dropbox/2017-06-10%2000.36.35.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.36.35.png)
 
 오, 다행히 주소가 남아있어요. 이제 `Get it now!`버튼을 눌러 장바구니에 담아볼게요.
 
-![](/img/dropbox/2017-06-10%2000.38.28.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.38.28.png)
 
 장바구니에 담은 도메인을 `Checkout`버튼을 눌러주면 아래 화면으로 넘어올거에요. `Use DNS`버튼을 눌러주신 후에 IP address 칸에 아까 애저 가상컴퓨터의 ip를 입력해주신 후 `Continue`를 눌러주세요.
 
-![](/img/dropbox/2017-06-10%2000.39.27.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.39.27.png)
 
 `Continue`를 누르면 로그인 화면이 나와요. 구글이나 페이스북의 소셜 로그인을 이용할 수 있어요!
 
 > 페이스북은 가끔 오류가 나기도 해요. 그럴때는 구글이나 MS Live계정으로 다시한번 시도해주세요.
 
-![](/img/dropbox/2017-06-10%2000.40.52.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.40.52.png)
 
 로그인이 완료되면 아래와 같이 자신의 정보를 입력하는 부분이 나와요. 꼭 다 채울필요는 없어요!
 
-![](/img/dropbox/2017-06-10%2000.42.39.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.42.39.png)
 
 주문 거래 동의 체크상자를 클릭한 후 계속 버튼을 누르면 주문이 완료된답니다! 좋아요!
 
-![](/img/dropbox/2017-06-10%2000.45.21.png)
+![]({{site.static_url}}/img/dropbox/2017-06-10%2000.45.21.png)
 
 
 ## Fabric3 설치하기

@@ -64,7 +64,7 @@ pip install python-telegram-bot
 ## 클리앙 새글 탐지코드 만들기
 ---
 
-![clien marcket web page list](/img/dropbox/2017-04-21%2000.46.01.png)
+![clien marcket web page list]({{site.static_url}}/img/dropbox/2017-04-21%2000.46.01.png)
 
 우선 게시판의 글 제목중 첫번째 제목을 가져오고 txt파일로 저장하는 코드를 만들어 봅시다.
 
@@ -231,7 +231,7 @@ while True:
 
 우선 Ubuntu 16.04가 설치된 시스템이 필요합니다. 이번 강의에서는 Vultr VPS를 이용합니다.
 
-![add deploy new vps](/img/dropbox/2017-04-21%2001.31.34.png)
+![add deploy new vps]({{site.static_url}}/img/dropbox/2017-04-21%2001.31.34.png)
 
 Vultr는 가상 서버 회사인데, Tokyo리전의 VPS를 제공해줘 빠르게 이용이 가능합니다. 트래픽도 굉장히 많이주고요.
 
@@ -239,11 +239,11 @@ Vultr는 가상 서버 회사인데, Tokyo리전의 VPS를 제공해줘 빠르�
 
 아래의 Deploy Now를 누르면 새 Cloud Instance(VPS)가 생성되는데요, 서버가 생성된 후 들어가 보면 다음과 같이 id와 pw가 나와있습니다. 패스워드는 눈 모양을 누르면 잠시 보입니다.
 
-![](/img/dropbox/2017-04-21%2001.43.54.png)
+![]({{site.static_url}}/img/dropbox/2017-04-21%2001.43.54.png)
 
 이 정보로 ssh에 접속해 봅시다. (윈도는 putty이나 Xshell등을 이용해주세요.)
 
-![](/img/dropbox/2017-04-21%2001.46.08.png)
+![]({{site.static_url}}/img/dropbox/2017-04-21%2001.46.08.png)
 
 우분투 16.04버전에는 이미 Python3.5버전이 설치되어있기 때문에 `pip3`, `setuptools`을 설치해 주고 Ubuntu의 Locale을 설정해줘야 합니다. 아래 명령어를 한줄씩 순차적으로 치시면 완료됩니다.
 
@@ -253,7 +253,7 @@ sudo locale-gen "ko_KR.UTF-8"
 pip3 install requests bs4 python-telegram-bot
 ```
 
-![](/img/dropbox/2017-04-21%2001.48.11.png)
+![]({{site.static_url}}/img/dropbox/2017-04-21%2001.48.11.png)
 
 설치를 하신 후 코드를 테스트 해보려면 위 파일을 `vi`등으로 열어 위 코드들을 입력하시면 됩니다.
 
@@ -310,7 +310,7 @@ root@vultr:~# which python3
 
 > 힌트: 매 12분마다로 하시려면 `*/12 * * * * /usr/bin/python3 /root/clien_market_parser.py`로 하시면 됩니다.
 
-![](/img/dropbox/2017-04-21%2002.03.23.png)
+![]({{site.static_url}}/img/dropbox/2017-04-21%2002.03.23.png)
 
 이제 여러분의 휴대폰으로 새 글이 올라올 때 마다 알람이 올라올 거랍니다 :)
 

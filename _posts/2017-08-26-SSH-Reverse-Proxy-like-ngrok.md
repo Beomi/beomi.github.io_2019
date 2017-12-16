@@ -103,7 +103,7 @@ ssh beomi@47.156.24.36 -N -R 80:localhost:8000
 
 이 챕터에서는 [CloudFlare](https://www.cloudflare.com/)에 도메인을 연결할 때 제공받을 수 있는 SSL서비스를 통해 HTTP로 서빙되는 우리 서비스를 '안전한' HTTPS로 서빙하도록 도와줍니다.
 
-![](/img/2017-08-26-SSH-Reverse-Proxy-like-ngrok-cloudflare-flexssl.png)
+![]({{site.static_url}}/img/2017-08-26-SSH-Reverse-Proxy-like-ngrok-cloudflare-flexssl.png)
 
 CloudFlare의 Flex SSL을 사용하면 우리 서버가 HTTPS가 아닌 HTTP로 서빙되더라도 클라우드 플레어에서 HTTPS로 만들어줍니다.
 
@@ -113,7 +113,7 @@ CloudFlare의 Flex SSL을 사용하면 우리 서버가 HTTPS가 아닌 HTTP로 
 
 도메인을 등록하고 `DNS` 탭에 들어가서 다음과 같이 서브 도메인(혹은 루트 도메인)을 서버 ip에 연결한 후 우측 하단의 구름모양을 켜 주세요. 이 구름모양을 켜 주면 이 도메인으로 온 요청은 CloudFlare의 CDN망을 통해 전달됩니다. (CSS/JS캐싱도 해줍니다!)
 
-![](/img/dropbox/Screenshot%202017-08-27%2014.08.01.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-08-27%2014.08.01.png?dl=1)
 
 도메인을 등록했으면 아래와 같이 `Crypto`탭에서 SSL을 `Flexible`로 바꿔주세요.
 
@@ -124,7 +124,7 @@ CloudFlare의 Flex SSL을 사용하면 우리 서버가 HTTPS가 아닌 HTTP로 
 
 이 설정은 off에서 다른 옵션으로 바꿔주면 약간의 시간이 걸리지만 안전한 SSL 인증서를 CloudFlare에서 만들어줍니다.
 
-![](/img/dropbox/Screenshot%202017-08-27%2013.58.36.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-08-27%2013.58.36.png?dl=1)
 
 ## `proxy` 명령어에 연결하기
 
@@ -145,7 +145,7 @@ ngrok는 아주 간편하고 좋은 서비스입니다. 하지만 모바일과 P
 
 다만 CloudFlare의 CSS/JS캐싱 전략에 의해 변경된 파일이 가져와지지 않는 점은 있는데, 이때는 Apache등의 웹서버에서 제공하는 virtualhost기능과 let's encrypt의 무료 SSL 서비스를 조합해 사용하면 CloudFlare없이도 동일하게 환경을 만들어 줄 수 있습니다. 하지만 웹서버 자체에 대한 이해가 필요하며 SSL을 붙이는 일도 상당히 귀찮기때문에 단순하게 CloudFlare에서 도에인 모드를 아래와 같이 'Development Mode'로 설정해 주면 캐싱 하는 것을 방지할 수 있습니다.
 
-![](/img/dropbox/Screenshot%202017-08-27%2014.42.36.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-08-27%2014.42.36.png?dl=1)
 
 ### 여담
 

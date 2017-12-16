@@ -60,11 +60,11 @@ sudo apt-get install openjdk-8-jre -y
 
 Hadoop은 Apache의 홈페이지에서 [최신 릴리즈 링크](http://hadoop.apache.org/releases.html)에서 바이너리 파일의 링크를 가져옵시다.
 
-![](/img/dropbox/Screenshot%202017-11-09%2015.23.26.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-11-09%2015.23.26.png)
 
 원하는 Hadoop 버전의 `Binary` 링크를 클릭해 바이너리를 받을 수 있는 페이지로 들어갑시다. 글쓰는 시점에는 2.8.2가 최신 버전입니다. 링크를 타고 들어가면 아래와 같이 HTTP로 파일을 받을 수 있는 링크가 나옵니다.
 
-![](/img/dropbox/Screenshot%202017-11-09%2015.25.04.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-11-09%2015.25.04.png)
 
 글을 보는 시점에는 링크 주소는 다를 수 있지만, HTTP 링크 중 하나를 복사하고 진행하면 됩니다. 이 글에서는 네이버 서버의 미러를 이용합니다.
 
@@ -109,7 +109,7 @@ export YARN_CONF_DIR=\$HADOOP_HOME/etc/hadoop
 /usr/local/hadoop/bin/hadoop
 ```
 
-![](/img/dropbox/Screenshot%202017-11-09%2015.49.19.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-11-09%2015.49.19.png)
 
 ## 끝이지만 끝이 아닌..
 

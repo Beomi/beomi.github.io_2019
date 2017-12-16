@@ -14,13 +14,13 @@ image: /img/macOS-sierra.jpg
 
 물론 맥의 키보드 환경설정에서는 기본적으로 사용자가 원하는 키보드 조합을 통해 언어 전환을 할 수 있습니다.
 
-![](/img/macOS-keyboard-1.png)
+![]({{site.static_url}}/img/macOS-keyboard-1.png)
 
 우선 키보드 전환 설정으로 들어가봅시다. 환경설정에서 키보드로 들어가주세요.
 
 키보드로 들어가신 후 아래 빨간 네모대로 클릭을 해 주세요.
 
-![](/img/macOS-keyboard-2.png)
+![]({{site.static_url}}/img/macOS-keyboard-2.png)
 
 여기서 마지막 네모를 더블클릭하고 키를 입력하면 언어 변경키를 지정할 수 있는데요, 더블클릭 후 `Shift+Space`를 누르면 아무런 반응이 일어나지 않는걸 보실 수 있습니다.
 

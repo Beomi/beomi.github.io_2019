@@ -96,7 +96,7 @@ with requests.Session() as s:
 
 크롬 개발자 도구 중 Inspect(검사)를 이용해 로그인 폼 필드의 `name`값들을 알아봅시다.(폼 위에서 마우스 오른쪽 버튼을 클릭하고 `검사`를 눌러주세요.)
 
-![](/img/dropbox/Screenshot%202017-07-12%2021.20.53.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-12%2021.20.53.png)
 
 아래 스크린샷 우측을 확인해 봅시다. `form` 태그 안에 `input`필드가 여러개가 있는 것을 알 수 있습니다.
 
@@ -222,7 +222,7 @@ with requests.Session() as s:
     print(login_req.status_code)
 ```
 
-![](/img/dropbox/Screenshot%202017-07-12%2022.12.00.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-12%2022.12.00.png?dl=1)
 
 와우! 200이 나온걸 보니 성공적으로 로그인이 된 것 같아요.
 
@@ -230,11 +230,11 @@ with requests.Session() as s:
 
 이제 우리 코드를 좀 더 멋지게 만들어 봅시다. 로그인이 실패한 경우 Exception을 만들고, 성공일 경우에는 회원 장터의 게시글을 가져와봅시다.
 
-![](/img/dropbox/Screenshot%202017-07-12%2022.24.12.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-12%2022.24.12.png?dl=1)
 
 위 스크린샷처럼 오른쪽 버튼을 누르고 Copy > Copy selector를 눌러주면 `#div_content > div.post-title > div.title-subject > div`라는 CSS Selector가 나옵니다. 이 HTML문서에서 이 제목만을 콕 하고 찾아줍니다.
 
-![](/img/dropbox/Screenshot%202017-07-12%2022.30.35.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-12%2022.30.35.png?dl=1)
 
 본문도 같은 방식으로 찾아줍시다. 다만 `p`태그가 아니라 글 전체를 담고있는 `#div_content > div.post.box > div.post-content > div.post-article.fr-view`을 가져와봅시다.
 
@@ -287,7 +287,7 @@ with requests.Session() as s:
 
 코드를 실행해 봅시다.
 
-![](/img/dropbox/Screenshot%202017-07-12%2022.33.05.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-12%2022.33.05.png?dl=1)
 
 잘 가져옵니다 :)
 

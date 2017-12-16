@@ -62,7 +62,7 @@ source /usr/local/opt/autoenv/activate.sh
 
 ## 유의사항
 
-![](/img/dropbox/Screenshot%202017-07-16%2017.44.52.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-07-16%2017.44.52.png)
 
 `.env`파일 설정 후 첫 폴더 진입시 `.env`파일을 신뢰하고 실행할지 않을 지에 대한 동의가 나타납니다. 이 부분은 `.env`파일이 악의적으로 변경되었을때 사용자에게 알리기 위해서 있기 때문에 즐거운 마음으로 Y를 눌러줍시다.
 

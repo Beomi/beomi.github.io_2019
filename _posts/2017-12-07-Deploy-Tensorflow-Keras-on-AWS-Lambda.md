@@ -54,7 +54,7 @@ AWS Lambda는 아마존에서 RedHat계열의 OS를 새로 만든 Amazon Linux�
 
 도커는 [Docker Community Edition Download Page](https://store.docker.com/search?type=edition&offering=community)에서 받으실 수 있습니다.
 
-![도커를 받아주세요](/img/dropbox/2017-12-07%2022.31.22.png)
+![도커를 받아주세요]({{site.static_url}}/img/dropbox/2017-12-07%2022.31.22.png)
 
 여러분이 다음부분을 진행하기 전, `docker`라는 명령어를 터미널 혹은 cmd상에서 입력시 도커가 실행되어야 합니다. 도커가 실행된다면, 우선은 실행할 준비를 마친 것이랍니다.
 
@@ -66,7 +66,7 @@ AWS Lambda는 아마존에서 RedHat계열의 OS를 새로 만든 Amazon Linux�
 
 우선 DynamoDB 메뉴에서 아래와 같이 새 테이블 하나를 만들어 줍시다.
 
-![](/img/dropbox/Screenshot%202017-12-14%2010.10.35.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2010.10.35.png)
 
 기본키 정도만 문자열 필드 `filename`을 만들고 테이블을 생성해 줍시다.
 
@@ -76,7 +76,7 @@ AWS Lambda는 아마존에서 RedHat계열의 OS를 새로 만든 Amazon Linux�
 
 이번 글에서는 squeezenet Imagenet 모델을 이용해 predict를 진행합니다. `squeezenet_weights_tf_dim_ordering_tf_kernels.h5`파일이 필요한데, AWS Lambda에서 비용이 들지 않으며 빠른 속도로 모델을 받아오기 위해서는 같은 리전의 s3에 파일을 올려둬야 합니다. 
 
-![keras-blog 버킷에 올린 모델 파일](/img/dropbox/Screenshot%202017-12-13%2014.40.38.png)
+![keras-blog 버킷에 올린 모델 파일]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2014.40.38.png)
 
 이번 글에서는 `keras-blog`라는 s3 버킷의 `squeezenet` 폴더에 파일을 올려두었습니다.
 
@@ -106,11 +106,11 @@ docker run -v $(pwd):/outputs --name lambdapack -d amazonlinux:latest tail -f /d
 
 도커 컨테이너의 이름을 `lambdapack`으로 지정하고 현재 폴더(`$(pwd)`)를 도커의 `/outputs`폴더로 연결해줍니다.
 
-![도커가 실행된 모습](/img/dropbox/2017-12-07%2022.48.48.png)
+![도커가 실행된 모습]({{site.static_url}}/img/dropbox/2017-12-07%2022.48.48.png)
 
 성공적으로 받아졌다면 다음과 같이 임의의 난수 id가 생깁니다. 그리고 `docker ps`라는 명령어로 현재 실행중인 컨테이너들을 확인해보면 다음과 같이 `lambdapack`라는 이름을 가진 컨테이너가 생성된 것을 볼 수 있습니다.
 
-![도커 ps](/img/dropbox/2017-12-07%2022.49.31.png)
+![도커 ps]({{site.static_url}}/img/dropbox/2017-12-07%2022.49.31.png)
 
 ## 람다가 실행할 python 파일 작성하기
 
@@ -489,7 +489,7 @@ docker exec -it lambdapack /bin/bash /outputs/buildPack.sh
 
 실행하고 나면 약 50MB안팎의 `pack.zip`파일 하나가 생긴것을 볼 수 있습니다.
 
-![](/img/dropbox/Screenshot%202017-12-13%2017.27.11.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.27.11.png)
 
 하지만 앞서 언급한 것처럼, AWS 콘솔에서 'ZIP 파일 올리기'로 한번에 올릴수 있는 압축파일의 용량은 50MB로 제한됩니다. 따라서 이 zip 파일을 s3에 올린 뒤 zip파일의 HTTP주소를 넣어줘야 합니다.
 
@@ -499,11 +499,11 @@ docker exec -it lambdapack /bin/bash /outputs/buildPack.sh
 
 지금까지 작업한 것은 Lambda에 올릴 패키지/코드를 압축한 파일인데요, 이 부분을 약간 수정해 이제 실제로 AWS Lambda의 이벤트를 통해 실행해 봅시다.
 
-![s3에 파일 업로드하기](/img/dropbox/Screenshot%202017-12-13%2017.31.32.png)
+![s3에 파일 업로드하기]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.31.32.png)
 
 S3에 파일을 올린 뒤 파일의 HTTPS주소를 복사해주세요.
 
-![s3의 pack.zip HTTP주소](/img/dropbox/Screenshot%202017-12-13%2017.32.11.png)
+![s3의 pack.zip HTTP주소]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.32.11.png)
 
 여기에서는 `https://s3.ap-northeast-2.amazonaws.com/keras-blog/pack.zip`가 주소가 됩니다.
 
@@ -511,23 +511,23 @@ S3에 파일을 올린 뒤 파일의 HTTPS주소를 복사해주세요.
 
 [Lambda 콘솔 함수만들기](https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#/create)에 들어가 "새로 작성"을 선택 후 아래와 같이 내용을 채운 뒤 함수 생성을 눌러주세요.
 
-![](/img/dropbox/Screenshot%202017-12-13%2017.34.39.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.34.39.png)
 
 함수가 생성되고 나면 화면 아래쪽 '함수 코드'에서 다음과 같이 AWS s3에서 업로드를 선택하고 런타임을 Python3.6으로 잡은 뒤 핸들러를 `index.handler`로 바꾸고 S3링크를 넣어준 뒤 '저장'을 눌러주세요.
 
-![](/img/dropbox/Screenshot%202017-12-13%2017.38.45.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.38.45.png)
 
 그 뒤, '기본 설정'에서 메모리를 1500MB 이상으로, 그리고 제한시간은 30초 이상으로 잡아주세요. 저는 테스트를 위해 3000MB/5분으로 잡아주었습니다.
 
-![](/img/dropbox/Screenshot%202017-12-14%2015.22.39.png)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2015.22.39.png)
 
 이제 s3에서 파일이 추가될때 자동으로 실행되도록 만들어 주기 위해 다음과 같이 '구성'에서 s3를 선택해주세요.
 
-![트리거에서 s3 선택하기](/img/dropbox/Screenshot%202017-12-13%2017.40.23.png)
+![트리거에서 s3 선택하기]({{site.static_url}}/img/dropbox/Screenshot%202017-12-13%2017.40.23.png)
 
 이제 화면 아래에 '트리거 구성' 메뉴가 나오면 아래 스크린샷처럼, 파일을 올릴 s3, 그리고 어떤 이벤트(파일 업로드/삭제/복사 등)를 탐지할지 선택하고, 접두사에서 폴더 경로를 `폴더이름/`으로 써 준 뒤, 필요한 경우 접미사(주로 파일 확장자)를 써 주면 됩니다.
 
-![S3 트리거 구성](/img/dropbox/Screenshot%202017-12-14%2009.55.57.png)
+![S3 트리거 구성]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2009.55.57.png)
 
 이번에는 `keras-blog`라는 버킷 내 `uploads`폴더 내에 어떤 파일이든 생성되기만 하면 모두 람다 함수를 실행시키는 것으로 만들어 본 것입니다.
 
@@ -535,17 +535,17 @@ S3에 파일을 올린 뒤 파일의 HTTPS주소를 복사해주세요.
 
 추가버튼을 누르고 난 뒤 저장을 눌러주면 됩니다.
 
-![함수 저장하기](/img/dropbox/Screenshot%202017-12-14%2010.00.00.png)
+![함수 저장하기]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2010.00.00.png)
 
 트리거가 성공적으로 저장 되었다면 다음과 같은 화면을 볼 수 있을거에요.
 
-![람다 함수 다 만든 모습](/img/dropbox/Screenshot%202017-12-14%2010.01.52.png)
+![람다 함수 다 만든 모습]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2010.01.52.png)
 
 ## Lambda 환경변수 추가하기 
 
 우리가 앞서 `index.py`에서 `os.environ`을 통해 시스템의 환경변수를 가져왔습니다. 이를 정상적으로 동작하게 하기 위해서는 `ACCESS_KEY`와 `SECRET_KEY`을 추가해주어야 합니다. 아래 스크린샷처럼 각각 값을 입력하고 저장해주세요.
 
-![환경변수 추가하기](/img/dropbox/Screenshot%202017-12-14%2011.21.21.png)
+![환경변수 추가하기]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2011.21.21.png)
 
 > 이 키는 AWS `iam`을 통해 가져올 수 있습니다. 해당 iam계정은 s3 R/W권한, DynamoDB write 권한이 있어야 합니다.
 
@@ -555,7 +555,7 @@ AWS Lambda 콘솔에서도 테스트를 돌릴 수 있습니다.
 
 아래와 같이 event 객체를 만들어 전달하면 실제 이벤트처럼 동작합니다.
 
-![예제 테스트](/img/dropbox/Screenshot%202017-12-14%2015.16.35.png)
+![예제 테스트]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2015.16.35.png)
 
 ```json
 {
@@ -574,18 +574,18 @@ AWS Lambda 콘솔에서도 테스트를 돌릴 수 있습니다.
 
 테스트가 성공하면 다음과 같이 `return`된 결과가 json으로 보입니다.
 
-![람다콘솔 테스트 성공](/img/dropbox/Screenshot%202017-12-14%2015.15.44.png)
+![람다콘솔 테스트 성공]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2015.15.44.png)
 
 ## 마무리: 파일 업로드하고 DB에 쌓이는지 확인하기
 
 이제 s3에 가서 파일을 업로드 해 봅시다.
 
-![s3에 파일 업로드](/img/dropbox/Screenshot%202017-12-14%2015.19.34.png)
+![s3에 파일 업로드]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2015.19.34.png)
 
 `keras-blog` 버킷 내 `uploads`폴더에 고양이 사진 몇 개를 올려봅시다.
 
 몇초 기다리면 DynamoDB에 다음과 같이 파일 이름과 Predict된 결과가 쌓이는 것을 볼 수 있습니다.
 
-![DynamoDB에 쌓인 결과](/img/dropbox/Screenshot%202017-12-14%2015.20.04.png)
+![DynamoDB에 쌓인 결과]({{site.static_url}}/img/dropbox/Screenshot%202017-12-14%2015.20.04.png)
 
 이제 우리는 파일이 1개가 올라가든 1000개가 올라가든 모두 동일한 속도로 결과를 얻을 수 있습니다.

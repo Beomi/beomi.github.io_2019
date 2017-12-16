@@ -51,15 +51,15 @@ Selenium은 `webdriver`라는 것을 통해 디바이스에 설치된 브라우�
 
 글 작성일자인 2월 27일에는 ChromeDrive 2.27버전이 최신이며, 크롬 v54~56을 지원한다.
 
-![ChromeDriver Download Page](/img/dropbox/2017-02-27%2021.36.55.png)
+![ChromeDriver Download Page]({{site.static_url}}/img/dropbox/2017-02-27%2021.36.55.png)
 
 버전을 클릭하면 아래와 같은 OS별 Driver파일이 나열되어있다. 사용하는 OS에 따른 driver를 받아주자.
 
-![ChromeDriver Lists](/img/dropbox/2017-02-27%2021.39.34.png)
+![ChromeDriver Lists]({{site.static_url}}/img/dropbox/2017-02-27%2021.39.34.png)
 
 zip파일을 받고 풀어주면 `chromedriver`라는 파일이 저장된다.
 
-![](/img/dropbox/2017-02-27%2021.41.17.png)
+![]({{site.static_url}}/img/dropbox/2017-02-27%2021.41.17.png)
 
 위 폴더를 기준으로 할 경우 `/Users/beomi/Downloads/chromedriver`가 크롬드라이버의 위치다.
 
@@ -75,7 +75,7 @@ PhantomJS는 [PhantomJS Download Page](http://phantomjs.org/download.html)에서
 
 Binary 자체로 제공되기 때문에, Linux를 제외한 OS에서는 외부 dependency없이 바로 실행할 수 있다.
 
-![Extracted PhantomJS Zip file](/img/dropbox/2017-02-27%2021.47.01.png)
+![Extracted PhantomJS Zip file]({{site.static_url}}/img/dropbox/2017-02-27%2021.47.01.png)
 
 압축을 풀어주면 아래와 같은 많은 파일들이 있지만, 우리가 사용하는 것은 `bin`폴더 안의 `phantomjs`파일이다.
 
@@ -165,7 +165,7 @@ driver.get('https://nid.naver.com/nidlogin.login')
 
 네이버 로그인 화면을 확인 해 보면 아이디를 입력받는 부분의 name이 `id`, ​비밀번호를 입력받는 부분의 name이 `pw`인 것을 알 수 있다.
 
-![Naver Login Page](/img/dropbox/2017-02-27%2022.19.18.png)
+![Naver Login Page]({{site.static_url}}/img/dropbox/2017-02-27%2022.19.18.png)
 
 `find_element_by_name`을 통해 아이디/비밀번호 input 태그를 잡아주고, 값을 입력해 보자.
 
@@ -180,7 +180,7 @@ driver.find_element_by_name('id').send_keys('naver_id')
 driver.find_element_by_name('pw').send_keys('mypassword1234')
 ```
 
-![Naver Login Input](/img/dropbox/2017-02-27%2022.23.11.png)
+![Naver Login Input]({{site.static_url}}/img/dropbox/2017-02-27%2022.23.11.png)
 
 성공적으로 값이 입력된 것을 확인할 수 있다.
 
@@ -200,11 +200,11 @@ driver.find_element_by_xpath('//*[@id="frmNIDLogin"]/fieldset/input').click()
 
 성공적으로 로그인이 되는 것을 확인할 수 있다.
 
-![Naver Login Success](/img/dropbox/2017-02-27%2022.28.00.png)
+![Naver Login Success]({{site.static_url}}/img/dropbox/2017-02-27%2022.28.00.png)
 
 로그인이 필요한 페이지인 네이버 페이의 주문내역 페이지를 가져와보자.
 
-![Naver Pay Order](/img/dropbox/2017-02-27%2022.38.43.png)
+![Naver Pay Order]({{site.static_url}}/img/dropbox/2017-02-27%2022.38.43.png)
 
 네이버 페이의 Url은 `https://order.pay.naver.com/home` 이다. 위 페이지의 알림 텍스트를 가져와 보자.
 
@@ -231,7 +231,7 @@ for n in notices:
 
 로그인이 잘 되고, 성공적으로 리스트를 받아오는 것을 확인해 볼 수 있다.
 
-![Result](/img/dropbox/2017-02-27%2022.41.46.png)
+![Result]({{site.static_url}}/img/dropbox/2017-02-27%2022.41.46.png)
 
 # 정리하기
 ---

@@ -26,7 +26,7 @@ printHelloWorld(hello)
 
 가장 큰 차이는 실행 환경의 문제인데요, 우리가 자주 사용하는 크롬브라우저의 경우에는 자동업데이트 기능이 내장되어있어 일반 사용자가 크롬브라우저를 실행만 해도 최신 버전을 이용하지만, 인터넷 익스플로러나 사파리와 같은 경우에는 많은 사용자가 OS에 설치되어있던 버전 그대로를 이용합니다. 물론 이렇게 사용하는 것도 심각한 문제를 가져오지는 않지만, 구형 브라우저들은 새로운 자바스크립트를 이해하지 못하기 때문에 이 브라우저를 사용하는 사용자들은 새로운 자바스크립트로 개발된 웹 사이트를 접속할 경우 전혀 다르게 혹은 완전히 동작하지 않는 페이지를 볼 수 있기 때문에 많은 일반 사용자를 대상으로 하는 서비스의 경우 새 버전의 자바스크립트를 사용해 개발한다는 것이 상당히 모험적인 성향이 강합니다.
 
-![es2017](/img/es2017.png)
+![es2017]({{site.static_url}}/img/es2017.png)
 
 글쓴 시점인 2017년 10월 최신 자바스크립트 버전은 `ES2017`로 `ES8`이라 불리는 버전입니다. 하지만 이건 정말 최신 버전의 자바스크립트이고, 중요한 변화가 등장한 버전이 2015년도에 발표된 `ES2015`, 다른 말로는 `ES6`이라고 불리는 자바스크립트입니다. 하지만 인터넷익스플로러를 포함한 대부분의 브라우저들이 지원하는 자바스크립트의 버전은 `ES5`로 이보다 한단계 낮은 버전을 사용합니다. 따라서 우리는 `ES6`혹은 그 이상 버전의 자바스크립트 코드들을 `ES5`의 아래 버전 자바스크립트로 변환해 사용하는 방법을 사용할 수 있습니다.
 
@@ -34,7 +34,7 @@ printHelloWorld(hello)
 
 여기서 바로 Babel이 등장합니다. Babel은 최신 자바스크립트를 `ES5`버전에서도 돌아갈 수 있도록 변환(Transpiling)해줍니다. 우리가 자바스크립트 최신 버전의 멋진 기능을 이용하는 동안, Babel이 다른 브라우저에서도 돌아갈 수 있도록 처리를 모두 해주는 것이죠!
 
-> 물론, Babel이 마법의 요술도구처럼 모든 최신 기능을 변환해주지는 못합니다. 하지만 아래 사진처럼 다양한 브라우저에 따라 최신 JavaScript문법 중 어떠 부분까지가 실행 가능한 범위인지 알려줍니다. ![Babel coverage](/img/babel_coverage.png)
+> 물론, Babel이 마법의 요술도구처럼 모든 최신 기능을 변환해주지는 못합니다. 하지만 아래 사진처럼 다양한 브라우저에 따라 최신 JavaScript문법 중 어떠 부분까지가 실행 가능한 범위인지 알려줍니다. ![Babel coverage]({{site.static_url}}/img/babel_coverage.png)
 
 ## Webpack
 
@@ -89,11 +89,11 @@ webpack은 파일을 모아 하나의 js파일로 만들어줍니다.(보통 `bu
 npm init -y
 ```
 
-![](/img/dropbox/Screenshot%202017-10-19%2010.23.18.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2010.23.18.png?dl=1)
 
 이 명령어를 치면 폴더 안에 `package.json`파일이 생성되었을 거에요.
 
-![](/img/dropbox/Screenshot%202017-10-19%2010.23.52.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2010.23.52.png?dl=1)
 
 이제 다음 명령어로 Babel과 webpack등을 설치해 봅시다.
 
@@ -103,7 +103,7 @@ npm install --save-dev babel-loader babel-core babel-preset-env
 npm install --save-dev webpack webpack-dev-server
 ```
 
-![](/img/dropbox/Screenshot%202017-10-19%2010.25.30.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2010.25.30.png?dl=1)
 
 `babel-loader`는 `webpack`이 .js 파일들에 대해 babel을 실행하도록 만들어주고, `babel-core`는 babel이 실제 동작하는 코드이고, `babel-preset-env`는 babel이 동작할 때 지원범위가 어느정도까지 되어야 하는지에 대해 지정하도록 만들어주는 패키지입니다.
 
@@ -243,7 +243,7 @@ npm run devserver
 
 브라우저의 개발자 도구를 열어보면 아래와 같이 로그가 잘 찍힌걸 확인해 볼 수 있을거에요.
 
-![](/img/dropbox/Screenshot%202017-10-19%2010.56.16.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2010.56.16.png?dl=1)
 
 이제 여러분이 `index.js`파일이나 `Profile.js`등을 수정하면 곧바로 새로고침되고 새로운 `bundle.js`를 라이브로 불러올거에요.
 
@@ -257,10 +257,10 @@ npm run devserver
 npm run build
 ```
 
-![](/img/dropbox/Screenshot%202017-10-19%2010.59.35.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2010.59.35.png?dl=1)
 
 위와 같이 나온다면 성공적으로 webpack이 마쳐진 것이랍니다! 그리고 여러분 프로젝트 폴더 안에 `dist`폴더가 생기고 그 안에 `bundle.js`파일이 생겼을 거에요.
 
-![](/img/dropbox/Screenshot%202017-10-19%2011.00.42.png?dl=1)
+![]({{site.static_url}}/img/dropbox/Screenshot%202017-10-19%2011.00.42.png?dl=1)
 
 이제 여러분은 `index.html`파일과 `dist`폴더를 묶어 서버에 올리면 페이지가 잘 동작하는것을 확인할 수 있을거에요!

@@ -33,7 +33,7 @@ Headless라는 용어는 '창이 없는'과 같다고 이해하시면 됩니다.
 
 크롬 버전 확인은 크롬 브라우저에서 [chrome://version/](chrome://version/)로 들어가 확인할 수 있습니다.
 
-![](/img/dropbox/ScreenShot2017-08-0112.47.57.png)
+![]({{site.static_url}}/img/dropbox/ScreenShot2017-08-0112.47.57.png)
 
 이와 같이 크롬 버전이 60버전 이상인 크롬에서는 'Headless'모드를 사용할 수 있습니다.
 

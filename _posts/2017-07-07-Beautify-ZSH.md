@@ -22,7 +22,7 @@ image: /img/Beautify-ZSH.png
 
 우선 [iTerm2 다운로드 페이지](https://www.iterm2.com/downloads.html)에 들어가서 iTerm2를 받아주세요.
 
-![iTerm2 Download Page](/img/iTerm2_download.png)
+![iTerm2 Download Page]({{site.static_url}}/img/iTerm2_download.png)
 
 Stable Releases중 최신 버전을 받아주세요. 다운 받은 후 압축을 풀면 iTerm2라는 맥 앱이 생길거에요. 맥 파인더에서 '응용 프로그램'으로 iTerm2를 옮겨주세요.
 
@@ -86,7 +86,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 iTerm2를 실행하고 맥 화면 상단 좌측의 사과 아이콘 옆 iTerm2를 누르고 나오는 메뉴 중 'Preferences...'를 눌러주세요.
 
-![](/img/Oceanic-Next.itermcolors2.png)
+![]({{site.static_url}}/img/Oceanic-Next.itermcolors2.png)
 
 이제 위 스크린샷처럼 Profiles > Default > Colors > Color Presets... > Oceanic-Next 로 차례대로 눌러주신 후 iTerm2를 껐다가 켜면 적용이 완료되어있을 거랍니다.
 
@@ -131,7 +131,7 @@ ZSH_THEME="agnoster"
 
 위에서 Oceanic Next 테마를 설치한 것과 같이 위 스크린샷처럼 Preferences..에 들어가 주세요.
 
-![](/img/iTerm2_Ubuntu_Mono1.png)
+![]({{site.static_url}}/img/iTerm2_Ubuntu_Mono1.png)
 
 그리고 위 사진처럼 Profiles > Default > Text > ChangeFont를 눌러주세요. 그러면 아래와 같은 창이 뜹니다. 시스템에 깔린 모든 폰트가 나오기 때문에 '고정폭'을 먼저 선택하고 폰트를 선택해 주세요.
 
