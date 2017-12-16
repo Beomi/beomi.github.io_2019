@@ -4,7 +4,7 @@ date: 2016-11-15
 layout: post
 categories:
 - Translation
-image: /img/old_post/react-native.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/react-native.png
 ---
 
 React Native의 ​Tutorial번역 시리즈입니다.

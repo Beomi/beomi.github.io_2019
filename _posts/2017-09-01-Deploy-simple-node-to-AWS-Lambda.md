@@ -5,7 +5,7 @@ layout: post
 categories:
 - tips
 published: false
-image: /img/2017-09-01-Deploy-simple-node-to-AWS-Lambda.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-09-01-Deploy-simple-node-to-AWS-Lambda.png
 ---
 
 ## 들어가기 전

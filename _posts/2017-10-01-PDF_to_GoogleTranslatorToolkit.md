@@ -5,7 +5,7 @@ layout: post
 categories:
 - Tips
 published: true
-image: /img/pdf_to_google_translator_toolkit.jpeg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/pdf_to_google_translator_toolkit.jpeg
 ---
 
 ## 시작하며

@@ -6,7 +6,7 @@ categories:
 - Python
 - Ubuntu
 published: true
-image: /img/PySpark_n_Hadoop_on_Ubuntu_16.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/PySpark_n_Hadoop_on_Ubuntu_16.jpg
 ---
 
 ## 들어가며

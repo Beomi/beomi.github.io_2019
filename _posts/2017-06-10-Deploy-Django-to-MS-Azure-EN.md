@@ -6,7 +6,7 @@ categories:
 - Django
 - Fabric
 published: true
-image: /img/azure.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/azure.jpg
 ---
 
 > 한국어 버전은 [Django MS Azure에 Fabric으로 배포하기](/2017/06/09/Deploy-Django-to-MS-Azure/)에서 보실 수 있습니다.

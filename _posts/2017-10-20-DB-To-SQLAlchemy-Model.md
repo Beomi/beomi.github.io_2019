@@ -6,7 +6,7 @@ categories:
 - Flask
 - SQLAlchemy
 published: true
-image: /img/2017-10-20-DB-To-SQLAlchemy-Model.jpeg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-10-20-DB-To-SQLAlchemy-Model.jpeg
 ---
 
 > 본 게시글에서는 MySQL/Sqlite을 예제로 하고있지만, Flask-SQLAlchemy가 지원하는 다른 DB에서도 사용 가능합니다.

@@ -28,9 +28,12 @@ for md in md_files:
     f_str = f.read()
     f.close()
 
-    print(re.findall('/img/.+\)', f_str))
+    # print(re.findall('\!\[/img/.+\)', f_str))
+    print(re.findall('image: /img/.+', f_str))
 
-    fw_str = re.sub('(/img/.+)\)', lambda x: '{{site.static_url}}'+x.groups()[0]+')', f_str)
+    # fw_str = re.sub('(/img/.+)\)', lambda x: '{{site.static_url}}'+x.groups()[0]+')', f_str)
+    s3_url = 'https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com'
+    fw_str = re.sub('image: (/img/.+)', lambda x: 'image: '+ s3_url +x.groups()[0], f_str)
 
     f = open(md, 'w')
     f.truncate()

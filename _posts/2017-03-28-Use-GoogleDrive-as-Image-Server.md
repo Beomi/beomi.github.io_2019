@@ -6,7 +6,7 @@ categories:
 - Tips
 - GithubPages
 published: true
-image: /img/Tips/google-drive-logo.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/Tips/google-drive-logo.jpg
 ---
 
 > 본 가이드는 MacOS에서 이용가능합니다.

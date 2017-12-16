@@ -7,7 +7,7 @@ categories:
 - AWS
 - Flask
 published: false
-image: /img/lambda_n_tensorflow.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/lambda_n_tensorflow.png
 ---
 
 ## 들어가며
@@ -38,6 +38,6 @@ image: /img/lambda_n_tensorflow.png
 - [Browser-Based Upload using HTTP POST (Using AWS Signature Version 4)](http://docs.aws.amazon.com/ko_kr/AmazonS3/latest/API/sigv4-post-example.html)
 
 
-
+![](/img/wow.pong)
 
 

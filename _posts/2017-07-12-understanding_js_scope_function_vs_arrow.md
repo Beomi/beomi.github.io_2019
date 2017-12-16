@@ -5,7 +5,7 @@ layout: post
 categories:
 - JavaScript
 published: true
-image: /img/understanding_js_scope_function_vs_arrow.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/understanding_js_scope_function_vs_arrow.png
 ---
 
 > 이번 포스팅은 ES6 JavaScript 대상입니다.

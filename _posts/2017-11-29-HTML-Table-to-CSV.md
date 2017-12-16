@@ -5,7 +5,7 @@ layout: post
 categories:
 - JavaScript
 published: true
-image: /img/table_to_csv.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/table_to_csv.jpg
 ---
 
 ## 들어가며

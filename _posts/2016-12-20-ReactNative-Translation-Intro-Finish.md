@@ -4,7 +4,7 @@ date: 2016-12-20
 layout: post
 categories:
 - Translation
-image: /img/old_post/react-native.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/react-native.png
 ---
 
 

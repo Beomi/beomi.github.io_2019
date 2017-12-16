@@ -5,7 +5,7 @@ layout: post
 categories:
 - macOS
 published: true
-image: /img/use-autoenv.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/use-autoenv.jpg
 ---
 
 > 이번 가이드는 macOS를 대상으로 합니다.

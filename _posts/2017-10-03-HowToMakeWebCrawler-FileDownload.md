@@ -6,7 +6,7 @@ categories:
 - Python
 - HowToMakeWebCrawler
 published: false
-image: /img/download_files_with_python.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/download_files_with_python.jpg
 ---
 
 ## 들어가며

@@ -6,7 +6,7 @@ categories:
 - Python
 - Django
 published: true
-image: /img/2017-02-02-Django-CustomAuth/authentication.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-02-02-Django-CustomAuth/authentication.png
 ---
 
 

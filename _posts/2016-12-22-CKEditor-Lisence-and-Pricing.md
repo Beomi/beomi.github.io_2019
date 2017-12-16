@@ -4,7 +4,7 @@ date: 2016-12-22
 layout: post
 categories:
 - Tech
-image: /img/old_post/CKEditor_logo.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/CKEditor_logo.png
 ---
 
 # CKEditor는 더이상 오픈소스만으로 제공되지 않는다

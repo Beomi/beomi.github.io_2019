@@ -6,7 +6,7 @@ categories:
 - macOS
 - Tips
 published: true
-image: /img/2017-11-10-Export-HighQuality-Image-with-KeyNote.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-11-10-Export-HighQuality-Image-with-KeyNote.jpg
 ---
 
 > 이번 글은 애플 키노트를 다루니 당연히 macOS가 대상입니다 :)

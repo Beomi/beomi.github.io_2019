@@ -7,7 +7,7 @@ categories:
 - JavaScript
 - ES6
 published: true
-image: /img/React/react_icon.png
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/React/react_icon.png
 ---
 
 ## Babel: ES6를 ES5로

@@ -5,7 +5,7 @@ layout: post
 categories:
 - django
 published: true
-image: /img/queryset_vs_get_queryset_on_django_cbv.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/queryset_vs_get_queryset_on_django_cbv.jpg
 ---
 
 > 요약: `queryset`은 request 발생시 한번만 쿼리셋이 동작하고, `get_queryset()`은 매 request마다 쿼리를 발생시킨다. 조건이 걸린 쿼리셋을 쓸때는 `get_queryset()`을 오버라이딩하자.

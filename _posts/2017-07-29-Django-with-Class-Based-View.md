@@ -5,7 +5,7 @@ layout: post
 categories:
 - Django
 published: false
-image: /img/cbv_in_django.jpeg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/cbv_in_django.jpeg
 ---
 
 > 이 가이드는 `django 1.11.x`버전과 `python 3.6.x`버전을 대상으로 합니다.

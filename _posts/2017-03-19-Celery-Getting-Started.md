@@ -8,7 +8,7 @@ categories:
 - CeleryDocs
 - Translation
 published: true
-image: /img/2017-03-19-Celery-Getting-Started/celery.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-03-19-Celery-Getting-Started/celery.jpg
 ---
 
 > 글 작성 시점 최신 버전 `v4.0.2`의 문서입니다.

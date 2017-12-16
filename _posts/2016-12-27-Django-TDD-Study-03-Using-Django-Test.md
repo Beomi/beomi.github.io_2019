@@ -6,7 +6,7 @@ categories:
 - DjangoTDDStudy
 - Python
 published: false
-image: /img/old_post/unit-test-works.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/unit-test-works.jpg
 ---
 
 

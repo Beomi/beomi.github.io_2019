@@ -6,7 +6,7 @@ categories:
 - Tips
 - GithubPages
 published: true
-image: /img/Tips/app_store.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/Tips/app_store.jpg
 ---
 
 > 본 가이드는 MacOS에서 이용가능합니다.

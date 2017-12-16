@@ -31,4 +31,4 @@ sass:
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
 
 # S3 Img
-static_url: "http://beomi-tech-blog.s3-website.ap-northeast-2.amazonaws.com"
+static_url: "https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com"

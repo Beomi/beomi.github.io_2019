@@ -5,7 +5,7 @@ layout: post
 categories:
 - Python
 - Fabric
-image: /img/old_post/python-fabric-logo.jpg
+image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/python-fabric-logo.jpg
 ---
 
 # 환경
