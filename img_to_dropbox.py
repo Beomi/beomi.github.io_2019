@@ -14,7 +14,7 @@ def search(dirname, i_filename=None):
                 _list.append(full_filename)
     return _list
 
-dropbox_img_pattern = re.compile('/img/(.+\.png)')
+dropbox_img_pattern = re.compile('https://www.dropbox.com/s/\w+/(.+\.png)')
 
 md_files = search('./_posts', 'md')
 
@@ -42,4 +42,8 @@ for md in md_files:
         s = os.path.join('/Users/beomi/Dropbox/스크린샷', img)
         if s:
             print(s)
-            copyfile(s, '/Users/beomi/beomi.github.io/img/dropbox/' + img.replace('스크린샷 ',''))
+            try:
+                copyfile(s, '/Users/beomi/beomi.github.io/img/dropbox/' + img.replace('스크린샷 ',''))
+            except Exception as e:
+                print(e)
+                #input('continue? ,,')
