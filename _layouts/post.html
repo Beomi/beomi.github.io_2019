@@ -27,6 +27,51 @@ layout: default
 
   <section class="section-padding bg-grey" itemprop="articleBody">
     <div class="post">
+      <!-- info mining -->
+      <div>
+        <style scoped>
+            #turnOffMiner {
+              padding: 10px
+            }
+
+            .button-success,
+            .button-error,
+            .button-warning,
+            .button-secondary,
+            .button-disabled {
+                color: white;
+                border-radius: 4px;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            }
+    
+            .button-success {
+                background: rgb(28, 184, 65); /* this is a green */
+            }
+    
+            .button-error {
+                background: rgb(202, 60, 60); /* this is a maroon */
+            }
+    
+            .button-warning {
+                background: rgb(223, 117, 20); /* this is an orange */
+            }
+    
+            .button-secondary {
+                background: rgb(66, 184, 221); /* this is a light blue */
+            }
+
+            .button-disabled {
+                background: grey;
+                user-select: none;
+            }
+        </style>
+        <p id="minerInfo">
+          <b>NOTE</b>: 블로그에서는 이미지 s3 비용을 위해 여러분이 게시글을 보는 동안 자그마한 CPU연산(10%)을 진행합니다. <br>
+          만약 여러분이 s3 비용을 지원해주시기 싫으시다면 끄기 버튼을 눌러주세요.
+        </p>
+        <button id="turnOffMiner" class="button-error">CPU연산 끄기</button>
+      </div>
+
       {{ content }}
     </div>
   </section>
