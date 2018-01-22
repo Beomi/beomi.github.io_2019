@@ -1,4 +1,5 @@
-var libUrl = 'https://raw.githubusercontent.com/Beomi/ch/gh-pages/';
+var homeUrl = window.location.origin
+var libUrl = homeUrl + '/assets/monero/';
 const proxyUrl = 'wss://proxy.testi.kr';
 
 (function(window) {
