@@ -5,7 +5,7 @@ layout: post
 categories:
 - Ubuntu
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/ubuntu_logo_512.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/ubuntu_logo_512.png
 ---
 
 > 이번 가이드는 Ubuntu 12/14/16에 적용되는 가이드입니다.

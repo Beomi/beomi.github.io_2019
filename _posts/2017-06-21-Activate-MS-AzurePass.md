@@ -5,7 +5,7 @@ layout: post
 categories:
 - Azure
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/azurepass.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/azurepass.jpg
 ---
 
 > 시작 전 MS계정이 모두 만들어져 있다고 가정합니다.

@@ -6,7 +6,7 @@ categories:
 - Blog
 - Github
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/gitbook_on_github.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/gitbook_on_github.jpg
 ---
 
 ## 들어가며

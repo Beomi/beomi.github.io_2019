@@ -5,7 +5,7 @@ layout: post
 categories:
 - tips
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-08-26-SSH-Reverse-Proxy-like-ngrok.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-08-26-SSH-Reverse-Proxy-like-ngrok.jpg
 ---
 
 > 이번 가이드를 따라가기 위해서는 HTTP(80/tcp) 포트가 열려있는 서버와 개인 도메인이 필요합니다.

@@ -7,7 +7,7 @@ categories:
 - Ubuntu
 - LDAP
 published: false
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/ldap-logo.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/ldap-logo.png
 ---
 
 ## 배경

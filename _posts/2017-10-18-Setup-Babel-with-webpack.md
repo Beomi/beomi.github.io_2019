@@ -6,7 +6,7 @@ categories:
 - JavaScript
 - Webpack
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/webpack-with-babel.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/webpack-with-babel.jpg
 ---
 
 > 이번 포스팅에서는 nodejs8.5.0, npm5.3.0 버전을 사용합니다.

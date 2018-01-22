@@ -8,7 +8,7 @@ categories:
 - Pandas
 - Tips
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-10-21-SQLAlchemy-Query-to-Pandas-DataFrame.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-10-21-SQLAlchemy-Query-to-Pandas-DataFrame.png
 ---
 
 > 이번 글은 [기존 DB를 Flask-SQLAlchemy ORM Model로 사용하기](/2017/10/20/DB-To-SQLAlchemy-Model/)를 보고 오시면 좀더 빠르게 실 프로젝트에 적용이 가능합니다.

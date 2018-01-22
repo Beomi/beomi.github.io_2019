@@ -5,7 +5,7 @@ layout: post
 categories:
 - JavaScript
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/treeshaking.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/treeshaking.png
 ---
 
 > 이번 글은 webpack을 사용하고 있다고 가정합니다. 만약 webpack이 뭔지 아직 모르시거나 설치하지 않으셨다면 [Webpack과 Babel로 최신 JavaScript 웹프론트 개발환경 만들기](/2017/10/18/Setup-Babel-with-webpack/)를 먼저 읽고 따라가보세요.

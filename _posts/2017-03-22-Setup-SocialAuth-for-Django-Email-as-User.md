@@ -6,7 +6,7 @@ categories:
 - Python
 - Django
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 ---
 
 > `django-custom-user`와 `social-auth-app-django`(구 `python-social-auth`)를 이용해 이메일 기반 유저와 소셜 로그인으로 로그인 한 유저를 하나처럼 사용하는 방법입니다.

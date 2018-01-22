@@ -6,7 +6,7 @@ categories:
 - Django
 - Fabric
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/azure.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/azure.jpg
 ---
 
 > If you looking for English version, goto [Deploy Django to MS Azure with Fabric3](/2017/06/10/Deploy-Django-to-MS-Azure-EN/).

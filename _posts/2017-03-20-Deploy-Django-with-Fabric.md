@@ -7,7 +7,7 @@ categories:
 - Fabric
 - Django
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/python-fabric-logo.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/old_post/python-fabric-logo.jpg
 ---
 
 > 이번 가이드는 완성된 상태의 Django 프로젝트가 있다고 가정합니다. 예제로 [https://github.com/Beomi/irkshop](https://github.com/Beomi/irkshop) 을 배포해 봅니다.

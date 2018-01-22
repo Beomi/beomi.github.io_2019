@@ -7,7 +7,7 @@ categories:
 - AWS
 - Tensorflow
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/lambda_n_tensorflow_updated.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/lambda_n_tensorflow_updated.png
 ---
 
 > 이번 글은 macOS을 기반으로 작성되었지만, `docker` 명령어를 사용할 수 있는 모든 플랫폼(윈도우/맥/리눅스)에서 따라올 수 있습니다.

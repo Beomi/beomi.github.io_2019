@@ -6,7 +6,7 @@ categories:
 - Python
 - Flask
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/flask.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/flask.jpg
 ---
 
 ## 들어가며

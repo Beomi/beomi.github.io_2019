@@ -8,11 +8,11 @@ timezone: Asia/Seoul
 title: Beomi's Tech Blog
 description: Beomi의 기술 블로그
 url: "https://beomi.github.io"
-default_img: /img/profile_beomi.jpg
+default_img: "https://d1sr4ybm5bj1wl.cloudfront.net/img/profile_beomi.jpg"
 
 # Profile settings
 name: Junbum Lee
-profile_img: "/img/profile_beomi.jpg"
+profile_img: "https://d1sr4ybm5bj1wl.cloudfront.net/img/profile_beomi.jpg"
 profile: "Python으로 백엔드를, JS로 프론트엔드를 다루고 있습니다.<br>패스트캠퍼스에서 실전 웹 크롤링 CAMP를 진행하고 있습니다.<br>공적인 연락은 아래 이메일 주소를 통해주세요!"
 social:
   github: "https://github.com/beomi"
@@ -31,4 +31,4 @@ sass:
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
 
 # S3 Img
-static_url: "https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com"
+static_url: "https://d1sr4ybm5bj1wl.cloudfront.net"

@@ -7,7 +7,7 @@ categories:
 - Django
 - AWS
 published: false
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/AWS/aws_icon.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/AWS/aws_icon.png
 ---
 
 > 이번 가이드는 AWS에서 EC2/S3/RDS를 연결해 사용하는 것을 다룹니다.

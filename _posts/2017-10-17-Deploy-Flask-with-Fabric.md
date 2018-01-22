@@ -7,7 +7,7 @@ categories:
 - Flask
 - Fabric
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/deploy_flask_with_fabric.jpeg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/deploy_flask_with_fabric.jpeg
 ---
 
 > 이번 글은 Ubuntu16.04 LTS / Python3 / Apache2.4 서버 환경으로 진행합니다.

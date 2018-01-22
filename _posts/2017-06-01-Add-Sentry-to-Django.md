@@ -5,7 +5,7 @@ layout: post
 categories:
 - Django
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/Django/sentry.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Django/sentry.jpg
 ---
 
 > 이번 포스팅은 `wsgi`기반으로 동작하는 `django`서비스를 대상으로 합니다.

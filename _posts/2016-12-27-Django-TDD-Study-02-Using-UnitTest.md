@@ -5,7 +5,7 @@ layout: post
 categories:
 - DjangoTDDStudy
 - Python
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/old_post/unit-test.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/old_post/unit-test.jpg
 ---
 
 

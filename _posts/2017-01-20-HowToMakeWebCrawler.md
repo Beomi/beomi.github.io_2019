@@ -6,7 +6,7 @@ categories:
 - Python
 - HowToMakeWebCrawler
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-01-19-HowToMakeWebCrawler/crawler.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-01-19-HowToMakeWebCrawler/crawler.jpg
 ---
 
 > 좀 더 보기 편한 [깃북 버전의 나만의 웹 크롤러 만들기](https://beomi.github.io/gb-crawling/)가 나왔습니다!

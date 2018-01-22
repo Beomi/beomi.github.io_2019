@@ -27,8 +27,9 @@ for md in md_files:
     f_str = f.read()
     f.close()
 
-    s3_url = 'https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com'
-    fw_str = re.sub('image: (/img/.+)', lambda x: 'image: '+ s3_url +x.groups()[0], f_str)
+#    s3_url = 'https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com'
+    s3_url = 'https://d1sr4ybm5bj1wl.cloudfront.net'
+    fw_str = re.sub('image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com(/img/.+)', lambda x: 'image: '+ s3_url +x.groups()[0], f_str)
     fw_str = re.sub('\\((/img/.+)', get_github_url, fw_str)
 
     f = open(md, 'w')

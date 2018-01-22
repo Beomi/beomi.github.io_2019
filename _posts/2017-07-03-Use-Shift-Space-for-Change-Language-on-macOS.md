@@ -5,7 +5,7 @@ layout: post
 categories:
 - macOS
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/macOS-sierra.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/macOS-sierra.jpg
 ---
 
 > 이번 가이드는 macOS 10.12 Sierra 기준입니다.

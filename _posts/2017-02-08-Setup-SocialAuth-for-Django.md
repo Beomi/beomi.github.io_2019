@@ -6,7 +6,7 @@ categories:
 - Python
 - Django
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 ---
 
 Django등 웹 서비스를 제공하며 항상 다루게 되는 주제가 있습니다. 유저를 우리 서비스의 유저 모델을 통해 직접 가입시키느냐, 혹은 타사의 oAuth를 이용한 Social Login을 붙여 가입없이(혹은 최소화) 서비스를 이용할 수 있도록 유도 하느냐 등입니다.

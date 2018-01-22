@@ -5,7 +5,7 @@ layout: post
 categories:
 - macOS
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/sublimetext.jpg
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/sublimetext.jpg
 ---
 
 > 이번 가이드는 macOS 용입니다.

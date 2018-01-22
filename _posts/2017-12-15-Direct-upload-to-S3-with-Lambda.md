@@ -6,7 +6,7 @@ categories:
 - Python
 - AWS
 published: true
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/direct_s3_post_upload.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/direct_s3_post_upload.png
 ---
 
 ## 들어가며

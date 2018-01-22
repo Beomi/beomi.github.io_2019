@@ -6,7 +6,7 @@ categories:
 - Python
 - Django
 published: false
-image: https://beomi-tech-blog.s3.ap-northeast-2.amazonaws.com/img/Python/PDF-icon.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Python/PDF-icon.png
 ---
 
 > 이번 가이드는 HTML문서를 PDF로 만드는 함수를 소개합니다. Python기반 웹 프레임워크에서 사용하는 것을 추천합니다.
