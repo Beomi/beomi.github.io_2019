@@ -6,7 +6,7 @@ categories:
 - Django
 - Tips
 published: true
-image: https://d1sr4ybm5bj1wl.cloudfront.net/img/img/MSSQL_LOGO.png
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/MSSQL_LOGO.png
 ---
 
 > 이번 글은 macOS에서 개발하는 경우입니다.
