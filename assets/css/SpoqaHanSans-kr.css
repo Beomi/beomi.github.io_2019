@@ -24,12 +24,12 @@
     font-family: 'Spoqa Han Sans';
     font-weight: 400;
     src: local('Spoqa Han Sans Regular'),
-    url('/assets/fonts/SpoqaHanSansRegular.woff2') format('woff2');
+    url('https://d1sr4ybm5bj1wl.cloudfront.net/assets/fonts/SpoqaHanSansRegular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 700;
     src: local('Spoqa Han Sans Bold'),
-    url('/assets/fonts/SpoqaHanSansBold.woff2') format('woff2');
+    url('https://d1sr4ybm5bj1wl.cloudfront.net/assets/fonts/SpoqaHanSansBold.woff2') format('woff2');
 }
