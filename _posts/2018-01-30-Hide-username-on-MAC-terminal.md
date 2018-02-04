@@ -5,8 +5,8 @@ layout: post
 categories:
 - macOS
 - Tips
-published: false
-image: 
+published: true
+image: https://d1sr4ybm5bj1wl.cloudfront.net/img/bash-161382_1280.png
 ---
 
 ## Before
@@ -27,5 +27,23 @@ image:
 
 ## Solution
 
-만약 여러분이 
+만약 여러분이 "beomi"라는 계정명을 사용중이라면 다음과 같이 `.zshrc` 파일에 코드를 추가해주세요.
+
+![]({{site.static_url}}/img/dropbox/Screenshot%202018-02-04%2015.30.44.png)
+
+```bash
+# DEFAULT_USER
+DEFAULT_USER="beomi"
+```
+
+만약 여러분이 계정명이 무엇인지 알지 못한다면 다음과 같이 `.zshrc` 파일에 코드를 추가해주세요.
+
+![]({{site.static_url}}/img/dropbox/Screenshot%202018-02-04%2015.34.43.png)
+
+```bash
+# DEFAULT_USER
+DEFAULT_USER="$(whoami)"
+```
+
+여러분이 터미널을 종료하고 다시 켜면 After의 스크린샷처럼 `~`만 터미널에 나오게 됩니다.
 
