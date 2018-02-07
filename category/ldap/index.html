@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>SQLAlchemy | Beomi's Tech Blog</title>
+  <title>LDAP | Beomi's Tech Blog</title>
   <meta name="author" content="Junbum Lee">
   <meta name="description" content="Beomi의 기술 블로그">
-  <meta property="og:title" content="SQLAlchemy | Beomi's Tech Blog">
-  <meta property="og:url" content="https://beomi.github.io/category/sqlalchemy/">
+  <meta property="og:title" content="LDAP | Beomi's Tech Blog">
+  <meta property="og:url" content="https://beomi.github.io/category/ldap/">
   <meta property="og:site_name" content="Beomi's Tech Blog">
   <meta property="og:description" content="Beomi의 기술 블로그">
   <meta property="og:image" content="https://d1sr4ybm5bj1wl.cloudfront.net/img/profile_beomi.jpg">
@@ -18,8 +18,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:description" content="Beomi의 기술 블로그">
-  <meta name="twitter:title" content="SQLAlchemy | Beomi's Tech Blog">
-  <meta name="twitter:url" content="https://beomi.github.io/category/sqlalchemy/">
+  <meta name="twitter:title" content="LDAP | Beomi's Tech Blog">
+  <meta name="twitter:url" content="https://beomi.github.io/category/ldap/">
   <meta name="twitter:site" content="Beomi's Tech Blog">
   <meta name="twitter:creator" content="@">
   <meta name="twitter:domain" content="https://beomi.github.io">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="Beomi's Tech Blog" href="https://beomi.github.io/feed.xml">
-  <link rel="canonical" href="https://beomi.github.io/category/sqlalchemy/">
+  <link rel="canonical" href="https://beomi.github.io/category/ldap/">
   <link rel="stylesheet" href="/assets/css/syntax.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/2.1.1/css/SpoqaHanSans-kr.min.css">
 </head>
@@ -45,20 +45,18 @@
       <span>Back to Posts</span>
     </a>
     
-      <figure class="absolute-bg preview__img" style="background-image: url('https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-10-21-SQLAlchemy-Query-to-Pandas-DataFrame.png');"></figure>
-    
-      <figure class="absolute-bg preview__img" style="background-image: url('https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-10-20-DB-To-SQLAlchemy-Model.jpeg');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('https://d1sr4ybm5bj1wl.cloudfront.net/img/pyldap_on_ubuntu.png');"></figure>
     
     <div class="previews__container">
       <span>Category</span>
-      <h1>SQLAlchemy</h1>
+      <h1>LDAP</h1>
     </div>
   </div>
 
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">SQLAlchemy</li>
+        <li class="tabs__item">LDAP</li>
         <li class="tabs__item">Categories</li>
       </ul>
     </header>
@@ -67,19 +65,10 @@
       <ul itemscope itemtype="http://schema.org/Blog">
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="/2017/10/21/SQLAlchemy-Query-to-Pandas-DataFrame/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-10-21T00:00:00+09:00">Oct 21, 2017</span>
-              <h2 class="preview__header" itemprop="name">SQLAlchemy Query를 Pandas DataFrame로 만들기</h2>
-              <p class="preview__excerpt" itemprop="description">이번 글은 기존 DB를 Flask-SQLAlchemy ORM Model로 사용하기를 보고 오시면 좀더 빠르게 실 프로젝트에 적용이 가능합니다. 들어가며 전체 예시를 보시려면 TL;DR를 참고하세요. DB에 있는 정보를 파이썬 코드 속에서 SQL raw...</p>
-              <span class="preview__more">Read More</span>
-            </a>
-          </li>
-        
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="/2017/10/20/DB-To-SQLAlchemy-Model/" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="2017-10-20T00:00:00+09:00">Oct 20, 2017</span>
-              <h2 class="preview__header" itemprop="name">기존 DB를 Flask-SQLAlchemy ORM Model로 사용하기</h2>
-              <p class="preview__excerpt" itemprop="description">본 게시글에서는 MySQL/Sqlite을 예제로 하고있지만, Flask-SQLAlchemy가 지원하는 다른 DB에서도 사용 가능합니다. 들어가며 Flask로 웹 개발 진행 시 SQLAlchemy(Flask-SQLAlchemy)를 사용해 ORM구조를 구성할 때 데이터를 저장할 DB의 구조를 직접 확인하며 진행하는 것은...</p>
+            <a class="preview__link" href="/2018/02/07/pyldap-on-ubuntu16/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2018-02-07T00:00:00+09:00">Feb 7, 2018</span>
+              <h2 class="preview__header" itemprop="name">ubuntu16에 pyldap 설치하기</h2>
+              <p class="preview__excerpt" itemprop="description">Problem pyldap라이브러리를 이용해 AD Proxy/LDAP서버에 연결하기 위해서는 단순히 pip로만 설치하는 것 외에 사전으로 설치해야 하는 항목이 있다. 만약 설치가 되어있지 않으면 아래와 같이 에러가 난다. In file included from Modules/LDAPObject.c:8:0:...</p>
               <span class="preview__more">Read More</span>
             </a>
           </li>
