@@ -43,7 +43,7 @@ zsh를 사용한다면 `.zshrc`파일에서 아래와 같이 입력해주면 됩
 > Python3.5나 3.4를 사용한다면 숫자 `3.6`을 `3.5`,`3.4`로 버전에 맞게 바꿔 사용하세요.
 
 ```sh
-echo 'export PATH="/Users/$(whoami)/Library/Python/3.6/bin":$PATH"' >> .zshrc
+echo 'export PATH="/Users/$(whoami)/Library/Python/3.6/bin:$PATH"' >> .zshrc
 ```
 
 ### bash를 사용하신다면
@@ -51,7 +51,7 @@ echo 'export PATH="/Users/$(whoami)/Library/Python/3.6/bin":$PATH"' >> .zshrc
 zsh를 사용한다면 `.bashrc`파일에서 아래와 같이 입력해주면 됩니다.
 
 ```sh
-echo 'export PATH="/Users/$(whoami)/Library/Python/3.6/bin":$PATH"' >> .bashrc
+echo 'export PATH="/Users/$(whoami)/Library/Python/3.6/bin:$PATH"' >> .bashrc
 ```
 
 이제 터미널을 종료한 뒤 다시 켜면 `fab`등 명령어가 잘 실행되는 것을 볼 수 있습니다.
