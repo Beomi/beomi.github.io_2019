@@ -3,9 +3,9 @@ title: "LDAP로 Apache 웹서비스 로그인 인증하기"
 date: 2017-12-04
 layout: post
 categories:
-- Apache
-- Ubuntu
-- LDAP
+- apache
+- ubuntu
+- ldap
 published: false
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/ldap-logo.png
 ---

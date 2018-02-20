@@ -3,9 +3,9 @@ title: "Fabric으로 Flask 자동 배포하기"
 date: 2017-10-17
 layout: post
 categories:
-- Python
-- Flask
-- Fabric
+- python
+- flask
+- fabric
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/deploy_flask_with_fabric.jpeg
 ---

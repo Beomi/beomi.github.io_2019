@@ -3,8 +3,8 @@ title: "깃헙 Pages에 깃북 배포하기"
 date: 2017-11-20
 layout: post
 categories:
-- Blog
-- Github
+- blog
+- github
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/gitbook_on_github.jpg
 ---

@@ -3,7 +3,7 @@ title: "Class Based View로 빠른 장고 개발하기(1): CBV의 종류"
 date: 2017-07-29
 layout: post
 categories:
-- Django
+- django
 published: false
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/cbv_in_django.jpeg
 ---

@@ -3,9 +3,9 @@ title: "ubuntu16에 pyldap 설치하기"
 date: 2018-02-07
 layout: post
 categories:
-- Ubuntu
-- Tips
-- LDAP
+- ubuntu
+- tips
+- ldap
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/pyldap_on_ubuntu.png
 ---

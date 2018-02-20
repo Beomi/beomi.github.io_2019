@@ -3,8 +3,8 @@ title: "키노트로 고화질 타이틀 이미지 만들기"
 date: 2017-11-10
 layout: post
 categories:
-- macOS
-- Tips
+- macos
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-11-10-Export-HighQuality-Image-with-KeyNote.jpg
 ---

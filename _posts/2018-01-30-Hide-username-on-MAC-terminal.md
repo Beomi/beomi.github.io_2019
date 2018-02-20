@@ -3,8 +3,8 @@ title: "macOS 터미널에서 사용자이름 숨기기"
 date: 2018-01-30
 layout: post
 categories:
-- macOS
-- Tips
+- macos
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/bash-161382_1280.png
 ---

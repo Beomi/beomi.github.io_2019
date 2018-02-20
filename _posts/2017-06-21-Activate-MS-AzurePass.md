@@ -3,7 +3,7 @@ title: "MS AzurePass 등록하기"
 date: 2017-06-21
 layout: post
 categories:
-- Azure
+- azure
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/azurepass.jpg
 ---

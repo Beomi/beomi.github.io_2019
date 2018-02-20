@@ -3,8 +3,8 @@ title: "Direct S3 Upload with Lambda"
 date: 2017-12-15
 layout: post
 categories:
-- Python
-- AWS
+- python
+- aws
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/direct_s3_post_upload.png
 ---

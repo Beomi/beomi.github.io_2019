@@ -3,7 +3,7 @@ title: "TreeShaking으로 webpack 번들 결과 용량 줄이기"
 date: 2017-11-29
 layout: post
 categories:
-- JavaScript
+- javascript
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/treeshaking.png
 ---

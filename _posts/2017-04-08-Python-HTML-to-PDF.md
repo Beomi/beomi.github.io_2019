@@ -3,8 +3,8 @@ title: "파이썬으로 HTML을 PDF로 만들기"
 date: 2017-04-08
 layout: post
 categories:
-- Python
-- Django
+- python
+- django
 published: false
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Python/PDF-icon.png
 ---

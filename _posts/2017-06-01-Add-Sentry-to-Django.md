@@ -3,7 +3,7 @@ title: "배포한 Django 서비스 Exception Sentry로 받아보기"
 date: 2017-06-01
 layout: post
 categories:
-- Django
+- django
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Django/sentry.jpg
 ---

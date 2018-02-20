@@ -3,8 +3,8 @@ title: "나만의 웹 크롤러 만들기(5): 웹페이지 업데이트를 알�
 date: 2017-04-20
 layout: post
 categories:
-- Python
-- HowToMakeWebCrawler
+- python
+- howtomakewebcrawler
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/telegram.png
 ---

@@ -3,8 +3,8 @@ title: "Django에 Social Login 붙이기: Django세팅부터 Facebook/Google 개
 date: 2017-02-08
 layout: post
 categories:
-- Python
-- Django
+- python
+- django
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 ---

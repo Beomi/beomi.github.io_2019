@@ -3,9 +3,9 @@ title: "React+JSX(ES6)를 빌드 없이 사용하기: browser.js"
 date: 2017-03-20
 layout: post
 categories:
-- React
-- JavaScript
-- ES6
+- react
+- javascript
+- es6
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/React/react_icon.png
 ---

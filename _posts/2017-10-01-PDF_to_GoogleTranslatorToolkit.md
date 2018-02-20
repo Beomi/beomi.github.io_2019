@@ -3,7 +3,7 @@ title: "PDF 책 구글 번역가 도구에서 번역하기"
 date: 2017-10-01
 layout: post
 categories:
-- Tips
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/pdf_to_google_translator_toolkit.jpeg
 ---

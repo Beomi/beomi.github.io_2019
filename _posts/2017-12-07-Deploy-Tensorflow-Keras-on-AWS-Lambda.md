@@ -3,9 +3,9 @@ title: "AWS Lambda에 Tensorflow/Keras 배포하기"
 date: 2017-12-07
 layout: post
 categories:
-- Python
-- AWS
-- Tensorflow
+- python
+- aws
+- tensorflow
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/lambda_n_tensorflow_updated.png
 ---

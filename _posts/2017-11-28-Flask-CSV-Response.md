@@ -3,8 +3,8 @@ title: "한글이 보이는 Flask CSV Response 만들기"
 date: 2017-11-28
 layout: post
 categories:
-- Python
-- Flask
+- python
+- flask
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/flask.jpg
 ---

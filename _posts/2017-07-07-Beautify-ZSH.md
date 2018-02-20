@@ -3,7 +3,7 @@ title: "멋진 Terminal 만들기"
 date: 2017-07-07
 layout: post
 categories:
-- macOS
+- macos
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Beautify-ZSH.png
 ---

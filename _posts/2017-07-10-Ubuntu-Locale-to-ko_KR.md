@@ -3,7 +3,7 @@ title: "Ubuntu Locale 한글로 바꾸기"
 date: 2017-07-10
 layout: post
 categories:
-- Ubuntu
+- ubuntu
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/ubuntu_logo_512.png
 ---

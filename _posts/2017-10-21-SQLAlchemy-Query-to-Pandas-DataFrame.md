@@ -3,10 +3,10 @@ title: "SQLAlchemy Query를 Pandas DataFrame로 만들기"
 date: 2017-10-21
 layout: post
 categories:
-- Flask
-- SQLAlchemy
-- Pandas
-- Tips
+- flask
+- sqlalchemy
+- pandas
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-10-21-SQLAlchemy-Query-to-Pandas-DataFrame.png
 ---

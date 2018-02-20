@@ -3,8 +3,8 @@ title: "PySpark & Hadoop: 1) Ubuntu 16.04에 설치하기"
 date: 2017-11-09
 layout: post
 categories:
-- Python
-- Ubuntu
+- python
+- ubuntu
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/PySpark_n_Hadoop_on_Ubuntu_16.jpg
 ---

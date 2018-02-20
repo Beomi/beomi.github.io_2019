@@ -3,8 +3,8 @@ title: "Django MS Azure에 Fabric으로 배포하기"
 date: 2017-06-09
 layout: post
 categories:
-- Django
-- Fabric
+- django
+- fabric
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/azure.jpg
 ---

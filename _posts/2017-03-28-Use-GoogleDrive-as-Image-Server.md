@@ -3,8 +3,8 @@ title: "편리한 깃헙페이지 블로깅을 위한 이미지서버, 구글드
 date: 2017-03-28
 layout: post
 categories:
-- Tips
-- GithubPages
+- tips
+- githubpages
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/Tips/google-drive-logo.jpg
 ---

@@ -3,8 +3,8 @@ title: "Webpack과 Babel로 최신 JavaScript 웹프론트 개발환경 만들�
 date: 2017-10-18
 layout: post
 categories:
-- JavaScript
-- Webpack
+- javascript
+- webpack
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/webpack-with-babel.jpg
 ---

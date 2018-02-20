@@ -3,8 +3,8 @@ title: "나만의 웹 크롤러 만들기(8): 로그인 유지하며 파일 다�
 date: 2017-10-03
 layout: post
 categories:
-- Python
-- HowToMakeWebCrawler
+- python
+- howtomakewebcrawler
 published: false
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/download_files_with_python.jpg
 ---

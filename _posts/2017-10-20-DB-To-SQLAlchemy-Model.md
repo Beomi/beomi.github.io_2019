@@ -3,8 +3,8 @@ title: "기존 DB를 Flask-SQLAlchemy ORM Model로 사용하기"
 date: 2017-10-20
 layout: post
 categories:
-- Flask
-- SQLAlchemy
+- flask
+- sqlalchemy
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-10-20-DB-To-SQLAlchemy-Model.jpeg
 ---

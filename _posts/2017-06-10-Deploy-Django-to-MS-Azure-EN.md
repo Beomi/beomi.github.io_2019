@@ -3,8 +3,8 @@ title: "Deploy Django to MS Azure with Fabric3"
 date: 2017-06-10
 layout: post
 categories:
-- Django
-- Fabric
+- django
+- fabric
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/azure.jpg
 ---

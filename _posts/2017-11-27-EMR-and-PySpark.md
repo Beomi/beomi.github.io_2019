@@ -3,8 +3,8 @@ title: "PySpark & Hadoop: 2) EMR 클러스터 띄우고 PySpark로 작업 던지
 date: 2017-11-27
 layout: post
 categories:
-- Python
-- PySpark
+- python
+- pyspark
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/PySpak_n_Hadoop_EMR_and_PySpark.png
 ---

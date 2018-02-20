@@ -3,9 +3,9 @@ title: "Fabric으로 Django 배포하기"
 date: 2017-03-20
 layout: post
 categories:
-- Python
-- Fabric
-- Django
+- python
+- fabric
+- django
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/old_post/python-fabric-logo.jpg
 ---

@@ -3,10 +3,10 @@ title: "[번역]셀러리: 시작하기"
 date: 2017-03-19
 layout: post
 categories:
-- Python
-- Celery
-- CeleryDocs
-- Translation
+- python
+- celery
+- celerydocs
+- translation
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-03-19-Celery-Getting-Started/celery.jpg
 ---

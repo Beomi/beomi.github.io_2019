@@ -3,7 +3,7 @@ title: "자바스크립트: function declaration와 Arrow Function의 this 스�
 date: 2017-07-12
 layout: post
 categories:
-- JavaScript
+- javascript
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/understanding_js_scope_function_vs_arrow.png
 ---

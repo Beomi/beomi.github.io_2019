@@ -3,9 +3,9 @@ title: "PySpark로 여러개의 parquet 자료 로딩 속도 비교: for loop vs
 date: 2017-10-26
 layout: post
 categories:
-- Python
-- Spark
-- Tips
+- python
+- spark
+- tips
 published: false
 image: /img/
 ---

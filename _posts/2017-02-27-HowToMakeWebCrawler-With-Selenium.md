@@ -3,8 +3,8 @@ title: "나만의 웹 크롤러 만들기(3): Selenium으로 무적 크롤러 �
 date: 2017-02-27
 layout: post
 categories:
-- Python
-- HowToMakeWebCrawler
+- python
+- howtomakewebcrawler
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-01-25-HowToMakeWebCrawler-With-Selenium/selenium1.jpg
 ---

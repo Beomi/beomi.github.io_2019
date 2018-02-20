@@ -3,8 +3,8 @@ title: "나만의 웹 크롤러 만들기(4): Django로 크롤링한 데이터 �
 date: 2017-03-01
 layout: post
 categories:
-- Python
-- HowToMakeWebCrawler
+- python
+- howtomakewebcrawler
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-27-HowToMakeWebCrawler-Save-with-Django/python+django.jpg
 ---

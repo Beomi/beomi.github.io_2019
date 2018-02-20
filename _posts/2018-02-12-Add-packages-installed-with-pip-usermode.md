@@ -3,7 +3,7 @@ title: "user mode로 설치한 pip 패키지 PATH에 등록하기"
 date: 2018-02-12
 layout: post
 categories:
-- Python
+- python
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2018-02-12-Add-packages-installed-with-pip-usermode.png
 ---

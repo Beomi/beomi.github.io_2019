@@ -3,8 +3,8 @@ title: "django에 MSSQL 연결하기"
 date: 2018-02-02
 layout: post
 categories:
-- Django
-- Tips
+- django
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/MSSQL_LOGO.png
 ---

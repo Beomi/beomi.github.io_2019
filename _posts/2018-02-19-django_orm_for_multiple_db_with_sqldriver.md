@@ -3,8 +3,8 @@ title: "DjangoORM에서 SQL Driver 지정해 Query & Pandas DataFrame 얻어내�
 date: 2018-02-19
 layout: post
 categories:
-- Django
-- Tips
+- django
+- tips
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/django_orm_for_multiple_db_with_sqldriver.png
 ---

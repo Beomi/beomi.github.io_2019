@@ -3,8 +3,8 @@ title: "Django에 Custom인증 붙이기"
 date: 2017-02-02
 layout: post
 categories:
-- Python
-- Django
+- python
+- django
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-02-Django-CustomAuth/authentication.png
 ---

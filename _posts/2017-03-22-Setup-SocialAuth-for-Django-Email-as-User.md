@@ -3,8 +3,8 @@ title: "Django에 Social Login와 Email유저 함께 이용하기"
 date: 2017-03-22
 layout: post
 categories:
-- Python
-- Django
+- python
+- django
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/2017-02-08-Setup-SocialAuth-for-Django/social_login.png
 ---

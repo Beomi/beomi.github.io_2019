@@ -3,8 +3,8 @@ title: "나만의 웹 크롤러 만들기(6): N배빠른 크롤링, multiprocess
 date: 2017-07-05
 layout: post
 categories:
-- Python
-- HowToMakeWebCrawler
+- python
+- howtomakewebcrawler
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/crawling_with_multiprocessing.png
 ---

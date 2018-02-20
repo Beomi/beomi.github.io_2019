@@ -3,7 +3,7 @@ title: "Autoenv로 편리한 개발하기"
 date: 2017-07-16
 layout: post
 categories:
-- macOS
+- macos
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/use-autoenv.jpg
 ---

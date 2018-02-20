@@ -3,7 +3,7 @@ title: "서브라임텍스트 터미널에서 실행하기(macOS)"
 date: 2017-07-04
 layout: post
 categories:
-- macOS
+- macos
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/sublimetext.jpg
 ---

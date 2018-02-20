@@ -3,8 +3,8 @@ title: "[DjangoTDDStudy] #03: Django의 단위테스트와 최소기능 앱"
 date: 2016-12-27
 layout: post
 categories:
-- DjangoTDDStudy
-- Python
+- djangotddstudy
+- python
 published: false
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/old_post/unit-test-works.jpg
 ---

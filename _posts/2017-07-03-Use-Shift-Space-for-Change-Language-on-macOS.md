@@ -3,7 +3,7 @@ title: "macOS 환경설정에서 Shift Space로 한영 전환하기"
 date: 2017-07-03
 layout: post
 categories:
-- macOS
+- macos
 published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/macOS-sierra.jpg
 ---
