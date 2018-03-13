@@ -153,7 +153,7 @@ $ mkdir ~/.virtualenvs
 ```sh
 # python virtualenv settings
 export WORKON_HOME=~/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON='$(command \which python3)'  # Usage of python3
+export VIRTUALENVWRAPPER_PYTHON="$(which python3)"  # Usage of python3
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
