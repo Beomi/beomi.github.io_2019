@@ -125,13 +125,13 @@ img {
 }
 
 blockquote {
-  margin: 2em 0;
+  margin: 0.5em 0;
   padding-left: 1em;
   border-left: 2px solid $color-alpha;
 
   font-family: $font-header;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
   font-style: italic;
   background-color: #eef2f8;
 }
@@ -156,9 +156,9 @@ ol, ul {
 
 pre,
 code {
-    overflow: auto;
+    overflow: scroll;
     border-radius: 3px;
-    font-size: 1em;
+    font-size: 0.9em;
     border: 1px solid $color-alpha;
     > code {
       border: none;
