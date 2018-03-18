@@ -35,7 +35,7 @@ Tensorflow나 PyTorch등을 사용하며 딥러닝 모델을 만들고 학습을
 
 우선 EC2를 처음 띄웠으니 패키지들을 모두 최신버전으로 업데이트 해 줍시다. 만약 작업 중 Dependencty 패키지의 버전을 업데이트 할 것이냐는 질문이 나오면 '로컬 버전 사용하기'를 눌러줍시다.
 
-![sudo apt-get](/img/dropbox/2018-03-18%2017.06.44.png)
+![sudo apt-get]({{site.static_url}}/img/dropbox/2018-03-18%2017.06.44.png)
 
 위 스크린샷과 같이 아래 명령어를 입력하고 잠시 기다리면 우분투 패키지가 모두 업데이트됩니다.
 
@@ -61,7 +61,7 @@ lspci | grep -i nvidia
 
 만약 아래 스크린샷과 같이 GPU가 나온다면 이 환경에서는 Cuda 가속을 이용할 수 있습니다!
 
-![CUDA 지원GPU 확인하기](/img/dropbox/2018-03-18%2017.29.33.png)
+![CUDA 지원GPU 확인하기]({{site.static_url}}/img/dropbox/2018-03-18%2017.29.33.png)
 
 ### CUDA Toolkit 9.0 설치하기
 
@@ -91,17 +91,17 @@ cuDNN을 사용하기 위해서는 Nvidia Developer Membership에 가입해야 �
 
 이미 계정이 있다면 [cuDNN Download Page](https://developer.nvidia.com/rdp/cudnn-download)에서 cuDNN 7.0.5 for CUDA 9.0을 클릭해 주세요.
 
-![cuDNN 7.0.5 클릭](/img/dropbox/2018-03-18%2017.45.59.png)
+![cuDNN 7.0.5 클릭]({{site.static_url}}/img/dropbox/2018-03-18%2017.45.59.png)
 
 그리고 아래 스크린샷처럼 cuDNN v7.0.5 Library for Linux를 클릭해 주시면 파일이 다운로드 됩니다.
 
-![클릭 후](/img/dropbox/2018-03-18%2017.47.46.png)
+![클릭 후]({{site.static_url}}/img/dropbox/2018-03-18%2017.47.46.png)
 
 하지만 우리는 cuDNN을 서버에서 사용할 것이기 떄문에 해당 링크 주소를 복사해 사용해야 합니다.
 
 > 만약 단순히 링크를 복사해 사용하면 403 Forbidden 에러가 뜹니다.
 
-![cuDNN download url 복사하기](/img/dropbox/2018-03-18%2017.52.11.png)
+![cuDNN download url 복사하기]({{site.static_url}}/img/dropbox/2018-03-18%2017.52.11.png)
 
 따라서 위와 같이 파일의 다운로드 경로를 복사해옵시다. 경로를 복사하면 아래와 같이 복잡한 문자열이 붙은 URL이 됩니다.
 
@@ -161,7 +161,7 @@ pip3 install jupyter --user
 
 Jupyter를 띄우고 패스워드로 접속하기 위해서는 아래 스크린샷처럼 설정파일을 만든 뒤 패스워드를 생성해야 합니다. 
 
-![](/img/dropbox/2018-03-18%2018.30.44.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2018.30.44.png)
 
 설정 파일 생성은 다음 명령어로 쉽게 만들 수 있습니다.
 
@@ -230,7 +230,7 @@ systemctl -a | grep jupyter
 
 GPU 가속까지 설정이 잘 된 것을 볼 수 있습니다. Yeah!
 
-![](/img/dropbox/2018-03-18%2019.07.06.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2019.07.06.png)
 
 > 이렇게 만든 EC2에 `8888` 포트를 Security Group에서 열어줘야 접근이 가능합니다. 혹시 접근이 되지 않는다면 Security Group을 확인하세요! 기본적으로 부여되는 Security Group은 `default`입니다.
 
@@ -238,29 +238,29 @@ GPU 가속까지 설정이 잘 된 것을 볼 수 있습니다. Yeah!
 
 EC2를 새로 생성할 때는 커스텀 AMI를 사용해 띄울 수 있습니다. 커스텀 AMI는 EC2 볼륨 스냅샷을 기반으로 생성됩니다. 우리가 사용할 GPU 가속된 딥러닝 환경이 모두 세팅되었으니 이제 이 인스턴스의 볼륨을 스냅샷으로 찍어 새로 만드는 볼륨은 항상 이 스냅샷에서 시작하도록 만들어줍시다.
 
-![](/img/dropbox/2018-03-18%2019.10.28.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2019.10.28.png)
 
 아래와 같이 스냅샷을 생성해 줍시다.
 
-![](/img/dropbox/2018-03-18%2019.11.04.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2019.11.04.png)
 
 스냅샷 생성이 끝나면 AMI를 만들어줘야 합니다. 만들어진 스냅샷에 우측클릭을 하고 '이미지 생성'을 눌러주세요.
 
-![](/img/dropbox/2018-03-18%2021.17.02.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2021.17.02.png)
 
 다음과 같이 '이름'을 적어주고, '가상화 유형'은 `하드웨어 보조 가상화` 혹은 `hvm`을 선택하신 뒤 '생성'을 눌러주세요.
 
-![](/img/dropbox/2018-03-18%2021.19.14.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2021.19.14.png)
 
 > 주의: 가상화 유형에서 반가상화 (PV)를 선택하시면 EC2 인스턴스를 띄우실 수 없습니다.
 
 시간이 조금 소요된 후 AMI가 성공적으로 생성되면 아래와 같이 '내 AMI' 목록에 방금 만들어준 이미지가 나타납니다.
 
-![](/img/dropbox/2018-03-18%2021.28.40.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2021.28.40.png)
 
 이렇게 생성된 AMI는 다음과 같이 새로운 온디맨드 EC2를 실행하거나 혹은 스팟 인스턴스를 요청하는데 사용할 수 있습니다.
 
-![](/img/dropbox/2018-03-18%2021.29.55.png)
+![]({{site.static_url}}/img/dropbox/2018-03-18%2021.29.55.png)
 
 ## 맺으며
 
