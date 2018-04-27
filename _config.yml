@@ -13,10 +13,9 @@ default_img: "https://d1sr4ybm5bj1wl.cloudfront.net/img/profile_beomi.jpg"
 # Profile settings
 name: Junbum Lee
 profile_img: "https://d1sr4ybm5bj1wl.cloudfront.net/img/profile_beomi.jpg"
-profile: "Python으로 백엔드를, JS로 프론트엔드를 다루고 있습니다.<br>패스트캠퍼스에서 실전 웹 크롤링 CAMP를 진행하고 있습니다.<br>공적인 연락은 아래 이메일 주소를 통해주세요!"
+profile: "넥슨코리아 인텔리전스랩스 어뷰징탐지팀에서 파이썬으로 개발을 하고 있습니다. <br>파이썬 + 웹 + 데이터 + ... 여러 분야에 관심이 많습니다. <br>글에 대한 문의등 연락은 아래 메일로 연락주세요."
 social:
   github: "https://github.com/beomi"
-  facebook: "https://facebook.com/Junbum.L"
 
 # Build settings
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
