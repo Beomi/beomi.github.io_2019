@@ -1,0 +1,6 @@
+echo "## Git Pull on Progress ##"
+git pull
+echo "## Git Pull FINISHED ##"
+
+alias blog="bundle exec jekyll serve"
+alias gcam="rm -rf ./category && bundle exec jekyll b && cp -r ./_site/category/ ./category && git add . && git commit -m"
