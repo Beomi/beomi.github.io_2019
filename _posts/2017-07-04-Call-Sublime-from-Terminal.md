@@ -55,13 +55,13 @@ open /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
 SublimeText3인 경우:
 
 ```sh
-ln -s "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 SublimeText2인 경우:
 
 ```sh
-ln -s "/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 ## 모두 끝났습니다!
@@ -85,6 +85,6 @@ subl .
 > 만약 위 방식으로 되지 않으신다면 `.zshrc`이나 `.bashrc`등의 파일에 아래와 같이 입력해 주세요.
 
 ```bash
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias subl="open -a /Applications/Sublime\ Text.app"
 ```
 
