@@ -18,7 +18,7 @@ Vue 프로젝트를 시작할 때 사용하는 `vue-cli`가 최근 3.x버전으�
 vue create test-vue-project
 ```
 
-![](/img/dropbox/2018-07-13 AM 10.49.18.png)
+![]({{site.static_url}}/img/dropbox/2018-07-13 AM 10.49.18.png)
 
 ## REF
 
