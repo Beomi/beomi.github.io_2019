@@ -89,7 +89,7 @@ Selenium은 `webdriver api`를 통해 브라우저를 제어한다.
 우선 `webdriver`를 import해주자.
 
 ```py
-from selenium import webdrver
+from selenium import webdriver
 ```
 
 이제 `driver`라는 이름의 webdriver 객체를 만들어 주자.
@@ -104,6 +104,8 @@ driver = webdriver.Chrome('/Users/beomi/Downloads/chromedriver')
 # PhantomJS의 경우 | 아까 받은 PhantomJS의 위치를 지정해준다.
 driver = webdriver.PhantomJS('/Users/beomi/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs')
 ```
+
+> 단, 2018년 기준 PhantomJS는 더이상 개발되지 않고 있기 때문에 앞으로는 크롬의 `headless`모드를 사용하는 것을 추천한다.
 
 Selenium은 기본적으로 웹 자원들이 모두 로드될때까지 기다려주지만, 암묵적으로 모든 자원이 로드될때 까지 기다리게 하는 시간을 직접 `implicitly_wait`을 통해 지정할 수 있다.
 
