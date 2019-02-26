@@ -136,11 +136,10 @@ Unable to import module 'lambda_function': No module named 'requests'
 
 ![]({{site.static_url}}/img/dropbox/2018-11-30%2018.13.12.png)
 
-이제 `requests`와 `bs4`가 들어있는 zip 압축파일을 업로드해야 하는데요, 크롤링을 위한 패키지 세종류가 아래 Github Repo에 준비되어 있습니다. 아래 Direct Download 링크를 통해 `pack.zip`파일을 받아 업로드 해주세요.
+이제 `requests`와 `bs4`가 들어있는 zip 압축파일을 업로드해야 하는데요, 크롤링을 위한 패키지가 아래 Github Repo에 준비되어 있습니다. 아래 Direct Download 링크를 통해 `pack.zip`파일을 받아 업로드 해주세요.
 
-> Github Repo: [https://github.com/Beomi/aws-lambda-py3](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4/pack.zip)
-> 2. `requests` + `bs4` + `lxml` ; [Direct Download](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4_lxml/pack.zip)
-> 3. `requests` + `bs4` + `selenium` + `PhantomJS` ; [Direct Download](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4_selenium/pack.zip)
+> Github Repo: [https://github.com/Beomi/aws-lambda-py3](https://github.com/Beomi/aws-lambda-py3)
+> - `requests` + `bs4` + `lxml` ; [Direct Download](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4_lxml/pack.zip)
 
 그리고 Runtime으로 `python3.6`/`python3.7`를 선택해 줍시다. (여러분이 Layer를 만들때는 해당 Layer가 사용될 환경을 모두 선택해주세요.)
 
