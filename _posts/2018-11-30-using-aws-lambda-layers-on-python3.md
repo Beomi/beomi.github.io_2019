@@ -138,10 +138,9 @@ Unable to import module 'lambda_function': No module named 'requests'
 
 이제 `requests`와 `bs4`가 들어있는 zip 압축파일을 업로드해야 하는데요, 크롤링을 위한 패키지 세종류가 아래 Github Repo에 준비되어 있습니다. 아래 Direct Download 링크를 통해 `pack.zip`파일을 받아 업로드 해주세요.
 
-> Github Repo: [https://github.com/Beomi/aws-lambda-py3](https://github.com/Beomi/aws-lambda-py3)
-> 1. `requests` + `bs4` ; [Direct Download](https://raw.githubusercontent.com/Beomi/aws-lambda-py3/master/requests_bs4/pack.zip)
-> 2. `requests` + `bs4` + `lxml` ; [Direct Download](https://raw.githubusercontent.com/Beomi/aws-lambda-py3/master/requests_bs4_lxml/pack.zip)
-> 3. `requests` + `bs4` + `selenium` + `PhantomJS` ; [Direct Download](https://raw.githubusercontent.com/Beomi/aws-lambda-py3/master/requests_bs4_selenium/pack.zip)
+> Github Repo: [https://github.com/Beomi/aws-lambda-py3](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4/pack.zip)
+> 2. `requests` + `bs4` + `lxml` ; [Direct Download](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4_lxml/pack.zip)
+> 3. `requests` + `bs4` + `selenium` + `PhantomJS` ; [Direct Download](https://media.githubusercontent.com/media/Beomi/aws-lambda-py3/master/requests_bs4_selenium/pack.zip)
 
 그리고 Runtime으로 `python3.6`/`python3.7`를 선택해 줍시다. (여러분이 Layer를 만들때는 해당 Layer가 사용될 환경을 모두 선택해주세요.)
 
@@ -186,7 +185,7 @@ def lambda_handler(event, context):
     }
 ```
 
-당연히 실행은 잘 되지만, 우리가 원하는 코드는 위에서 사용한 크롤링 코드입니다. 하지만 아래 버전은 제대로 동작하지 않습니다. `No module ~~`이라고 하는 에러가 발생하게 되죠.
+당연히 실행은 잘 되지만, 우리가 원하는 코드는 위에서 사용한 크롤링 코드입니다. 하지만 아래 버전은 제대로 동작하지 않습니다. `No module ~~`이라고 하는 에러가 발생하게 되죠. 파이썬 모듈들을 `import` 해줍시다.
 
 ```python
 import json
@@ -204,41 +203,9 @@ def lambda_handler(event, context):
     }
 ```
 
-Layer가 추가된 지금도 더미테스트를 만들어 테스트해보면 다음과 같은 에러가 납니다.
-
-![]({{site.static_url}}/img/dropbox/2018-11-30%2018.28.16.png)
-
 파이썬은 기본적으로 현재 폴더, 그리고 실행하는 파이썬이 참고하는 PYTHON PATH들을 참고해 여러 패키지와 라이브러리를 `import`합니다. 
-하지만 Lambda Layers가 압축 해제된 `/opt`폴더는 해당 PATH에 들어있지 않아 `import`할 때 Python이 탐색하는 대상에 포함되지 않습니다.
-
-따라서 코드 제일 앞 다음과 같은 코드 추가가 필요합니다.
-
-```python
-import sys
-
-sys.path.append("/opt")
-```
-
-이제 Lambda에서 실행하는 Python은 `/opt` 폴더 내의 패키지들을 `import` 탐색 대상에 포함하게 됩니다. 따라서 전체 코드는 다음과 같게 됩니다.
-
-```python
-import sys
-
-sys.path.append("/opt")
-
-import json
-import requests
-from bs4 import BeautifulSoup as bs
-
-def lambda_handler(event, context):
-    res = requests.get('https://beomi.github.io')
-    soup = bs(res.text, 'html.parser')
-    blog_title = soup.select_one('h1').text
-    return {
-        'statusCode': 200,
-        'body': json.dumps(blog_title)
-    }
-```
+Lambda Layers가 압축 해제된 `/opt`폴더는 해당 PATH에 들어있지 않아 `import`할 때 Python이 탐색하는 대상에 포함되지 않습니다.
+대신, 우리가 방금 다운받은 패키지지 안의 `python` 폴더가 `/opt/python`에 압축이 해제되고 해당 폴더는 `PYTHONPATH` 환경변수 내에 포함되게 됩니다.
 
 이제 다시 더미 테스트를 실행해보면 다음과 같이 결과가 잘 나오는 것을 볼 수 있습니다.
 
