@@ -10,6 +10,8 @@ published: true
 image: https://d1sr4ybm5bj1wl.cloudfront.net/img/lambda_n_tensorflow_updated.png
 ---
 
+> Update @ 20190306: `amazonlinux:latest` 버전이 `2`버전이 latest로 변경됨에 따라 아래 코드를 `amazonlinux:1`로 변경
+
 > 이번 글은 macOS을 기반으로 작성되었지만, `docker` 명령어를 사용할 수 있는 모든 플랫폼(윈도우/맥/리눅스)에서 따라올 수 있습니다.
 
 ## 들어가며
@@ -101,7 +103,7 @@ Keras의 squeezenet은 [squeezenet.py](https://github.com/rcmalli/keras-squeezen
 폴더를 만들고 들어가셨다면 다음 명령어를 입력해 AmazonLinux 이미지를 받아 도커로 띄워주세요.
 
 ```bash
-docker run -v $(pwd):/outputs --name lambdapack -d amazonlinux:latest tail -f /dev/null
+docker run -v $(pwd):/outputs --name lambdapack -d amazonlinux:1 tail -f /dev/null
 ```
 
 도커 컨테이너의 이름을 `lambdapack`으로 지정하고 현재 폴더(`$(pwd)`)를 도커의 `/outputs`폴더로 연결해줍니다.
