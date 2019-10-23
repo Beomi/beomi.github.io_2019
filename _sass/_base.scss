@@ -22,13 +22,15 @@ $mq-xxl: 114em;
 /**
  * Base Settings/Overwrite Normalize
  */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 body {
   font-family: $font-body;
-  font-feature-settings: 'liga' 0;
+  font-feature-settings: "liga" 0;
   font-size: 100%;
   line-height: 1.7;
 
@@ -57,7 +59,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 
   font-family: $font-header;
@@ -88,8 +95,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0.20em;
-
+  margin: 0.2em 0;
   font-size: 1.5em;
 }
 
@@ -100,7 +106,7 @@ h4 {
 }
 
 p {
-  margin: 0 0 0.75em;
+  margin: 0.1rem;
 }
 
 a {
@@ -125,8 +131,9 @@ img {
 }
 
 blockquote {
-  margin: 0.5em 0;
-  padding-left: 1em;
+  margin: 0;
+  padding: 10px;
+  // padding-left: 1em;
   border-left: 2px solid $color-alpha;
 
   font-family: $font-header;
@@ -134,6 +141,10 @@ blockquote {
   font-size: 0.9em;
   font-style: italic;
   background-color: #eef2f8;
+
+  > p {
+    margin: 0;
+  }
 }
 
 cite {
@@ -149,25 +160,26 @@ cite {
   }
 }
 
-ol, ul {
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
 
 pre,
 code {
-    overflow: scroll;
-    border-radius: 3px;
-    font-size: 0.9em;
-    border: 1px solid $color-alpha;
-    > code {
-      border: none;
-    }
+  overflow: scroll;
+  border-radius: 3px;
+  font-size: 0.9em;
+  border: 1px solid $color-alpha;
+  > code {
+    border: none;
+  }
 }
 
-pre {
-  padding: 1em;
-}
+// pre {
+//   padding: 1em;
+// }
 code {
   padding: 0.1em;
 }
@@ -183,7 +195,7 @@ code {
 
 hr {
   width: 70%;
-  border: 0; 
-  height: 1px; 
+  border: 0;
+  height: 1px;
   background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
 }
